@@ -27,6 +27,8 @@ falsely conclude that the medicine makes things worse. How can you tell if
 you've proven your medicine works, rather than just proving that some patients
 are unlucky?
 
+.. _p-values:
+
 The power of *p* values
 -----------------------
 

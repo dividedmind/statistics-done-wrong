@@ -77,3 +77,67 @@ closer look at the data, it appears there's no statistically significant
 difference between the effect of older brothers and older sisters.
 Unfortunately, not enough data was published in the paper to allow a direct
 calculation.\ :cite:p:`Gelman:2006bj`
+
+When significant differences are missed
+---------------------------------------
+
+The problem can run the other way. Scientists routinely judge whether a
+significant difference exists simply by eye, making use of plots like this one:
+
+.. figure:: plots/confidence.*
+
+Imagine the two plotted points indicate the estimated time until recovery from
+some disease in two different groups of patients, each containing ten
+patients. There are three different things those error bars could represent:
+
+#. The standard deviation of the measurements. If I've measured *n* patients,
+   the standard deviation is defined to be:
+
+   .. math:: \sigma = \sqrt{\sum_{i=1}^N (x_i - \bar x)^2 }
+
+   where :math:`x_i` represents each separate measurement and :math:`\bar x` is
+   the mean of all observations. So, in words: calculate how far each
+   observation is from the average, square this, and then average all the
+   results. It's a measurement of how spread out measurements are.
+#. The standard error of some estimator. For example, perhaps the error bars are
+   the standard error of the mean. If I were to measure many different samples
+   of patients, each containing exactly *n* subjects, I can estimate that 68% of
+   the mean times to recover I measure will be within one standard error of
+   "real" average time to recover. Many statistical techniques, like
+   least-squares regression, provide standard error estimates for their
+   results.
+#. The confidence interval of some estimator. A 95% confidence interval is
+   mathematically constructed to include the true value for 95 random samples
+   out of 100, so it spans roughly two standard errors in each direction. (In
+   more complicated statistical models this may not be exactly true.)
+
+These three options are all different. The standard deviation is a simple
+measurement of my data. The standard error tells me how a statistic, like a mean
+or the slope of a best-fit line, would likely vary if I take many samples of
+patients. A confidence interval is similar, with an additional guarantee that
+95% of 95% confidence intervals should include the "true" value.
+
+In the example plot, we have two 95% confidence intervals which overlap. Many
+scientists would view this and conclude there is no statistically significant
+difference between the groups. After all, groups 1 and 2 *might not* be
+different -- the average time to recover could be 25 in both groups, for
+example, and the differences only appeared because group 1 was lucky this
+time. But does this mean the difference is not statistically significant?  What
+would the :ref:`p value <p-values>` be?
+
+In this case, :math:`p< 0.05`. There is a statistically significant difference
+between the groups, even though the confidence intervals overlap.
+
+Unfortunately many scientists use this criterion as a rule of thumb, skipping
+the hypothesis tests entirely and relying on quick plots.\
+:cite:p:`Schenker:2001cr` A survey of psychologists, neuroscientists and medical
+researchers found that the majority made this simple error, with many scientists
+confusing standard errors, standard deviations, and confidence intervals.\
+:cite:p:`Belia:2005dg` Another survey of climate science papers found that a
+majority of papers which compared two groups with error bars made the error.\
+:cite:p:`Lanzante:2005hi`
+
+Overlapping confidence intervals do not mean two values are not significantly
+different. Separated standard error bars do not mean two values *are*
+significantly different. It's always best to use the appropriate hypothesis test
+instead. Your eyeball is not a well-characterized statistical procedure.

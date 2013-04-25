@@ -5,7 +5,7 @@ This repository contains the reStructuredText source code for `Statistics Done
 Wrong <http://www.refsmmat.com/statistics/index.html>`__, a guide to the common
 errors and misconceptions surrounding scientific data analysis and statistics.
 
-*Statistics Done Wrong* is built using`Sphinx <http://sphinx-doc.org/>`__, a
+*Statistics Done Wrong* is built using `Sphinx <http://sphinx-doc.org/>`__, a
 documentation generator. You will need to install it if you wish to build the
 site yourself. The included Makefile can build HTML and PDF versions of the
 guide, and the scripts in the ``R/`` directory can be used to generate the plots

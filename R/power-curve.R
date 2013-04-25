@@ -14,13 +14,13 @@ for (m in ms) {
 	              sum(dbinom(0:((m/2)-r), m, p)))
 	}
 	
-	pdf(paste('../publish/plots/power-curve-', m, '.pdf', sep=''), 
+	pdf(paste('../plots/power-curve-', m, '.pdf', sep=''), 
 		width=4, height=3, pointsize=10)
 	plot(ps, powers, xlab = "True probability of heads", 
 		 ylab = "Power", type='l', las = 1)
 	dev.off()
 	
-	png(paste('../publish/plots/power-curve-', m, '.png', sep=''), 
+	png(paste('../plots/power-curve-', m, '.png', sep=''), 
 		width=600, height=400, pointsize=16)
 	plot(ps, powers, xlab = "True probability of heads", 
 		 ylab = "Power", type='l', las = 1)

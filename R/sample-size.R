@@ -11,14 +11,14 @@ for (n in 1:90) {
   y <- c(y, rnorm(1, mean = 5, sd = 3))
 }
 
-png('../publish/plots/sample-size.png', 
+png('../plots/sample-size.png', 
     width=600, height=400, pointsize=16)
 plot(ns, ps, type="l", xlab = "Sample size", ylab = "p value", las = 1, 
      ylim = c(0.01, 0.6))
 abline(h = 0.05, lwd = 2, lty = 2)
 dev.off()
 
-pdf('../publish/plots/sample-size.pdf', 
+pdf('../plots/sample-size.pdf', 
     width=4, height=3, pointsize=10)
 plot(ns, ps, type="l", xlab = "Sample size", ylab = "p value", las = 1,
      ylim = c(0.01, 0.6))

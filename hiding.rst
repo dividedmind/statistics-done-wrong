@@ -119,7 +119,7 @@ could be used to predict cancer mortality rates, since it serves to regulate
 cell growth and development and hence must function correctly to prevent
 cancer. When all 18 published studies on TP53 and cancer were analyzed together,
 the result was a highly statistically significant correlation: TP53 could
-clearly be measured to tell likely a tumor is to kill you.
+clearly be measured to tell how likely a tumor is to kill you.
 
 But then suppose we dig up *unpublished* results on TP53: data that had been
 mentioned in other studies but not published or analyzed. Add this data to the

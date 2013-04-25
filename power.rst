@@ -1,3 +1,7 @@
+.. index:: 
+   single: power
+   see: statistical power; power
+
 .. _power:
 
 Statistical power and underpowered statistics
@@ -38,6 +42,8 @@ that size or larger with a fair coin. Otherwise, I can conclude nothing: the
 coin may be fair, or it may be only a little unfair. I can't tell.
 
 So, what happens if I flip a coin ten times and apply these criteria?
+
+.. index:: power curve, power; coin flip
 
 .. figure:: /plots/power-curve-10.*
 
@@ -120,6 +126,8 @@ assume this means there is no *real* difference. There may be a difference, but
 the study was too small to notice it.
 
 Let's consider an example we see every day.
+
+.. index:: right turn on red, power; right turn on red
 
 .. _rtor:
 

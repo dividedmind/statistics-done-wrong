@@ -92,6 +92,10 @@ h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
     font-size: 80%;
 }
 
+.indextable dl {
+    margin: 0;
+}
+
 /* Have bibliography entries show up highlighted when linked to */
 tr.footnote:target {
     background-color: #FBE54E;

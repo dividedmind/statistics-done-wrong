@@ -12,6 +12,8 @@ right?
 
 Perhaps not.
 
+.. index:: p value; errors in calculation
+
 Surveys of statistically significant results reported in medical and
 psychological trials suggest that many *p* values are wrong, and some
 statistically insignificant results are actually significant when computed
@@ -33,6 +35,8 @@ proprietary control of the data and all the discoveries which result from
 it. And even if the data were all available, would anyone analyze it all to spot
 errors?
 
+.. index:: reproducible research
+
 Similarly, scientists in some fields have pushed towards making their
 statistical analyses available through clever technological tools. A tool called
 Sweave, for instance, makes it easy to embed statistical analyses performed
@@ -43,12 +47,13 @@ about its methods can download the source code, which shows exactly how all the
 numbers were calculated. But would scientists avail themselves of the
 opportunity?  Nobody gets scientific glory by checking code for typos.
 
-Another solution might be replication. If scientists carefully recreate the
-experiments of other scientists and validate their results, it is much easier to
-rule out the possibility of a typo causing an errant result. Replication also
-weeds out fluke false positives. Many scientists claim that experimental
-replication is the heart of science: no new idea is accepted until it has been
-independently tested and retested around the world and found to hold water.
+Another solution might be :index:`replication`. If scientists carefully recreate
+the experiments of other scientists and validate their results, it is much
+easier to rule out the possibility of a typo causing an errant
+result. Replication also weeds out fluke false positives. Many scientists claim
+that experimental replication is the heart of science: no new idea is accepted
+until it has been independently tested and retested around the world and found
+to hold water.
 
 That's not entirely true; scientists often take previous studies for granted,
 though occasionally scientists decide to systematically re-test earlier

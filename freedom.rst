@@ -1,3 +1,5 @@
+.. index:: vibration of effects, researcher freedom
+
 .. _freedom:
 
 ************************************
@@ -71,13 +73,13 @@ over 50% for a given dataset just by letting researchers try different
 statistical analyses until one works.\ :cite:p:`Simmons:2011iw`
 
 Medical researchers have devised ways of preventing this. Researchers are often
-required to draft a clinical trial protocol, explaining how the data will be
-collected and analyzed. Since the protocol is drafted before the researchers see
-any data, they can't possibly craft their analysis to be most favorable to them.
-Unfortunately, many studies depart from their protocols and perform different
-analysis, allowing for researcher bias to creep
-in.\ :cite:p:`Chan:2008bb,Chan:2004gm` Many other scientific fields have no
-protocol publication requirement at all.
+required to draft a :index:`clinical trial protocol`, explaining how the data
+will be collected and analyzed. Since the protocol is drafted before the
+researchers see any data, they can't possibly craft their analysis to be most
+favorable to them.  Unfortunately, many studies depart from their protocols and
+perform different analysis, allowing for researcher bias to creep in.\
+:cite:p:`Chan:2008bb,Chan:2004gm` Many other scientific fields have no protocol
+publication requirement at all.
 
 The proliferation of statistical techniques has given us many useful tools, but
 it seems they have been put to use as blunt objects. One must simply beat the

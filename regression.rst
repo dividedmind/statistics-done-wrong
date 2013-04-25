@@ -1,3 +1,5 @@
+.. index:: stopping rules, p value; in stopping rules
+
 .. _stopping-rules:
 
 *****************************************
@@ -59,6 +61,9 @@ where protocols are not registered and researchers have the freedom to use
 whatever methods they feel appropriate, there may be false positive demons
 lurking.
 
+.. index:: truth inflation, power; truth inflation
+   see: winner's curse; truth inflation
+
 .. _truth-inflation:
 
 Truth inflation
@@ -95,15 +100,14 @@ studies), the earliest published results are often wildly contradictory, because
 small trials and a demand for statistical significance cause only the most
 extreme results to be published.\ :cite:p:`Ioannidis:2005bj`
 
-As a bonus, truth inflation can combine forces with early stopping
-rules. If most drugs in clinical trials are not quite so effective to
-warrant stopping the trial early, then many trials stopped early will be
-the result of lucky patients, not brilliant drugs -- and by stopping the
-trial we have deprived ourself of the extra data needed to tell the
-difference. Reviews have compared trials stopped early with other
-studies addressing the same question which did not stop early; in most
-cases, the trials stopped early exaggerated the effects of their tested
-treatments by an average of 29%.\ :cite:p:`Bassler:2010ds`
+As a bonus, truth inflation can combine forces with early stopping rules. If
+most drugs in clinical trials are not quite so effective to warrant stopping the
+trial early, then many trials stopped early will be the result of lucky
+patients, not brilliant drugs -- and by stopping the trial we have deprived
+ourself of the extra data needed to tell the difference. Reviews have compared
+trials stopped early with other studies addressing the same question which did
+not stop early; in most cases, the trials stopped early exaggerated the effects
+of their tested treatments by an average of 29%.\ :cite:p:`Bassler:2010ds`
 
 Of course, we do not know The Truth about any drug being studied, so we cannot
 tell if a particular study stopped early due to luck or a particularly good
@@ -111,6 +115,8 @@ drug. Many studies do not even publish the original intended sample size or the
 stopping rule which was used to justify terminating the study.\
 :cite:p:`Montori:2005bo` A trial's early stoppage is not automatic evidence that
 its results are biased, but it *is* a suggestive detail.
+
+.. index:: de Moivre's equation, sample size
 
 Little extremes
 ---------------
@@ -144,11 +150,11 @@ average.
 This example used simulated data, but it's based on real (and surprising)
 observations of Pennsylvania public schools.\ :cite:p:`Wainer:2007wr`
 
-Another example: In the United States, counties with the lowest rates of kidney
-cancer tend to be Midwestern, Southern and Western rural counties. How could
-this be? You can think of many explanations: rural people get more exercise,
-inhale less polluted air, and perhaps lead less stressful lives. Perhaps these
-factors lower their cancer rates.
+Another example: In the United States, counties with the lowest rates of
+:index:`kidney cancer` tend to be Midwestern, Southern and Western rural
+counties. How could this be? You can think of many explanations: rural people
+get more exercise, inhale less polluted air, and perhaps lead less stressful
+lives. Perhaps these factors lower their cancer rates.
 
 On the other hand, counties with the highest rates of kidney cancer tend to be
 Midwestern, Southern and Western rural counties.

@@ -1,3 +1,5 @@
+.. index:: open data
+
 .. _hiding-data:
 
 ***************
@@ -33,6 +35,8 @@ months later. Almost three quarters of study authors never sent their data.\
 Of course, scientists are busy people, and perhaps they simply didn't have the
 time to compile their datasets, produce documents describing what each variable
 means and how it was measured, and so on. 
+
+.. index:: p value; errors in calculation
 
 Wicherts and his colleagues decided they'd test this. They trawled through all
 the studies looking for common errors which could be spotted only by reading the
@@ -79,6 +83,8 @@ all. Many of these were statistically insignificant results which were swept
 under the rug. [#rug]_ Another large chunk of results were not reported in
 sufficient detail for scientists to use the results for further meta-analysis.\
 :cite:p:`Chan:2004gm`
+
+.. index:: stopping rules; omitted
 
 Other reviews have found similar problems. A review of medical trials found that
 most studies omit important methodological details, such as :ref:`stopping rules

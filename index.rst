@@ -46,3 +46,5 @@ Contents
    hiding
    conclusion
    zbibliography
+
+:ref:`genindex`

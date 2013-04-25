@@ -1,3 +1,5 @@
+.. index:: pseudoreplication
+
 ******************************************
 Pseudoreplication: choose your data wisely
 ******************************************

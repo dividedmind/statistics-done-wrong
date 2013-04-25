@@ -1,3 +1,5 @@
+.. index:: p value; base rate fallacy
+
 ***************************************
 The *p* value and the base rate fallacy
 ***************************************
@@ -48,6 +50,8 @@ of 0%, there is a 0% chance that any statistically significant result is
 true. Nevertheless, I will get a :math:`p < 0.05` result for 5% of the drugs in
 the truck.
 
+.. index:: base rate fallacy
+
 You often hear people quoting *p* values as a sign that error is
 unlikely. "There's only a 1 in 10,000 chance this result arose as a statistical
 fluke," they say, because they got :math:`p = 0.0001`. No! This ignores the base
@@ -68,6 +72,8 @@ early drugs don't make it through trials), it's likely that *most*
 "statistically significant" results with :math:`p < 0.05` are actually flukes.
 
 One good example is medical diagnostic tests.
+
+.. index:: base rate fallacy; mammograms, mammograms
 
 The base rate fallacy in medical testing
 ----------------------------------------
@@ -114,6 +120,8 @@ breast cancer at any given time.
 
 Examine introductory statistical textbooks and you will often find the same
 error. *P* values are counterintuitive, and the base rate fallacy is everywhere.
+
+.. index:: base rate fallacy; gun use
 
 .. _base-rate-gun:
 
@@ -173,6 +181,8 @@ results are far smaller -- something like 65,000 incidents per year, not
 millions.  There's a chance that survey respondents underreport such incidents,
 but a much smaller chance of massive overestimation.
 
+.. index:: multiple comparisons
+
 .. _multiple-comparisons:
 
 If at first you don't succeed, try, try again
@@ -191,13 +201,15 @@ effect of every single jelly bean color on acne:
 
    .. figure:: /img/xkcd-significant.png
 
+      Cartoon from xkcd, by Randall Munroe. http://xkcd.com/882/
+
 .. only:: latex
 
    .. figure:: /img/xkcd-significant-1.png
 
    .. figure:: /img/xkcd-significant-2.png
 
-  Cartoon from xkcd, by Randall Munroe. http://xkcd.com/882/
+     Cartoon from xkcd, by Randall Munroe. http://xkcd.com/882/
 
 As you can see, making multiple comparisons means multiple chances for a false
 positive. For example, if I test 20 jelly bean flavors which do not cause acne
@@ -230,6 +242,8 @@ comparison at :math:`p < 0.05`. However, as you can imagine, this reduces
 statistical power, since you're demanding much stronger correlations before you
 conclude they're statistically significant. It's a difficult tradeoff, and
 tragically few papers even consider it.
+
+.. index:: multiple comparisons; Atlantic salmon
 
 .. _red-herrings:
 
@@ -273,6 +287,8 @@ review of 241 fMRI studies found that they performed 223 unique analysis
 strategies, which, as we will discuss later, :ref:`gives the researchers great
 flexibility <freedom>` to achieve statistically significant results.\
 :cite:p:`Carp:2012ba`
+
+.. index:: multiple comparisons; false discovery rate, false discovery rate
 
 .. _false-discovery:
 

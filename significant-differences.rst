@@ -78,6 +78,8 @@ difference between the effect of older brothers and older sisters.
 Unfortunately, not enough data was published in the paper to allow a direct
 calculation.\ :cite:p:`Gelman:2006bj`
 
+.. _confidence-intervals:
+
 When significant differences are missed
 ---------------------------------------
 
@@ -128,16 +130,19 @@ would the :ref:`p value <p-values>` be?
 In this case, :math:`p< 0.05`. There is a statistically significant difference
 between the groups, even though the confidence intervals overlap.
 
-Unfortunately many scientists use this criterion as a rule of thumb, skipping
-the hypothesis tests entirely and relying on quick plots.\
-:cite:p:`Schenker:2001cr` A survey of psychologists, neuroscientists and medical
-researchers found that the majority made this simple error, with many scientists
-confusing standard errors, standard deviations, and confidence intervals.\
-:cite:p:`Belia:2005dg` Another survey of climate science papers found that a
-majority of papers which compared two groups with error bars made the error.\
-:cite:p:`Lanzante:2005hi`
+Unfortunately, many scientists skip hypothesis tests and simply glance at plots
+to see if confidence intervals overlap. This is actually a much more
+conservative test -- requiring confidence intervals to not overlap is akin to
+requiring :math:`p < 0.01` in some cases.\ :cite:p:`Schenker:2001cr` It is easy
+to claim two measurements are not significantly different even when they are.
+
+A survey of psychologists, neuroscientists and medical researchers found that
+the majority made this simple error, with many scientists confusing standard
+errors, standard deviations, and confidence intervals.\ :cite:p:`Belia:2005dg`
+Another survey of climate science papers found that a majority of papers which
+compared two groups with error bars made the error.\ :cite:p:`Lanzante:2005hi`
 
 Overlapping confidence intervals do not mean two values are not significantly
-different. Separated standard error bars do not mean two values *are*
+different. Similarly, separated standard error bars do not mean two values *are*
 significantly different. It's always best to use the appropriate hypothesis test
-instead. Your eyeball is not a well-characterized statistical procedure.
+instead. Your eyeball is not a well-defined statistical procedure.

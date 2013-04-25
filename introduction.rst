@@ -49,8 +49,9 @@ and early stopping rules <truth-inflation>`, :ref:`researcher freedom in
 neuroscience <red-herrings>`, :ref:`poor statistical power in neuroscience
 <power-underpowered>`, :ref:`how to control the false discovery rate
 <false-discovery>`, :ref:`publication bias and poor reporting <hiding-data>`,
-:ref:`underpowered studies and right turn on red <rtor>`, and additional
-references and details in many other places.
+:ref:`underpowered studies and right turn on red <rtor>`, :ref:`the misuses of
+confidence intervals <confidence-intervals>`, and additional references and
+details in many other places.
 
 Contact
 -------

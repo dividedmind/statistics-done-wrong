@@ -1,0 +1,140 @@
+/* Fonts */
+h1, h2, h3, h4, p, blockquote, .footer, a, td, li {
+    font-family: "Open Sans", helvetica, sans-serif;
+}
+
+/* Structure */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.document {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.clearer {
+    clear: both;
+}
+
+.body {
+    padding: 0 3em 0 0.5em;
+    text-align: justify;
+}
+
+.related {
+    padding: 0 1em;
+}
+
+.related h3 {
+    display: none;
+}
+
+.related li {
+    display: inline;
+}
+
+.related .right {
+    float: right;
+}
+
+/* Text */
+p, .body li {
+    font-size: 11pt;
+    line-height: 155%;
+}
+
+a {
+    color: #0645AD;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.headerlink {
+    visibility: hidden;
+}
+
+sup {
+    line-height: 90%;
+}
+
+blockquote {
+    border-left: 4px solid #5281CC;
+    margin: 0 0 0 -5px;
+    padding: 0 0 0 3em;
+}
+
+.caption {
+    font-size: 85%;
+}
+
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink,
+h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
+    color: #ccc;
+    font-size: 80%;
+    visibility: visible;
+    padding-left: 3pt;
+}
+
+.figure {
+    text-align: center;
+}
+
+.body h2, .body h3, .body h4, .body h5, .body h6 {
+    font-weight: normal;
+}
+
+.footnote {
+    font-size: 80%;
+}
+
+/* Have bibliography entries show up highlighted when linked to */
+tr.footnote:target {
+    background-color: #FBE54E;
+}
+
+/* Tables */
+table, td {
+    border: none;
+}
+
+/* Sidebar */
+.sphinxsidebar {
+    float: right;
+    width: 220px;
+    margin-right: -100%;
+    font-size: 80%;
+}
+
+.sphinxsidebar h3, .sphinxsidebar h4 {
+    margin: 0
+}
+
+.bodywrapper {
+    margin-right: 220px;
+}
+
+.documentwrapper {
+    float: right;
+    width: 100%;
+}
+
+.sphinxsidebar ul {
+    margin-left: -1em;
+}
+
+a.current {
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 0.5em;
+    clear: both;
+}

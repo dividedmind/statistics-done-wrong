@@ -87,6 +87,7 @@ The problem can run the other way. Scientists routinely judge whether a
 significant difference exists simply by eye, making use of plots like this one:
 
 .. figure:: plots/confidence.*
+   :alt: Two group means plotted with overlapping confidence intervals
 
 Imagine the two plotted points indicate the estimated time until recovery from
 some disease in two different groups of patients, each containing ten

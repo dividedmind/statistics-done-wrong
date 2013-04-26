@@ -99,7 +99,7 @@ patients. There are three different things those error bars could represent:
 #. The standard deviation of the measurements. Calculate how far each
    observation is from the average, square each difference, and then average the
    results and take the square root. This is the standard deviation, and it
-   measures how spread out the measurements are from the mean. 
+   measures how spread out the measurements are from their mean. 
 #. The standard error of some estimator. For example, perhaps the error bars are
    the standard error of the mean. If I were to measure many different samples
    of patients, each containing exactly *n* subjects, I can estimate that 68% of
@@ -137,11 +137,19 @@ conservative test -- requiring confidence intervals to not overlap is akin to
 requiring :math:`p < 0.01` in some cases.\ :cite:p:`Schenker:2001cr` It is easy
 to claim two measurements are not significantly different even when they are.
 
+Conversely, comparing measurements with standard errors or standard deviations
+will also be misleading, as standard error bars are shorter than confidence
+interval bars. Two observations might have standard errors which do not overlap,
+and yet the difference between the two is not statistically significant.
+
 A survey of psychologists, neuroscientists and medical researchers found that
 the majority made this simple error, with many scientists confusing standard
 errors, standard deviations, and confidence intervals.\ :cite:p:`Belia:2005dg`
 Another survey of climate science papers found that a majority of papers which
 compared two groups with error bars made the error.\ :cite:p:`Lanzante:2005hi`
+Even introductory textbooks for experimental scientists, such as *An
+Introduction to Error Analysis*, teach students to judge by eye, hardly
+mentioning formal hypothesis tests at all.
 
 Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*

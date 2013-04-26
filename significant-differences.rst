@@ -96,22 +96,19 @@ Imagine the two plotted points indicate the estimated time until recovery from
 some disease in two different groups of patients, each containing ten
 patients. There are three different things those error bars could represent:
 
-#. The standard deviation of the measurements. If I've measured *n* patients,
-   the standard deviation is defined to be:
-
-   .. math:: \sigma = \sqrt{\sum_{i=1}^N (x_i - \bar x)^2 }
-
-   where :math:`x_i` represents each separate measurement and :math:`\bar x` is
-   the mean of all observations. So, in words: calculate how far each
-   observation is from the average, square this, and then average all the
-   results. It's a measurement of how spread out measurements are.
+#. The standard deviation of the measurements. Calculate how far each
+   observation is from the average, square each difference, and then average the
+   results and take the square root. This is the standard deviation, and it
+   measures how spread out the measurements are from the mean. 
 #. The standard error of some estimator. For example, perhaps the error bars are
    the standard error of the mean. If I were to measure many different samples
    of patients, each containing exactly *n* subjects, I can estimate that 68% of
    the mean times to recover I measure will be within one standard error of
-   "real" average time to recover. Many statistical techniques, like
-   least-squares regression, provide standard error estimates for their
-   results.
+   "real" average time to recover. (In the case of estimating means, the
+   standard error is the standard deviation of the measurements divided by the
+   square root of the number of measurements, so the estimate gets better as you
+   get more data -- but not too fast.) Many statistical techniques, like
+   least-squares regression, provide standard error estimates for their results.
 #. The confidence interval of some estimator. A 95% confidence interval is
    mathematically constructed to include the true value for 95 random samples
    out of 100, so it spans roughly two standard errors in each direction. (In
@@ -132,7 +129,7 @@ time. But does this mean the difference is not statistically significant?  What
 would the :ref:`p value <p-values>` be?
 
 In this case, :math:`p< 0.05`. There is a statistically significant difference
-between the groups, even though the confidence intervals overlap.
+between the groups, even though the confidence intervals overlap. [#ttest]_
 
 Unfortunately, many scientists skip hypothesis tests and simply glance at plots
 to see if confidence intervals overlap. This is actually a much more
@@ -150,3 +147,7 @@ Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*
 significantly different. It's always best to use the appropriate hypothesis test
 instead. Your eyeball is not a well-defined statistical procedure.
+
+.. [#ttest]
+   This was calculated with an unpaired *t* test, based on a standard
+   error of 2.5 in group 1 and 3.5 in group 2.

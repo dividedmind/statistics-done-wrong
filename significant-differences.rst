@@ -151,6 +151,11 @@ Even introductory textbooks for experimental scientists, such as *An
 Introduction to Error Analysis*, teach students to judge by eye, hardly
 mentioning formal hypothesis tests at all.
 
+There are, of course, formal statistical procedures which generate confidence
+intervals which *can* be compared by eye, and even correct for :ref:`multiple
+comparisons <multiple-comparisons>` automatically. For example, Gabriel
+comparison intervals are easily interpreted by eye.\ :cite:p:`Gabriel:1978fp`
+
 Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*
 significantly different. It's always best to use the appropriate hypothesis test

@@ -17,13 +17,27 @@ significant benefit.
 To illustrate, each square in this grid represents one drug. The blue squares
 are the drugs that work:
 
-.. figure:: /plots/drug-grids-1.*
+.. only:: html or text
+
+   .. figure:: /plots/drug-grids-1.*
+
+.. only:: latex
+
+   .. figure:: /plots/drug-grids-1.*
+      :scale: 50%
 
 As we saw, most trials can't perfectly detect every good medication. We'll
 assume my tests have a statistical power of 0.8. Of the ten good drugs, I will
 correctly detect around eight of them, shown in purple:
 
-.. figure:: /plots/drug-grids-2.*
+.. only:: html or text
+
+   .. figure:: /plots/drug-grids-2.*
+
+.. only:: latex
+
+   .. figure:: /plots/drug-grids-2.*
+      :scale: 50%
 
 Of the ninety ineffectual drugs, I will conclude that about 5 have significant
 effects. Why? Remember that *p* values are calculated under the assumption of no
@@ -33,7 +47,14 @@ ineffectual drug works.
 So I perform my experiments and conclude there are 13 working drugs: 8 good
 drugs and 5 I've included erroneously, shown in red:
 
-.. figure:: plots/drug-grids-3.*
+.. only:: html or text
+
+   .. figure:: /plots/drug-grids-3.*
+
+.. only:: latex
+
+   .. figure:: /plots/drug-grids-3.*
+      :scale: 50%
 
 The chance of any given "working" drug being truly effectual is only 62%. If I
 were to randomly select a drug out of the lot of 100, run it through my tests,

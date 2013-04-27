@@ -185,28 +185,28 @@ htmlhelp_basename = 'StatisticsDoneWrongdoc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-'papersize': 'letterpaper',
+'papersize': '',
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-'preamble': '\\usepackage{natbib}\\setcitestyle{super}\\usepackage{microtype}\\usepackage{cmap}',
+'preamble': '\\usepackage{natbib}\\setcitestyle{super}\\usepackage{microtype}\\usepackage{cmap}\\setheaderstyles',
 
 # for the end of the file
 'footer': '\\bibliographystyle{ieeetr} \\bibliography{refs}',
 
-'fncychap': '\\usepackage[Sonny]{fncychap}',
-'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella}'
+'fncychap': '',
+'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella} \\usepackage{tgheros}'
 }
 
-latex_additional_files = ['refs.bib']
+latex_additional_files = ['refs.bib', 'sphinxbook.cls']
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'StatisticsDoneWrong.tex', u'Statistics Done Wrong',
-   u'Alex Reinhart', 'manual', True),
+   u'Alex Reinhart', 'book', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

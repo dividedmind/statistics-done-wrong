@@ -76,8 +76,8 @@ a difference?"  Most scientists use a simple rule of thumb: if *p* is less than
 really works, so we will call the difference between medication and placebo
 "significant."  If *p* is larger, we'll call the difference insignificant.
 
-There are limitations. The *p* value is a measure of surprise, not a measure of
-the size of the effect. I can get a tiny *p* value by either measuring a huge
+But there are limitations. The *p* value is a measure of surprise, not a measure
+of the size of the effect. I can get a tiny *p* value by either measuring a huge
 effect -- "this medicine makes people live four times longer" -- or by measuring
 a tiny effect with great certainty. Statistical significance does not mean your
 result has any *practical* significance.

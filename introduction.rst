@@ -18,7 +18,7 @@ least-squares fits, and confidence intervals.  Statisticians have provided
 scientists with tools of enormous power to find order and meaning in the most
 complex of datasets, and scientists have embraced them with glee.
 
-They have not, however, embraced statistics *education*, and most undergraduate
+They have not, however, embraced statistics *education*, and many undergraduate
 programs in the sciences require no statistical training whatsoever.
 
 Since the 1980s, researchers have described numerous statistical fallacies and

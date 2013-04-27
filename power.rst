@@ -134,12 +134,12 @@ Let's consider an example we see every day.
 The wrong turn on red
 ---------------------
 
-In the 1970s, the practice of turning right on a red light became legal in many
-parts of the United States. For many years prior, road designers and civil
-engineers argued that allowing right turns on a red light would be a safety
-hazard, causing many additional crashes and pedestrian deaths. But the 1973 oil
-crisis and its fallout spurred politicians to consider allowing right turn on
-red to save fuel wasted by commuters waiting at red lights.
+In the 1970s, many parts of the United States began to allow drivers to turn
+right at a red light. For many years prior, road designers and civil engineers
+argued that allowing right turns on a red light would be a safety hazard,
+causing many additional crashes and pedestrian deaths. But the 1973 oil crisis
+and its fallout spurred politicians to consider allowing right turn on red to
+save fuel wasted by commuters waiting at red lights.
 
 Several studies were conducted to consider the safety impact of the change. For
 example, a consultant for the Virginia Department of Highways and Transportation
@@ -157,7 +157,8 @@ one report concluded,
    operations (right turns) have increased after the adoption of [right turn on
    red]...
 
-The problem, of course, is that these studies were underpowered. More
+Based on this data, more cities and states began to allow right turns at red
+lights. The problem, of course, is that these studies were underpowered. More
 pedestrians were being run over and more cars were involved in collisions, but
 nobody collected enough data to show this conclusively until several years
 later, when studies arrived clearly showing the results: significant increases

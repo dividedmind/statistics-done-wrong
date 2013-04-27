@@ -121,10 +121,10 @@ positives.
 
 How did I calculate this? It's the same method as the cancer drug
 example. Imagine 1,000 randomly selected women who choose to get
-mammograms. Eight of them have breast cancer. The mammogram correctly detects
-90% of breast cancer cases, so about seven of the eight women will have their
-cancer discovered. However, there are 992 women without breast cancer, and 7%
-will get a false positive reading on their mammograms, giving us 70 women
+mammograms. Eight of them (0.8%) have breast cancer. The mammogram correctly
+detects 90% of breast cancer cases, so about seven of the eight women will have
+their cancer discovered. However, there are 992 women without breast cancer, and
+7% will get a false positive reading on their mammograms, giving us 70 women
 incorrectly told they have cancer.
 
 In total, we have 77 women with positive mammograms, 7 of whom actually have
@@ -133,7 +133,7 @@ breast cancer. Only 9% of women with positive mammograms have breast cancer.
 If you administer questions like this one to statistics students and scientific
 methodology instructors, more than a third fail.\ :cite:p:`Kramer:2005in` If you
 ask doctors, two thirds fail.\ :cite:p:`Bramwell:2006er` They erroneously
-conclude that a :math:`p = 0.05` result implies a 95% chance that the result is
+conclude that a :math:`p < 0.05` result implies a 95% chance that the result is
 true -- but as you can see in these examples, the likelihood of a positive
 result being true depends on *what proportion of hypotheses tested are
 true*. And we are very fortunate that only a small proportion of women have
@@ -171,8 +171,8 @@ themselves with firearms. Now, 34% of these cases were in burglaries, giving us
 million burglaries committed while someone was at home. Two thirds of these
 occurred while the homeowners were asleep and were discovered only after the
 burglar had been left. That leaves 430,000 burglaries involving homeowners who
-could confront the burglar -- 845,000 of which, we are led to believe, were
-stymied by gun-toting residents.\ :cite:p:`Hemenway:1997up`
+were at home and awake to confront the burglar -- 845,000 of which, we are led
+to believe, were stymied by gun-toting residents.\ :cite:p:`Hemenway:1997up`
 
 Whoops.
 
@@ -253,7 +253,7 @@ therapeutic comparisons. In more than half of the trials, the researchers had
 made so many comparisons that a false positive was highly likely, and the
 statistically significant results they did report were cast into doubt: they may
 have found a statistically significant effect, but it could just have easily
-been a false positive.
+been a false positive.\ :cite:p:`Smith:1987uz`
 
 There exist techniques to correct for multiple comparisons. For example, the
 Bonferroni correction method says that if you make :math:`n` comparisons in the
@@ -272,9 +272,10 @@ Red herrings in brain imaging
 -----------------------------
 
 Neuroscientists do massive numbers of comparisons regularly. They often perform
-fMRI studies, where an image of the brain is taken before and after the subject
-performs some task. The images show blood flow in the brain, revealing which
-parts of the brain are most active when a person performs different tasks.
+fMRI studies, where a three-dimensional image of the brain is taken before and
+after the subject performs some task. The images show blood flow in the brain,
+revealing which parts of the brain are most active when a person performs
+different tasks.
 
 But how do you decide which regions of the brain are active during the task? A
 simple method is to divide the brain image into small cubes called voxels. A

@@ -39,7 +39,7 @@ means and how it was measured, and so on.
 .. index:: p value; errors in calculation
 
 Wicherts and his colleagues decided they'd test this. They trawled through all
-the studies looking for common errors which could be spotted only by reading the
+the studies looking for common errors which could be spotted by reading the
 paper, such as inconsistent statistical results, misuse of various statistical
 tests, and ordinary typos. At least half of the papers had an error, usually
 minor, but 15% reported at least one statistically significant result which was

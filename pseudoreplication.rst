@@ -5,10 +5,10 @@ Pseudoreplication: choose your data wisely
 ******************************************
 
 Many studies strive to collect more data through replication: by repeating their
-measurements they can be more certain of their numbers, and can discover subtle
-relationships that aren't obvious at first glance. We've seen the value of
-additional data for improving statistical power and detecting small
-differences. But what exactly counts as a replication?
+measurements with additional patients or samples, they can be more certain of
+their numbers and discover subtle relationships that aren't obvious at first
+glance. We've seen the value of additional data for improving statistical power
+and detecting small differences. But what exactly counts as a replication?
 
 Let's return to a medical example. I have two groups of 100 patients taking
 different medications, and I seek to establish which medication lowers blood
@@ -47,11 +47,13 @@ your statistical analysis:
 #. Average the dependent data points. For example, average all the blood
    pressure measurements taken from a single person. This isn't perfect, though;
    if you measured some patients more frequently than others, this won't be
-   reflected in the averaged number.
+   reflected in the averaged number. You want a method that somehow counts
+   measurements as more reliable as more are taken.
 #. Analyze each dependent data point separately. You could perform an analysis
    of every patient's blood pressure on day 5, giving you only one data point per
    person. But be careful, because if you do this for every day, you'll have
-   problems with :ref:`multiple comparisons <multiple-comparisons>`.
+   problems with :ref:`multiple comparisons <multiple-comparisons>`, which we
+   will discuss in the next chapter.
 #. Use a statistical model which accounts for the dependence, like a
    hierarchical model or random effects model.
 

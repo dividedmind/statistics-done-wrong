@@ -16,6 +16,8 @@
 
 \LoadClass{memoir}
 
+\RequirePackage{url}
+
 % Set some sane defaults for section numbering depth and TOC depth.  You can
 % reset these counters in your preamble.
 %
@@ -85,6 +87,17 @@
       }%
     \end{flushright}%\par
     \@thanks
+    \clearpage
+    \null
+    \vfill
+    \noindent Copyright \copyright\ \the\year\ by \@author.
+    \vskip 10pt
+    \noindent \@title\ is available under a Creative Commons Attribution 3.0
+    Unported License, granting you the right to copy, redistribute, modify, and
+    sell it, so long as you attribute the original to \@author\ and identify any
+    changes that you have made. Full terms of the license are available at:
+    \vskip 10pt
+    \noindent \url{http://creativecommons.org/licenses/by/3.0/}
   \end{titlingpage}%
   \cleardoublepage%
   \setcounter{footnote}{0}%

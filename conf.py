@@ -191,10 +191,11 @@ latex_elements = {
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-'preamble': '\\usepackage{natbib}\\setcitestyle{super}\\usepackage{microtype}\\usepackage{cmap}\\setheaderstyles',
+'preamble':
+'\\usepackage{natbib}\\setcitestyle{super}\\usepackage{microtype}\\usepackage{cmap}\\setheaderstyles\\noindexintoc',
 
 # for the end of the file
-'footer': '\\bibliographystyle{ieeetr} \\bibliography{refs}',
+'footer': '\\bibliographystyle{plainnat} \\bibliography{refs}',
 
 'fncychap': '',
 'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella} \\usepackage{tgheros}'

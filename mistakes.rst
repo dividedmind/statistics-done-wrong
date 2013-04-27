@@ -65,7 +65,8 @@ retested 53 landmark preclinical studies in cancer research. (By "preclinical" I
 mean the studies did not involve human patients, as they were testing new and
 unproven ideas.) Despite working in collaboration with the authors of the
 original papers, the Amgen researchers could only reproduce six of the studies.\
-:cite:p:`Begley:2012`
+:cite:p:`Begley:2012` Bayer researchers have reported similar difficulties when
+testing potential new drugs found in published papers.\ :cite:p:`Prinz:2011gb`
 
 This is worrisome. Does the trend hold true for less speculative kinds of
 medical research? Apparently so: of the top-cited research articles in medicine,

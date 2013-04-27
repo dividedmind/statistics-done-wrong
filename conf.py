@@ -198,7 +198,7 @@ latex_elements = {
 'footer': '\\bibliographystyle{plainnat} \\bibliography{refs}',
 
 'fncychap': '',
-'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella} \\usepackage{tgheros}'
+'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella} \\usepackage{tgheros}\\usepackage{inconsolata}'
 }
 
 latex_additional_files = ['refs.bib', 'sphinxbook.cls']

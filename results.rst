@@ -45,9 +45,9 @@ journals mean studies testing new treatments for schizophrenia can neglect to
 include the scale they used to evaluate symptoms -- a handy source of bias, as
 trials using unpublished scales tend to produce better results than those using
 previously validated tests.\ :cite:p:`Marshall:2000hg` Other medical studies
-simply omit particular results if they're not favorable or interesting, biasing
-subsequent meta-analyses to only include positive results. A third of
-meta-analyses are estimated to suffer from this problem.\
+simply :ref:`omit particular results <omit-details>` if they're not favorable or
+interesting, biasing subsequent meta-analyses to only include positive
+results. A third of meta-analyses are estimated to suffer from this problem.\
 :cite:p:`Kirkham:2010kj`
 
 .. index:: meta-analyses

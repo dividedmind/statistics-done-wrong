@@ -373,5 +373,21 @@ Benjamini-Hochberg procedure gives silly results, and it has been mathematically
 shown that it is always possible to beat it in controlling the false discovery
 rate. But it's a start, and it's much better than nothing.
 
+.. admonition:: What should you do?
+
+   * Remember: :math:`p < 0.05` does not mean "there is a 5% chance this result
+     is false."
+   * If you are testing multiple hypotheses or looking for correlations between
+     many variables, use a procedure to control for the excess of false
+     positives you will see, such as the Bonferroni, the Holm-Bonferroni, or the
+     Benjamini-Hochberg procedures, along with their various derivatives and
+     adaptations.
+   * If your field routinely performs multiple tests, such as in neuroimaging,
+     learn the best practices and techniques specifically developed to handle
+     your data.
+   * Learn to use prior estimates of the base rate to calculate the probability
+     that a given result is a false positive (as in the mammogram example). One
+     good method is Bayes' Theorem.
+
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.

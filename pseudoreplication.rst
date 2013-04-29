@@ -62,3 +62,10 @@ method is suited to different situations. Pseudoreplication makes it easy to
 achieve significance, even though it gives you little additional information on
 the test subjects. Researchers must be careful not to artificially inflate their
 sample sizes when they retest samples.
+
+.. admonition:: What should you do?
+
+   Distinguish between replication and *technical* replication, where you simply
+   make repeat measurements of a sample. Use statistical methods which account
+   for the strong dependence between your measurements, such as hierarchical and
+   random effects models.

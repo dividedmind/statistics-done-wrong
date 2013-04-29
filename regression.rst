@@ -164,3 +164,13 @@ single kidney cancer patient in a county with ten residents gives that county
 the highest kidney cancer rate in the nation. Small counties hence have vastly
 more variable kidney cancer rates, simply because they have so few
 residents.\ :cite:p:`Gelman:1999gi`
+
+.. admonition:: What should you do?
+
+   * Carefully plan stopping rules in advance and adjust for multiple
+     comparisons.
+   * Compute the required sample size needed for the statistical power you
+     desire, and don't skimp. If the sample size is impractical, be aware of the
+     limitations of your study.
+   * When comparing groups of different sizes, compute confidence intervals,
+     which will reflect the additional certainty you gain with additional data.

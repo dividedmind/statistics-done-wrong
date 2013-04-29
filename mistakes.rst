@@ -77,6 +77,28 @@ important errors still lurk unnoticed in important research. Replication is not
 as prevalent as we would like it to be, and the results are not always
 favorable.
 
+.. admonition:: What should you do?
+
+   * Automate your data analysis using a spreadsheet, analysis script, or
+     program which can be tested against known input. If anyone suspects an
+     error, you should be able to refer back to your code to see exactly what
+     you did.
+   * Corollary: Test all analysis programs against known input and ensure the
+     results make sense. Ideally, use automated tests to check the code as you
+     make changes, ensuring you don't introduce errors.
+   * Publish your software source code, spreadsheets, or analysis scripts. Many
+     journals will let you submit these as supplementary material with your
+     paper.
+   * When writing software, use the `best practices for scientific computing
+     <http://arxiv.org/abs/1210.0530>`__.
+   * Use a reproducible research tool like Sweave to automatically include data
+     from your analysis in your paper.
+   * Make all data available when possible, through specialized databases such
+     as `GenBank <http://www.ncbi.nlm.nih.gov/genbank/>`__ and `PDB
+     <http://www.rcsb.org/pdb/home/home.do>`__, or through generic data
+     repositories like `Dryad <http://datadryad.org/>`__ and `Figshare
+     <http://figshare.com/>`__.
+
 .. [#reproducibility]
    The Reproducibility Project, at
    http://openscienceframework.org/reproducibility/

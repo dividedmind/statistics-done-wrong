@@ -84,3 +84,12 @@ publication requirement at all.
 The proliferation of statistical techniques has given us many useful tools, but
 it seems they have been put to use as blunt objects. One must simply beat the
 data until it confesses.
+
+.. admonition:: What should you do?
+
+   * Plan your data analysis before collecting data, accounting for multiple
+     comparisons and including any effects you'd like to look for.
+   * Register your clinical trial protocol if applicable.
+   * If you deviate from your planned protocol, note this in your paper and
+     provide an explanation.
+   * Don't just torture the data until it confesses.

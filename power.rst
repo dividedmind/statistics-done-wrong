@@ -165,3 +165,11 @@ later, when studies arrived clearly showing the results: significant increases
 in collisions and pedestrian accidents (sometimes up to 100% increases).\
 :cite:p:`Hauer:2004fz,Preusser:1982gp` The misinterpretation of underpowered
 studies cost lives.
+
+.. admonition:: What should you do?
+
+   * Calculate the statistical power of your study in advance to determine the
+     appropriate sample size.
+   * If you find no statistically significant effect, remember that the effect
+     could simply be smaller than you can reliably detect. "Not significant"
+     does not mean "nonexistent."

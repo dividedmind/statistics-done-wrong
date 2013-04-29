@@ -170,9 +170,43 @@ met the legal requirement to publish.\ :cite:p:`Prayle:2011cs` The FDA has not
 fined any drug companies for noncompliance, and journals have not consistently
 enforced the requirement to register trials. Most studies simply vanish.
 
+.. index:: clinical trial protocol; databases, CONSORT, STROBE, STREGA, EQUATOR
+
+.. admonition:: What should you do?
+
+   * Register trial protocols in public databases, such as `ClinicalTrials.gov
+     <http://clinicaltrials.gov/>`__, the `EU Clinical Trials Register
+     <https://www.clinicaltrialsregister.eu/>`__, or any other public
+     registry. The World Health Organization keeps a list at their
+     `International Clinical Trials Registry Platform website
+     <http://www.who.int/ictrp/en/>`__.
+   * Document any deviations from the trial protocol and discuss them in your
+     published paper.
+   * Make all data available when possible, through specialized databases such
+     as `GenBank <http://www.ncbi.nlm.nih.gov/genbank/>`__ and `PDB
+     <http://www.rcsb.org/pdb/home/home.do>`__, or through generic data
+     repositories like `Dryad <http://datadryad.org/>`__ and `Figshare
+     <http://figshare.com/>`__.
+   * Publish your software source code, Excel workbooks, or analysis scripts
+     used to analyze your data. Many journals will let you submit these as
+     supplementary material with your paper.
+   * Follow reporting guidelines in your field, such as `CONSORT
+     <http://www.consort-statement.org/>`__ for clinical trials, `STROBE
+     <http://www.strobe-statement.org/>`__ for observational studies in
+     epidemiology, or `STREGA
+     <http://www.plosmedicine.org/article/info:doi/10.1371/journal.pmed.1000022>`__
+     for gene association studies. The `EQUATOR Network
+     <http://www.equator-network.org/>`__ maintains lists of guidelines for
+     various fields.
+   * If you obtain negative results, publish them! Some journals may reject
+     negative results as uninteresting; consider publishing in an open-access
+     electronic-only journal such as `PLoS ONE <http://www.plosone.org/>`__,
+     which is peer-reviewed but does not reject studies for being
+     uninteresting.
+
 .. [#xkcd]
    Joke shamelessly stolen from the alternate text of http://xkcd.com/552/.
 
-.. [#rug] 
+.. [#rug]
    Why do we always say "swept under the rug"? Whose rug is it? And why don't
    they use a vacuum cleaner instead of a broom?

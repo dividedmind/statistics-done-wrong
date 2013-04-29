@@ -161,6 +161,15 @@ different. Similarly, separated standard error bars do not mean two values *are*
 significantly different. It's always best to use the appropriate hypothesis test
 instead. Your eyeball is not a well-defined statistical procedure.
 
+.. admonition:: What should you do?
+
+   * Compare groups directly using appropriate statistical tests, such as *t*
+     tests, instead of saying "this one was significant and this one wasn't."
+   * Do not judge the significance of a difference by eye. Use a statistical
+     test (*t* test, *z* test, Gabriel comparison intervals, etc.).
+   * Remember that if you compare many groups, you need to adjust for making
+     multiple comparisons!
+
 .. [#ttest]
    This was calculated with an unpaired *t* test, based on a standard
    error of 2.5 in group 1 and 3.5 in group 2.

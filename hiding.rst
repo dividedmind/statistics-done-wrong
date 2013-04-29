@@ -98,6 +98,8 @@ most studies omit important methodological details, such as :ref:`stopping rules
 specialist journals faring worse than those in large general medicine journals.\
 :cite:p:`HuwilerMuntener:2002ij`
 
+.. index:: ! CONSORT
+
 Medical journals have begun to combat this problem with standards for reporting
 of results, such as the `CONSORT checklist
 <http://www.consort-statement.org/>`_. Authors are required to follow the
@@ -111,6 +113,8 @@ to make a greater effort to enforce reporting standards.
 
 We see that published papers aren't faring very well. What about *unpublished*
 studies?
+
+.. index:: publication bias, file-drawer problem
 
 Science in a filing cabinet
 ---------------------------
@@ -139,15 +143,15 @@ mix and the statistically significant effect vanishes.\ :cite:p:`Kyzas:2005ep`
 After all, few authors bothered to publish data showing no correlation, so the
 meta-analysis could only use a biased sample.
 
-A similar study looked at reboxetine, an antidepressant sold by Pfizer. Several
-published studies have suggested that it is effective compared to placebo,
-leading several European countries to approve it for prescription to depressed
-patients. The German Institute for Quality and Efficiency in Health Care,
-responsible for assessing medical treatments, managed to get unpublished trial
-data from Pfizer -- three times more data than had ever been published -- and
-carefully analyzed it. The result: reboxetine is not effective. Pfizer had only
-convinced the public that it's effective by neglecting to mention the studies
-proving it isn't.\ :cite:p:`Eyding:2010bx`
+A similar study looked at :index:`reboxetine`, an antidepressant sold by
+Pfizer. Several published studies have suggested that it is effective compared
+to placebo, leading several European countries to approve it for prescription to
+depressed patients. The German Institute for Quality and Efficiency in Health
+Care, responsible for assessing medical treatments, managed to get unpublished
+trial data from Pfizer -- three times more data than had ever been published --
+and carefully analyzed it. The result: reboxetine is not effective. Pfizer had
+only convinced the public that it's effective by neglecting to mention the
+studies proving it isn't.\ :cite:p:`Eyding:2010bx`
 
 This problem is commonly known as publication bias or the file-drawer problem:
 many studies sit in a file drawer for years, never published, despite the

@@ -51,6 +51,8 @@ there's no real difference at all. We can't usually collect infinite samples, so
 in practice this doesn't always happen, but poorly implemented stopping rules
 still increase false positive rates significantly.\ :cite:p:`Simmons:2011iw`
 
+.. index:: clinical trial protocol; false positive rate
+
 Modern clinical trials are often required to register their statistical
 protocols in advance, and generally pre-select only a few evaluation points at
 which they test their evidence, rather than testing after every
@@ -116,7 +118,7 @@ stopping rule which was used to justify terminating the study.\
 :cite:p:`Montori:2005bo` A trial's early stoppage is not automatic evidence that
 its results are biased, but it *is* a suggestive detail.
 
-.. index:: de Moivre's equation, sample size
+.. index:: de Moivre's equation, sample size, test scores
 
 Little extremes
 ---------------

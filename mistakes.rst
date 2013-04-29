@@ -35,7 +35,7 @@ proprietary control of the data and all the discoveries which result from
 it. And even if the data were all available, would anyone analyze it all to spot
 errors?
 
-.. index:: reproducible research
+.. index:: reproducible research, Sweave
 
 Similarly, scientists in some fields have pushed towards making their
 statistical analyses available through clever technological tools. A tool called
@@ -54,6 +54,8 @@ result. Replication also weeds out fluke false positives. Many scientists claim
 that experimental replication is the heart of science: no new idea is accepted
 until it has been independently tested and retested around the world and found
 to hold water.
+
+.. index:: Reproducibility Project, Amgen, Bayer
 
 That's not entirely true; scientists often take previous studies for granted,
 though occasionally scientists decide to systematically re-test earlier

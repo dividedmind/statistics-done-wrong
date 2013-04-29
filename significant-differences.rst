@@ -13,12 +13,11 @@ seems to make sense.
 However, a difference in significance does not always make a significant
 difference.\ :cite:p:`Gelman:2006bj`
 
-Imagine a study comparing :index:`walrus <pair: walrus; diet>` diets. One group
-of walruses is fed their ordinary diet, while two other groups are fed new, more
-nutritious diets. The researchers weigh the walruses after a month and find that
-nutritious diet A caused the walruses to gain about 25 kilograms more than the
-ordinary diet, while nutritious diet B caused the walruses to only gain about 10
-kg more.
+Imagine a study comparing :index:`walrus diets`. One group of walruses is fed
+their ordinary diet, while two other groups are fed new, more nutritious
+diets. The researchers weigh the walruses after a month and find that nutritious
+diet A caused the walruses to gain about 25 kilograms more than the ordinary
+diet, while nutritious diet B caused the walruses to only gain about 10 kg more.
 
 We want to establish how much weight gain we can expect on average from each
 diet. If we fed these diets to all the walruses in the universe, what would the

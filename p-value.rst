@@ -102,7 +102,11 @@ The base rate fallacy in medical testing
 There has been some controversy over the use of mammograms in screening breast
 cancer. Some argue that the dangers of false positive results, such as
 unnecessary biopsies, surgery and chemotherapy, outweigh the benefits of early
-cancer detection. This is a statistical question. Let's evaluate it.
+cancer detection. This is a statistical question, and the first step to
+answering it is a simpler question: if your mammogram turns up signs of cancer,
+what is the probability you actually have breast cancer? If this probability is
+too low, most positive results will be false, and a great deal of time and
+effort will be spent for no benefit.
 
 Suppose 0.8% of women who get mammograms have breast cancer. In 90% of women
 with breast cancer, the mammogram will correctly detect it. (That's the

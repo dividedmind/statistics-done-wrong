@@ -14,6 +14,9 @@
 % Sphinx still uses the deprecated \rm command
 \PassOptionsToClass{oldfontcommands}{memoir}
 
+% 11pt fonts
+\PassOptionsToClass{11pt}{memoir}
+
 \LoadClass{memoir}
 
 \RequirePackage{url}

@@ -96,6 +96,31 @@ h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
     margin: 0;
 }
 
+.epigraph {
+    border-left: none;
+}
+
+.epigraph .attribution {
+    text-align: right;
+    font-style: italic;
+}
+
+.epigraph .attribution em {
+    font-style: normal;
+}
+
+/* Admonitions */
+.admonition {
+    background-color: #F7F7F7;
+    border: 1px solid #86989B;
+    border-radius: 2px;
+    padding: 0 1em;
+}
+
+.admonition-title {
+    font-weight: bold;
+}
+
 /* Have bibliography entries show up highlighted when linked to */
 tr.footnote:target {
     background-color: #FBE54E;

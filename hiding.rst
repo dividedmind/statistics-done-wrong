@@ -6,7 +6,11 @@
 Hiding the data
 ***************
 
-    "Given enough eyeballs, all bugs are shallow." -- Eric S. Raymond
+.. epigraph::
+
+    "Given enough eyeballs, all bugs are shallow." 
+
+    -- Eric S. Raymond
 
 We've talked about the :ref:`common mistakes <mistakes>` made by scientists, and
 how the best way to spot them is a bit of outside scrutiny. Peer review provides

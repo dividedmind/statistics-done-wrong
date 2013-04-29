@@ -16,9 +16,13 @@ accept doctors who have no experience with prescription medication, so why do we
 accept scientists with no training in statistics? Scientists need formal
 statistical training and advice. To quote:
 
+.. epigraph::
+
     "To consult the statistician after an experiment is finished is often merely
     to ask him to conduct a post mortem examination. He can perhaps say what the
-    experiment died of." -- R. A. Fisher, popularizer of the *p* value
+    experiment died of." 
+
+    -- R. A. Fisher, popularizer of the *p* value
 
 Journals may choose to reject research with poor-quality statistical analyses,
 and new guidelines and protocols may eliminate some problems, but until we have

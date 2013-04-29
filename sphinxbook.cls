@@ -98,6 +98,10 @@
     changes that you have made. Full terms of the license are available at:
     \vskip 10pt
     \noindent \url{http://creativecommons.org/licenses/by/3.0/}
+    \vskip 10pt
+    \noindent The complete book can be found online for free at:
+    \vskip 10pt
+    \noindent \url{http://www.refsmmat.com/statistics/}
   \end{titlingpage}%
   \cleardoublepage%
   \setcounter{footnote}{0}%

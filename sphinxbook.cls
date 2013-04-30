@@ -37,7 +37,7 @@
 \checkandfixthelayout
 
 % set chapter style
-\chapterstyle{ell}
+\chapterstyle{dash}
 
 % fancyhdr is incompatible with memoir, and unnecessary anyway
 \newcommand{\dontusepackage}[2][]{%
@@ -49,6 +49,8 @@
 % a command to set the section style after sphinx.sty is loaded
 \newcommand{\setheaderstyles}{
 \renewcommand{\py@HeaderFamily}{\sffamily}%
+\titleformat{\section}{\large\py@HeaderFamily}%
+            {\py@TitleColor}{0em}{\py@TitleColor}{\py@NormalColor}%
 }
 
 % Change the title page to look a bit better, and fit in with the fncychap

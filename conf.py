@@ -191,14 +191,20 @@ latex_elements = {
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
-'preamble':
-'\\usepackage{natbib}\\setcitestyle{super}\\usepackage{microtype}\\usepackage{cmap}\\setheaderstyles\\noindexintoc',
+'preamble': """\\usepackage{natbib}
+\\setcitestyle{super}
+\\usepackage{microtype}
+\\usepackage{cmap}
+\\setheaderstyles
+\\noindexintoc""",
 
 # for the end of the file
 'footer': '\\bibliographystyle{plainnat} \\bibliography{refs}',
 
 'fncychap': '',
-'fontpkg': '\\usepackage{mathpazo} \\usepackage{tgpagella} \\usepackage{tgheros}\\usepackage{inconsolata}'
+'fontpkg': """\\usepackage{libertine}
+\usepackage[italic]{mathastext}
+\\usepackage{inconsolata}"""
 }
 
 latex_additional_files = ['refs.bib', 'sphinxbook.cls']

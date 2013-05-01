@@ -1,4 +1,4 @@
-.. index:: pseudoreplication
+.. index:: pseudoreplication, technical replicates
 
 ******************************************
 Pseudoreplication: choose your data wisely
@@ -89,15 +89,15 @@ same pheromones.
 
 You've probably heard about research suggesting that reproductive cycles
 synchronize -- a famous paper in the early 1970s suggested that women's
-menstrual cycles could synchronize if they lived in close contact.\
+:index:`menstrual cycles` could synchronize if they lived in close contact.\
 :cite:p:`McClintock:1971bh` Other studies have found similar results in golden
 hamsters, Norway rats, and chimpanzees. This synchronization can cause
 pseudoreplication in our studies, and we need to more carefully design the
 experiments to avoid it.
 
-You might wonder how you prove that menstrual cycles (or the estrous cycles of
-hamsters) synchronize. As it turns out, you can't. The studies which did so
-were pseudoreplicated.
+You might wonder how you prove that menstrual cycles (or the :index:`estrous
+cycles` of hamsters) synchronize. As it turns out, you can't. The studies which
+did so were pseudoreplicated.
 
 In other words, we only thought our experiment could cause pseudoreplication
 because we believed a pseudoreplicated study. In this case the pseudoreplication

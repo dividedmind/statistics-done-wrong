@@ -348,6 +348,8 @@ rate fallacy, we can compute the false discovery rate if we make an assumption
 about how many of our tested hypotheses are true -- but we'd rather find that
 out from the data, rather than guessing.
 
+.. index:: Benjamini-Hochberg procedure
+
 In 1995, Benjamini and Hochberg provided a better answer. They devised an
 exceptionally simple procedure which tells you which *p* values to consider
 statistically significant. I've been saving you from mathematical details so

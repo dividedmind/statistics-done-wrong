@@ -80,7 +80,7 @@ essential to medical trials. A scientist might want to know how many patients
 are needed to test if a new medication improves survival by more than 10%, and a
 quick calculation of statistical power would provide the answer. Scientists are
 usually satisfied when the statistical power is 0.8 or higher, corresponding to
-an 80% chance of concluding there's a real effect.
+an 80% chance of detecting a real effect.
 
 However, few scientists ever perform this calculation, and few journal articles
 ever mention the statistical power of their tests.
@@ -91,7 +91,7 @@ rare. You can test each medicine on a hundred patients, but only a few in each
 group suffer serious side effects.
 
 Obviously, you won't have terribly much data to compare side effect rates. If
-four people have serious side effects in one group, and three in the other, you
+four people have serious side effects in one group and three in the other, you
 can't tell if that's the medication's fault.
 
 Unfortunately, many trials conclude with "There was no statistically significant
@@ -112,7 +112,7 @@ difference.\ :cite:p:`Moher:1994,Bedard:2007dy,Brown:1987uu,Chung:1998ku`
 In neuroscience the problem is even worse. Suppose we aggregate the data
 collected by numerous neuroscience papers investigating one particular effect
 and arrive at a strong estimate of the effect's size. The median study has only
-a 20% chance of being able to detect that effect. Only after many studies were
+a 20% chance of being able to detect that effect; only after many studies were
 aggregated could the effect be discerned. Similar problems arise in neuroscience
 studies using animal models -- which raises a significant ethical concern. If
 each individual study is underpowered, the true effect will only likely be

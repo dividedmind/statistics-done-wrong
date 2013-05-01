@@ -4,7 +4,7 @@ When differences in significance aren't significant differences
 
 "We compared treatments A and B with a placebo. Treatment A showed a significant
 benefit over placebo, while treatment B had no statistically significant
-benefit. Therefore, treatment A is better than treatment B."
+benefit. Therefore treatment A is better than treatment B."
 
 We hear this all the time. It's an easy way of comparing medications, surgical
 interventions, therapies, and experimental results. It's straightforward. It

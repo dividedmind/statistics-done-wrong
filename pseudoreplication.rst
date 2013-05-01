@@ -45,7 +45,7 @@ heavily dependent on each other but the statistical analysis fails to take this
 into account. In some cases this dependence can be broken by carefully designing
 the experiment; if I believe that two aquariums are systematically different, I
 can trade fish between aquariums to see what happens. Alternately, there are
-several ways to account for this dependence while performing the statistical
+several ways to account for dependence while performing the statistical
 analysis:
 
 #. Average the dependent data points. For example, average all the blood
@@ -73,21 +73,21 @@ sample sizes when they retest samples.
 Synchronized pseudoreplication
 ------------------------------
 
-Pseudoreplication can occur through less obvious routes as well. Consider one
-example in an article reviewing the prevalence of pseudoreplication in the
-ecological literature.\ :cite:p:`Heffner:1996vq` Suppose you want to see if
-chemicals found in the growing shoots of grasses are responsible for the start
-of the reproductive season in cute furry mammals which eat those grasses. You
-propose an experiment: place some animals in the lab, feeding half ordinary food
-and the other half food mixed with the grasses. Wait to see if their
-reproductive cycle starts early.
+Pseudoreplication can occur through less obvious routes. Consider one example in
+an article reviewing the prevalence of pseudoreplication in the ecological
+literature.\ :cite:p:`Heffner:1996vq` Suppose you want to see if chemicals found
+in the growing shoots of grasses are responsible for the start of the
+reproductive season in cute furry mammals which eat those grasses. You propose
+an experiment: place some animals in the lab, feeding half ordinary food and the
+other half food mixed with the grasses. Wait to see if their reproductive cycle
+starts early.
 
 But some research suggests that the reproductive cycles of mammals can
 synchronize if they live in groups. Your control group isn't independent of the
 group eating the grasses, because they're in the same lab and exposed to the
 same pheromones.
 
-You've probably heard about research suggesting that reproductive cycles
+You've probably heard about the research suggesting that reproductive cycles
 synchronize -- a famous paper in the early 1970s suggested that women's
 :index:`menstrual cycles` could synchronize if they lived in close contact.\
 :cite:p:`McClintock:1971bh` Other studies have found similar results in golden
@@ -100,13 +100,13 @@ cycles` of hamsters) synchronize. As it turns out, you can't. The studies which
 did so were pseudoreplicated.
 
 In other words, we only thought our experiment could cause pseudoreplication
-because we believed a pseudoreplicated study. In this case the pseudoreplication
-was more insidious, and for humans, the study went something like this:
+because we believed a pseudoreplicated study. In this case the mistake was
+insidious, and for humans, the study went something like this:
 
 1. Find groups of women who live together in close contact: in this case,
    college students who live in dormitories.
-2. Every month or two, ask each woman to list when her last menstrual periods
-   had begun, and list the other women with whom they spent the most time.
+2. Every month or two, ask each woman when her last menstrual periods had begun
+   and to list the other women with whom she spent the most time.
 3. Use these lists to categorize the women into groups that tend to spend time
    together.
 4. For each group of women, see how far the average woman's period start date

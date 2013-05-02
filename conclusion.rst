@@ -19,10 +19,10 @@ John Ioannidis's famous article "Why Most Published Research Findings are
 False"\ :cite:p:`Ioannidis:2005bw` was grounded in mathematical concerns rather
 than an empirical test of research results. If most research articles have poor
 statistical power -- and :ref:`they do <power>` -- while researchers have the
-freedom to choose among multitudes of analyses methods to get favorable results
--- and :ref:`they do <freedom>` -- when most tested hypotheses are false and
-most true hypotheses correspond to very small effects, we are mathematically
-determined to get a multitude of false positives.
+freedom to choose among analyses methods to get favorable results -- and
+:ref:`they do <freedom>` -- when most tested hypotheses are false and most true
+hypotheses correspond to very small effects, we are mathematically determined to
+get a plethora of false positives.
 
 .. index:: oncological ontology
 
@@ -36,6 +36,15 @@ ingredients had multiple studies claiming they increased *and* decreased the
 risk of getting cancer. Most of the statistical evidence was weak, and
 meta-analyses usually showed much smaller effects on cancer rates than the
 original studies.
+
+.. index:: meta-analyses
+
+Another review compared meta-analyses to subsequent large randomized controlled
+trials, considered the gold standard in medicine. In over a third of cases, the
+randomized trial's outcome did not correspond well to the meta-analysis.\
+:cite:p:`LeLorier:1997ww` Other comparisons of meta-analyses to subsequent
+research found that most results were inflated, with perhaps a fifth
+representing false positives.\ :cite:p:`Pereira:2011eg`
 
 Of course, being contradicted by follow-up studies and meta-analyses doesn't
 prevent a paper from being cited as though it were true. Even effects which have
@@ -58,18 +67,9 @@ interesting, biasing subsequent meta-analyses to only include positive
 results. A third of meta-analyses are estimated to suffer from this problem.\
 :cite:p:`Kirkham:2010kj`
 
-.. index:: meta-analyses
-
-Another review compared meta-analyses to subsequent large randomized controlled
-trials, considered the gold standard in medicine. In over a third of cases, the
-randomized trial's outcome did not correspond well to the meta-analysis.\
-:cite:p:`LeLorier:1997ww` Other comparisons of meta-analyses to subsequent
-research found that most results were inflated, with perhaps a fifth
-representing false positives.\ :cite:p:`Pereira:2011eg`
-
 .. index:: psychic powers, confidence interval, power; psychic powers
 
-There is a multitude of physical science papers which misuse confidence
+There are multitudes of physical science papers which misuse confidence
 intervals.\ :cite:p:`Lanzante:2005hi` And a peer-reviewed psychology paper
 allegedly providing evidence for psychic powers, on the basis of uncontrolled
 multiple comparisons in exploratory studies.\ :cite:p:`Wagenmakers:2011tp`
@@ -110,18 +110,6 @@ chance. To researchers: invest in training, a good book, and statistical
 advice. And please, the next time you hear someone say "The result was
 significant with :math:`p < 0.05`, so there's only a 1 in 20 chance it's a
 fluke!", please beat them over the head with a statistics textbook for me.
-
-**Disclaimer:** The advice in this guide cannot substitute for the advice of a
-trained statistical professional. If you think you're suffering from any serious
-statistical error, please consult a statistician immediately. I shall not have
-any liability from any injury to your dignity, statistical error or
-misconception suffered as a result of your use of this website.
-
-Use of this guide to justify rejecting the results of a scientific study without
-reviewing the evidence in any detail whatsoever is grounds for being slapped
-upside the head with a very large statistics textbook.  This guide should help
-you find statistical errors, not allow you to selectively ignore science you
-don't like.
 
 .. [#ontology] An important part of the ongoing `Oncological Ontology
    <http://dailymailoncology.tumblr.com/>`__ project to

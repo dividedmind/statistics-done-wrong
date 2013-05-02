@@ -112,20 +112,26 @@ Any errors in explanations are my own.
 Copyright note
 --------------
 
-This work is licensed under a `Creative Commons Attribution 3.0 Unported License
-<http://creativecommons.org/licenses/by/3.0/>`_. You're free to print it, copy
-it, translate it, rewrite it, set it to music, slice it, dice it, or whatever,
-so long as you attribute the original to me, Alex Reinhart, and provide a link
-back to this site. (If you do translate it, please let me know! I'd happily
-provide a link to your translation.) Hit the link to the license for more
-details. Source code for the text, graphs and simulations is available on
-`GitHub <https://github.com/capnrefsmmat/statistics-done-wrong>`_.
-
 The xkcd cartoon used inside is available under the `Creative Commons
 Attribution-NonCommercial 2.5 License
 <http://creativecommons.org/licenses/by-nc/2.5/>`_, and may not be used
 commercially without permission from the author. `More
 details. <http://xkcd.com/license.html>`_
+
+Disclaimer
+----------
+
+The advice in this guide cannot substitute for the advice of a trained
+statistical professional. If you think you're suffering from any serious
+statistical error, please consult a statistician immediately. I shall not have
+any liability from any injury to your dignity, statistical error or
+misconception suffered as a result of your use of this website.
+
+Use of this guide to justify rejecting the results of a scientific study without
+reviewing the evidence in any detail whatsoever is grounds for being slapped
+upside the head with a very large statistics textbook.  This guide should help
+you find statistical errors, not allow you to selectively ignore science you
+don't like.
 
 .. [#conspiracy] Incidentally, I think this is why conspiracy theories are so
    popular. Once you believe you know something that nobody else does (the

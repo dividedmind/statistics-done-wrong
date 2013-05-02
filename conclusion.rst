@@ -2,6 +2,14 @@
 Conclusion
 **********
 
+.. epigraph::
+
+    "To consult the statistician after an experiment is finished is often merely
+    to ask him to conduct a post mortem examination. He can perhaps say what the
+    experiment died of." 
+
+    -- R. A. Fisher, popularizer of the *p* value
+
 Beware false confidence. You may soon develop a smug sense of satisfaction that
 *your* work doesn't screw up like everyone else's. But I have not given you a
 thorough introduction to the mathematics of data analysis. There are many ways
@@ -14,15 +22,7 @@ multiple inference. This is seen as acceptable despite the paramount role of
 data and statistical analysis in the pursuit of modern science; we wouldn't
 accept doctors who have no experience with prescription medication, so why do we
 accept scientists with no training in statistics? Scientists need formal
-statistical training and advice. To quote:
-
-.. epigraph::
-
-    "To consult the statistician after an experiment is finished is often merely
-    to ask him to conduct a post mortem examination. He can perhaps say what the
-    experiment died of." 
-
-    -- R. A. Fisher, popularizer of the *p* value
+statistical training and advice.
 
 Journals may choose to reject research with poor-quality statistical analyses,
 and new guidelines and protocols may eliminate some problems, but until we have

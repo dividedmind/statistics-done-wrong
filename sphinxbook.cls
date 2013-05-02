@@ -19,25 +19,24 @@
 
 \LoadClass{memoir}
 
+\RequirePackage{natbib}
+\setcitestyle{super}
+\RequirePackage{microtype}
+\RequirePackage{cmap}
 \RequirePackage{url}
 
 % Set some sane defaults for section numbering depth and TOC depth.  You can
 % reset these counters in your preamble.
-%
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{1}
 
-% set to trade paperback sizes and margins
-\setstocksize{9in}{6in}
-\settrimmedsize{9in}{6in}{*}
-\setlrmarginsandblock{0.75in}{0.75in}{*}
-\setulmargins{*}{*}{1}
-\settrims{0pt}{0pt}
-\setheadfoot{20pt}{20pt}
-\checkandfixthelayout
-
 % set chapter style
 \chapterstyle{dash}
+
+% caption styles
+\captionnamefont{\small\itshape}
+\captiontitlefont{\small}
+\captionstyle[\centering]{}
 
 % fancyhdr is incompatible with memoir, and unnecessary anyway
 \newcommand{\dontusepackage}[2][]{%
@@ -46,12 +45,36 @@
 
 \dontusepackage{fancyhdr}
 
-% a command to set the section style after sphinx.sty is loaded
-\newcommand{\setheaderstyles}{
+% a command to fix some sphinx.cls style settings after it's been loaded
+\newcommand{\fixsphinxstyles}{
 \renewcommand{\py@HeaderFamily}{\sffamily}%
 \titleformat{\section}{\Large\py@HeaderFamily}%
             {\py@TitleColor}{0em}{\py@TitleColor}{\py@NormalColor}%
 \definecolor{TitleColor}{rgb}{0,0,0}%
+\renewcommand{\py@lightbox}{{%
+  \setlength{\parindent}{0pt}
+  \setlength\parskip{0pt}\par
+  \rule[0ex]{\linewidth}{0.5pt}%
+  \par%
+}}%
+\renewcommand{\py@endlightbox}{{%
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{0pt}%
+  \par\rule[0.5ex]{\linewidth}{0.5pt}%
+  \par\vspace{-0.5ex}%
+}}
+% set to trade paperback sizes and margins
+\setstocksize{9in}{6in}
+\settrimmedsize{9in}{6in}{*}
+\setlrmarginsandblock{0.8in}{0.6in}{*}
+\setulmarginsandblock{0.75in}{0.75in}{*}
+\settrims{0pt}{0pt}
+\setheadfoot{20pt}{20pt}
+\checkandfixthelayout
+% switch to edition, not release, naming
+\renewcommand{\release}[1]{%
+  \renewcommand{\py@release}{\version\space Edition}%
+  \renewcommand{\version}{##1}}
 }
 
 % Change the title page to look a bit better, and fit in with the fncychap
@@ -78,7 +101,7 @@
     \begin{flushright}%
       \sphinxlogo%
       {\rm\Huge\py@HeaderFamily \@title \par}%
-      {\em\LARGE\py@HeaderFamily \py@release\releaseinfo \par}
+      {\em\LARGE\py@HeaderFamily \py@release \par}
       \vfill
       {\LARGE\py@HeaderFamily
         \begin{tabular}[t]{c}

@@ -82,11 +82,10 @@ neuroscience <red-herrings>`, :ref:`poor statistical power in neuroscience
 <false-discovery>`, :ref:`publication bias and poor reporting <hiding-data>`,
 :ref:`underpowered studies and right turn on red <rtor>`, :ref:`the misuses of
 confidence intervals <confidence-intervals>`, :ref:`pseudoreplication and the
-synchronization of menstrual cycles <periods>`, :ref:`the impact of all these
-errors <wrought>`, :ref:`what can be done to save statistics <what-next>`, and
-additional references and details in many other places. I have also added "What
-should you do?" boxes to each chapter explaining the correct approach to avoid
-the statistical problems discussed.
+synchronization of menstrual cycles <periods>`, :ref:`what can be done to save
+statistics <what-next>`, and additional references and details in many other
+places. I have also added "What should you do?" boxes to each chapter explaining
+the correct approach to avoid the statistical problems discussed.
 
 .. _contact:
 

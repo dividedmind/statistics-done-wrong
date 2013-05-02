@@ -49,8 +49,9 @@
 % a command to set the section style after sphinx.sty is loaded
 \newcommand{\setheaderstyles}{
 \renewcommand{\py@HeaderFamily}{\sffamily}%
-\titleformat{\section}{\large\py@HeaderFamily}%
+\titleformat{\section}{\Large\py@HeaderFamily}%
             {\py@TitleColor}{0em}{\py@TitleColor}{\py@NormalColor}%
+\definecolor{TitleColor}{rgb}{0,0,0}%
 }
 
 % Change the title page to look a bit better, and fit in with the fncychap

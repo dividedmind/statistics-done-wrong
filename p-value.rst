@@ -146,6 +146,26 @@ breast cancer at any given time.
 Examine introductory statistical textbooks and you will often find the same
 error. *P* values are counterintuitive, and the base rate fallacy is everywhere.
 
+.. index:: Bayes' rule
+
+.. admonition:: Using Bayes' Rule
+
+   There's a convenient shortcut method to make these sorts of base rate
+   calculations, known as Bayes' rule after Thomas Bayes. It states:
+
+   .. math:: P(A|B) = \frac{P(B|A) \, P(A)}{P(B)}
+
+   where *P(A|B)* is read as "the probability of *A* given *B*." In the
+   mammogram example, for example, *P(A|B)* is the probability that a woman has
+   cancer given that she has had a positive mammogram, *P(B)* is the probability
+   that any woman would get a positive mammogram, *P(B|A)* the probability that
+   a woman with cancer would have a positive mammogram, and *P(A)* the base
+   rate: the probability that any given woman has cancer.
+
+   It's clear that *P(A|B)* is directly related to *P(A)*, so as the base rate
+   decreases, the probability that a positive test result correctly indicates
+   cancer decreases with it.
+
 .. index:: base rate fallacy; gun use
 
 .. _base-rate-gun:
@@ -393,7 +413,7 @@ rate. But it's a start, and it's much better than nothing.
      your data.
    * Learn to use prior estimates of the base rate to calculate the probability
      that a given result is a false positive (as in the mammogram example). One
-     good method is Bayes' Theorem.
+     good method is Bayes' Rule.
 
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.

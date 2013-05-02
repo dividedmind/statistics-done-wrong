@@ -76,6 +76,15 @@ a difference?"  Most scientists use a simple rule of thumb: if *p* is less than
 really works, so we will call the difference between medication and placebo
 "significant."  If *p* is larger, we'll call the difference insignificant.
 
+The *p* value can be extended to more complex analyses than the comparison of
+two groups. If it's possible to construct a model which states the likelihood of
+each possible outcome when we assume a particular model is true, it's possible
+to compute a *p* value for each outcome. When scientists fit lines to data they
+get a *p* value for the hypothesis that the relationship between the variables
+is zero; when they test if data follows a certain distribution, or if certain
+variables are independent of each other, or use one of many dozens of other
+assorted statistical tests, they use *p* values.
+
 But there are limitations. The *p* value is a measure of surprise, not a measure
 of the size of the effect. I can get a tiny *p* value by either measuring a huge
 effect -- "this medicine makes people live four times longer" -- or by measuring

@@ -89,14 +89,16 @@ might be to collect a dozen cancerous samples and a dozen healthy samples,
 inject them into microarrays, then run all the cancerous samples through the
 processing machine on Tuesday and the healthy samples on Wednesday.
 
-You probably see where this is going. Experiments have demonstrated that
-microarray results vary strongly between processing batches -- sometimes the
-largest source of variation in the data is simply what day you processed the
-microarrays on. Calibrations may change, laboratory temperatures may affect the
-chemical reactions involved, and different bottles of chemical reagents might be
-used during processing. Worse, these issues do not affect the entire microarray
-in the same way -- correlations between pairs of genes on the same microarray
-can entirely reverse when processed in a different batch.\ :cite:p:`Leek:2010jq`
+You probably see where this is going. Taking additional samples doesn't
+genuinely replicate your experiment if you process them in the same
+batch. Experiments have demonstrated that microarray results vary strongly
+between processing batches -- sometimes the largest source of variation in the
+data is simply what day you processed the microarrays on. Between batches,
+calibrations may change, laboratory temperatures may affect the chemical
+reactions involved, and different bottles of chemical reagents might be used
+during processing. Worse, these issues do not affect the entire microarray in
+the same way -- correlations between pairs of genes on the same microarray can
+entirely reverse when processed in a different batch.\ :cite:p:`Leek:2010jq`
 
 These problems can be mitigated by careful experimental design. If two different
 biological groups are being tested, split each group evenly between batches so

@@ -30,7 +30,7 @@ see if there is a statistically significant difference between average protein
 levels. We might see a result like this simulation:
 
 .. figure:: /plots/sample-size.*
-   :alt: 
+   :alt: A plot showing the p value of the difference as sample sizes increase.
 
 This plot shows the *p* value of the difference between groups as we collect
 more data, with the horizontal line indicating the :math:`p = 0.05` level of
@@ -109,6 +109,8 @@ conducted quickly by many independent researchers (such as gene association
 studies), the earliest published results are often wildly contradictory, because
 small trials and a demand for statistical significance cause only the most
 extreme results to be published.\ :cite:p:`Ioannidis:2005bj`
+
+.. index:: stopping rules; in truth inflation
 
 As a bonus, truth inflation can combine forces with early stopping rules. If
 most drugs in clinical trials are not quite so effective to warrant stopping the

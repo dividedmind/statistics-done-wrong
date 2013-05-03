@@ -25,6 +25,11 @@
 \RequirePackage{cmap}
 \RequirePackage{url}
 
+% Switch footnotes to symbols, not numbers
+% hyperref produces incorrect links in this case, so turn off linking
+\RequirePackage[perpage,symbol*]{footmisc}
+\PassOptionsToPackage{hyperfootnotes=false}{hyperref}
+
 % Set some sane defaults for section numbering depth and TOC depth.  You can
 % reset these counters in your preamble.
 \setcounter{secnumdepth}{2}

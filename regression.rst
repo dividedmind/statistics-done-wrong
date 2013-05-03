@@ -93,6 +93,14 @@ You've correctly concluded that your medication is effective, but you've
 inflated the size of its effect. You falsely believe it is much more effective
 than it really is.
 
+.. figure:: /plots/inflation.*
+   :alt: Sampling distribution of effect sizes, with cut-off showing those which would be considered statistically significant.
+
+   The distribution of possible effect sizes we might detect in our trial;
+   sometimes we get lucky. The vertical line indicates the effect size which is
+   large enough to be considered statistically significant. We only select the
+   lucky trials, exaggerating the effect size.
+
 This effect occurs in pharmacological trials, epidemiological studies, gene
 association studies ("gene A causes condition B"), psychological studies, and in
 some of the most-cited papers in the medical literature.\

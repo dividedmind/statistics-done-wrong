@@ -21,7 +21,36 @@ correctly.\ :cite:p:`Gotzsche:2006du,Bakker:2011ja` Other reviews find examples
 of misclassified data, erroneous duplication of data, inclusion of the wrong
 dataset entirely, and other mixups, all concealed by papers which did not
 describe their analysis in enough detail for the errors to be easily noticed.\
-:cite:p:`Baggerly:2009gk,Gotzsche:1989uy`
+:cite:p:`Gotzsche:1989uy`
+
+One famous example involved trials of a new genetic test which promised to allow
+chemotherapy treatments to be carefully targeted to the patient's specific
+variant of cancer. Duke University researchers ran trials indicating that their
+technique could determine to which drugs a tumor would be most sensitive,
+sparing patients the side-effects of ineffective treatments. Oncologists were
+excited at the prospects, and other researchers began their own studies. But
+first they asked two biostatisticians, Keith Baggerly and Kevin Coombes, to
+check the data.
+
+Baggerly and Coombes found problems almost immediately. Some of the data was
+mislabeled -- groups of cells which were resistant to a drug were marked as
+sensitive instead, and vice-versa. Some samples were duplicated in the data,
+sometimes marked as both sensitive and resistant. A correction issued by the
+Duke researchers corrected some of these issues, but introduced more duplicated
+data at the same time. Some data was accidentally shifted by one, so that
+measurements from one set of cells were used when analyzing a different cell
+line instead. Genetic microarrays, which we discussed earlier in the context of
+pseudoreplication, varied significantly between batches, and the effect of the
+microarray equipment could not be separated from the true biological
+differences. Figures allegedly showing results for one drug actually contained
+the results for a different drug.
+
+In short, the research was a mess.\ :cite:p:`Baggerly:2009gk` The errors only
+attracted attention later, some time after Baggerly and Coombes published their
+discoveries, when a trade magazine reported that the lead Duke researcher, Anil
+Potti, had falsified his résumé. Four of his papers were retracted, and Potti
+eventually resigned from Duke. Several trials using the results were stopped,
+and a company set up to sell the technology closed.\ :cite:p:`Kolata:2011`
 
 Sunshine is the best disinfectant, and many scientists have called for
 experimental data to be made available through the Internet. In some fields,

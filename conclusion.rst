@@ -109,7 +109,7 @@ To any science students: invest in a statistics course or two while you have the
 chance. To researchers: invest in training, a good book, and statistical
 advice. And please, the next time you hear someone say "The result was
 significant with :math:`p < 0.05`, so there's only a 1 in 20 chance it's a
-fluke!", please beat them over the head with a statistics textbook for me.
+fluke!", beat them over the head with a statistics textbook for me.
 
 .. [#ontology] An important part of the ongoing `Oncological Ontology
    <http://dailymailoncology.tumblr.com/>`__ project to

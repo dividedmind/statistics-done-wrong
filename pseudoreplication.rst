@@ -68,6 +68,52 @@ achieve significance, even though it gives you little additional information on
 the test subjects. Researchers must be careful not to artificially inflate their
 sample sizes when they retest samples.
 
+Batch biology
+-------------
+
+New technology has led to an explosion of data in biology: Inexpensive
+labs-on-a-chip called microarrays allow biologists to track the activities of
+thousands of proteins or genes simultaneously. Microarrays contain thousands of
+"probes" which chemically bind to different proteins or genes, and fluorescent
+dyes allow a scanner to detect the quantity of material bound to each
+probe. Researchers process the contents of cells and inject them onto
+microarrays for analysis; obtain samples of cancerous cells and you can track
+the expression of thousands of different genes, allowing comparisons with a
+control group of healthy cells. Subtle differences can be discovered and might
+lead to new targeted cancer treatments which leave healthy tissue unharmed.
+
+Microarrays are usually processed in batches on machines which detect the
+fluorescent dyes, and in a large study different microarrays may be processed by
+different laboratories using different equipment. A naive experimental setup
+might be to collect a dozen cancerous samples and a dozen healthy samples,
+inject them into microarrays, then run all the cancerous samples through the
+processing machine on Tuesday and the healthy samples on Wednesday.
+
+You probably see where this is going. Experiments have demonstrated that
+microarray results vary strongly between processing batches -- sometimes the
+largest source of variation in the data is simply what day you processed the
+microarrays on. Calibrations may change, laboratory temperatures may affect the
+chemical reactions involved, and different bottles of chemical reagents might be
+used during processing. Worse, these issues do not affect the entire microarray
+in the same way -- correlations between pairs of genes on the same microarray
+can entirely reverse when processed in a different batch.\ :cite:p:`Leek:2010jq`
+
+These problems can be mitigated by careful experimental design. If two different
+biological groups are being tested, split each group evenly between batches so
+the systematic differences do not affect each group in different ways. Carefully
+record how each batch was processed, how each sample was stored, and what
+chemical reagents were used during processing. And make this information
+available to the statisticians analyzing the data, as they can make use of it to
+detect problems.
+
+For example, a statistician could perform principal components analysis on the
+data to determine whether different batches gave wildly different
+results. Principal components analysis is a technique to determine which
+combination of variables in the data accounts for the most variation in the
+results; if it indicates that different batches are wildly different, the data
+can be analyzed using a hierarchical model or taking batch number into account
+as a confounding variable.
+
 .. _periods:
 
 Synchronized pseudoreplication
@@ -97,11 +143,8 @@ experiments to avoid it.
 
 You might wonder how you prove that menstrual cycles (or the :index:`estrous
 cycles` of hamsters) synchronize. As it turns out, you can't. The studies which
-did so were pseudoreplicated.
-
-In other words, we only thought our experiment could cause pseudoreplication
-because we believed a pseudoreplicated study. In this case the mistake was
-insidious, and for humans, the study went something like this:
+did so were pseudoreplicated. In this case the mistake was insidious, and for
+humans, the study went something like this:
 
 1. Find groups of women who live together in close contact: in this case,
    college students who live in dormitories.
@@ -121,7 +164,8 @@ whether this deviation decreased.
 Unfortunately, the statistical test used requires the five points to be
 independent, whereas for most women, the date one period starts is related
 strongly to the date the next starts. The five samples weren't independent, and
-the data was pseudoreplicated.\ :cite:p:`Yang:2006wf,Schank:2009fo`
+so we only thought our experiment could have pseudoreplication because we
+believed a pseudoreplicated study.\ :cite:p:`Yang:2006wf,Schank:2009fo`
 
 Similar problems exist with other studies claiming that small furry mammals
 synchronize their estrous cycles, and subsequent research using corrected
@@ -134,8 +178,9 @@ menstrual synchronization. [#synch]_
      simply make repeat measurements of a sample.
    * Use statistical methods which account for the strong dependence between
      your measurements, such as hierarchical and random effects models.
-   * Watch out for hidden ways your measurements could be interdependent and
-     carefully design experiments to eliminate them.
+   * Design experiments to eliminate hidden sources of correlation between
+     variables or to record the confounding factors so they can be adjusted for
+     statistically.
 
 .. [#synch] That's not to say periods will never synchronize. If a group of
    women have periods with slightly different cycle lengths, they will

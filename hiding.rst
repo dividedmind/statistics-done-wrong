@@ -75,6 +75,8 @@ although perhaps some do. More frequently, details are left out because authors
 simply forgot to include them, or because journal space limits force their
 omission.
 
+.. index:: clinical trial protocol; reporting
+
 It's possible to evaluate studies to see what they left out. Scientists leading
 medical trials are required to provide detailed study plans to ethical review
 boards before starting a trial, so one group of researchers obtained a
@@ -98,7 +100,7 @@ most studies omit important methodological details, such as :ref:`stopping rules
 specialist journals faring worse than those in large general medicine journals.\
 :cite:p:`HuwilerMuntener:2002ij`
 
-.. index:: ! CONSORT
+.. index:: ! CONSORT, reporting guidelines
 
 Medical journals have begun to combat this problem with standards for reporting
 of results, such as the `CONSORT checklist
@@ -114,7 +116,7 @@ to make a greater effort to enforce reporting standards.
 We see that published papers aren't faring very well. What about *unpublished*
 studies?
 
-.. index:: publication bias, file-drawer problem
+.. index:: publication bias, file-drawer problem, TP53
 
 Science in a filing cabinet
 ---------------------------
@@ -160,6 +162,8 @@ valuable data they could contribute.
 The problem isn't simply the bias on published results. Unpublished studies lead
 to a duplication of effort -- if other scientists don't know you've done a
 study, they may well do it again, wasting money and effort.
+
+.. index:: clinical trial protocol; registration
 
 Regulators and scientific journals have attempted to halt this problem. The Food
 and Drug Administration requires certain kinds of clinical trials to be

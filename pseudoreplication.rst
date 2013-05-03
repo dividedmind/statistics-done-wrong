@@ -68,6 +68,8 @@ achieve significance, even though it gives you little additional information on
 the test subjects. Researchers must be careful not to artificially inflate their
 sample sizes when they retest samples.
 
+.. index:: microarrays
+
 Batch biology
 -------------
 
@@ -108,8 +110,8 @@ chemical reagents were used during processing. And make this information
 available to the statisticians analyzing the data, as they can make use of it to
 detect problems.
 
-For example, a statistician could perform principal components analysis on the
-data to determine whether different batches gave wildly different
+For example, a statistician could perform :index:`principal components analysis`
+on the data to determine whether different batches gave wildly different
 results. Principal components analysis is a technique to determine which
 combination of variables in the data accounts for the most variation in the
 results; if it indicates that different batches are wildly different, the data

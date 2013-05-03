@@ -121,7 +121,7 @@
     \vfill
     \noindent Copyright \copyright\ \the\year\ by \@author.
     \vskip 10pt
-    \noindent \@title\ is available under a Creative Commons Attribution 3.0
+    \noindent \@title\ is available under the Creative Commons Attribution 3.0
     Unported License, granting you the right to copy, redistribute, modify, and
     sell it, so long as you attribute the original to \@author\ and identify any
     changes that you have made. Full terms of the license are available at:

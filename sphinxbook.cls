@@ -20,7 +20,7 @@
 \LoadClass{memoir}
 
 \RequirePackage{natbib}
-\setcitestyle{super}
+\setcitestyle{super,comma,open={},close={}}
 \RequirePackage{microtype}
 \RequirePackage{cmap}
 \RequirePackage{url}
@@ -56,6 +56,9 @@
 \titleformat{\section}{\Large\py@HeaderFamily}%
             {\py@TitleColor}{0em}{\py@TitleColor}{\py@NormalColor}%
 \definecolor{TitleColor}{rgb}{0,0,0}%
+\definecolor{TitleColor}{rgb}{0,0,0}%
+\definecolor{InnerLinkColor}{rgb}{0,0,0}%
+\definecolor{OuterLinkColor}{rgb}{0,0,0}%
 \renewcommand{\py@lightbox}{{%
   \setlength{\parindent}{0pt}
   \setlength\parskip{0pt}\par

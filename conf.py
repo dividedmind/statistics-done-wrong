@@ -193,6 +193,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 'preamble': """\\fixsphinxstyles
 \\noindexintoc
+\\nobibintoc
 """,
 
 # for the end of the file

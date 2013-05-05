@@ -46,6 +46,15 @@ hundreds of other textbooks (or consulting statisticians) you could use for that
 information. I hope only to make you aware of the most common problems so you
 are able to pick the statistical technique best suited to your problem.
 
+If I do pique your curiosity about a statistical topic, a comprehensive
+bibliography is included, and every statistical misconception is accompanied by
+several references. I have omitted a great deal of mathematics in this guide in
+favor of conceptual understanding, but if you prefer a rigorous treatment, I
+encourage you to read the original papers. There is also a reasonably
+comprehensive index which contains each example I have used, so if you remember
+a story involving walruses but don't know where to look for it, start there
+first.
+
 I must caution you before you read this guide. Whenever we understand something
 that few other people do, it is tempting to find every available opportunity to
 prove it. Should *Statistics Done Wrong* miraculously become a New York Times

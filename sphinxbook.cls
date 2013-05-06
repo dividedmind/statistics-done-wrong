@@ -59,6 +59,7 @@
 \definecolor{TitleColor}{rgb}{0,0,0}%
 \definecolor{InnerLinkColor}{rgb}{0,0,0}%
 \definecolor{OuterLinkColor}{rgb}{0,0,0}%
+\renewcommand{\strong}[1]{{\bfseries ##1}}%
 \renewcommand{\py@lightbox}{{%
   \setlength{\parindent}{0pt}
   \setlength\parskip{0pt}\par
@@ -108,7 +109,7 @@
     \fi
     \begin{flushright}%
       \sphinxlogo%
-      {\rm\Huge\py@HeaderFamily \@title \par}%
+      {\rmfamily\Huge\py@HeaderFamily \@title \par}%
       {\em\LARGE\py@HeaderFamily \py@release \par}
       \vfill
       {\LARGE\py@HeaderFamily
@@ -168,15 +169,4 @@
   }%
   \pagenumbering{arabic}%
   \@ifundefined{fancyhf}{}{\pagestyle{normal}}%
-}
-
-% Fix the bibliography environment to add an entry to the Table of
-% Contents.
-% For a report document class this environment is a chapter.
-\let\py@OldThebibliography=\thebibliography
-\renewcommand{\thebibliography}[1]{
-  \cleardoublepage
-  \phantomsection
-  \py@OldThebibliography{1}
-  \addcontentsline{toc}{chapter}{\bibname}
 }

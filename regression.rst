@@ -42,14 +42,15 @@ of luck leads us back to a false positive.
 
 You'd expect that the *p* value dip shouldn't happen, since there's no real
 difference between groups. After all, taking more data shouldn't make our
-conclusions worse, right? And it's true that if we run the trial again we might
-find that the groups start out with no significant difference and stay that way
-as we collect more data, or start with a huge difference and quickly regress to
-having none. But if we wait long enough and test after every data point, we will
-eventually cross *any* arbitrary line of statistical significance, even if
-there's no real difference at all. We can't usually collect infinite samples, so
-in practice this doesn't always happen, but poorly implemented stopping rules
-still increase false positive rates significantly.\ :cite:p:`Simmons:2011iw`
+conclusions worse, right? It's true that if we run the trial again we might find
+that the groups start out with no significant difference and stay that way as we
+collect more data, or start with a huge difference and quickly regress to having
+none. But if we wait long enough and test after every data point, we will
+eventually cross *any* arbitrary line of statistical significance; after all, we
+use the same *p* value threshold for each sample, so we will see false positives
+at any sample size. We can't usually collect infinite samples, so in practice
+this doesn't always happen, but poorly implemented stopping rules still increase
+false positive rates significantly.\ :cite:p:`Simmons:2011iw`
 
 .. index:: clinical trial protocol; false positive rate
 

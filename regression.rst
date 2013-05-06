@@ -48,9 +48,9 @@ collect more data, or start with a huge difference and quickly regress to having
 none. But if we wait long enough and test after every data point, we will
 eventually cross *any* arbitrary line of statistical significance; after all, we
 use the same *p* value threshold for each sample, so we will see false positives
-at any sample size. We can't usually collect infinite samples, so in practice
-this doesn't always happen, but poorly implemented stopping rules still increase
-false positive rates significantly.\ :cite:p:`Simmons:2011iw`
+at any sample size. [#pdist]_ We can't usually collect infinite samples, so in
+practice this doesn't always happen, but poorly implemented stopping rules still
+increase false positive rates significantly.\ :cite:p:`Simmons:2011iw`
 
 .. index:: clinical trial protocol; false positive rate
 
@@ -187,3 +187,8 @@ residents.\ :cite:p:`Gelman:1999gi`
      limitations of your study.
    * When comparing groups of different sizes, compute confidence intervals,
      which will reflect the additional certainty you gain with additional data.
+
+.. [#pdist] More technically, this is because *p* values are uniformly
+   distributed between zero and one when there is no true effect, regardless of
+   your sample size. If you wait long enough you will always find a *p* value
+   arbitrarily close to zero.

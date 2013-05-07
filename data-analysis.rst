@@ -88,8 +88,11 @@ assorted statistical tests, they use *p* values.
 But there are limitations. The *p* value is a measure of surprise, not a measure
 of the size of the effect. I can get a tiny *p* value by either measuring a huge
 effect -- "this medicine makes people live four times longer" -- or by measuring
-a tiny effect with great certainty. Statistical significance does not mean your
-result has any *practical* significance.
+a tiny effect with great certainty. Given that there is almost never *exactly*
+zero difference between groups, you can always get a statistically significant
+result by collecting so much data that you detect the tiniest unimportant
+differences. Statistical significance does not mean your result has any
+*practical* significance.
 
 Similarly, statistical *in*\ significance is hard to interpret. I could have a
 perfectly good medicine, but if I test it on ten people, I'd be hard-pressed to

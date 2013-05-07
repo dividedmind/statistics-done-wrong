@@ -272,7 +272,17 @@ cousins, favorite pizza topping, current sock color, and a few dozen other
 factors for good measure, and you'll find that *something* causes cancer. Ask
 enough questions and it's inevitable.
 
-A survey of medical trials in the 1980s found that the average trial made 30
+Think about this problem in terms of the original definition of the *p*
+value: When we make many comparisons at once, the *p* value should be calculated
+under the assumption that *none* of the differences are real. If we test thirty
+different groups, we would not be surprised if one out of the thirty turned out
+lucky. But when we compute a *p* value as though each comparison stands on its
+own, we are calculating the probability that *this specific* group would be
+lucky, not any one out of the thirty -- a much less likely event. And so the
+anomalies we detect appear much more significant than they are.\
+:cite:p:`Wagenmakers:2007bg` [#weird]_
+
+A survey of medical trials in the 1980s found that the average trial made thirty
 therapeutic comparisons. In more than half of the trials, the researchers had
 made so many comparisons that a false positive was highly likely, and the
 statistically significant results they did report were cast into doubt: they may
@@ -417,3 +427,9 @@ rate. But it's a start, and it's much better than nothing.
 
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.
+
+.. [#weird] It is strange that the *p* value depends not just on the data
+   collected for this particular experiment, but also your intent to collect
+   more data in other experiments. Much ink has been spent discussing the
+   philosophical implications of this problem, and we will see further issues
+   when we talk about stopping rules.

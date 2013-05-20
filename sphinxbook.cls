@@ -73,9 +73,9 @@
   \par\vspace{-0.5ex}%
 }}
 % set to trade paperback sizes and margins
-\setstocksize{9in}{6in}
-\settrimmedsize{9in}{6in}{*}
-\setlrmarginsandblock{0.8in}{0.6in}{*}
+\setstocksize{8in}{5.25in}
+\settrimmedsize{8in}{5.25in}{*}
+\setlrmarginsandblock{0.6in}{0.5in}{*}
 \setulmarginsandblock{0.75in}{0.75in}{*}
 \settrims{0pt}{0pt}
 \setheadfoot{20pt}{20pt}

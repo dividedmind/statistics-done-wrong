@@ -23,23 +23,96 @@ appropriate techniques. This needs to change. Almost every scientific discipline
 depends on statistical analysis of experimental data, and statistical errors
 waste grant funding and researcher time.
 
-Statistics courses for scientists should be more carefully focused on important
-issues for data analysis, such as those described in this guide. Some
-universities have experimented with statistics courses integrated with science
-classes, with students immediately applying their statistical knowledge to
-problems in their field. Preliminary results suggests these methods work:
-students learn and retain more statistics, and they spend less time whining
-about being forced to take a statistics course.\ :cite:p:`Metz:2008hs` More
-universities should adopt these techniques, using conceptual tests and trial
-courses to see what methods work best.
+It would be tempting to say "We must introduce a new curriculum adapted to the
+needs of practicing scientists and require students to take courses in this
+material," then assume the problem will be solved. A great deal of research in
+science education shows that this is not the case. Typical lecture courses teach
+students very little, not for lack of effort but because lectures are simply a
+poor way to teach concepts.
 
-We also need more freely available educational material developed with common
-errors and applications in mind. I was introduced to statistics when I needed to
-analyze data in a laboratory and didn't know how; until strong statistics
-education is more widespread, many students and researchers will find themselves
-in the same position, and they need resources. Projects like `OpenIntro Stats
-<http://www.openintro.org/stat/textbook.php>`__ are promising, and I hope to see
-more in the near future.
+Unfortunately, most of this research is not specifically aimed at statistics
+education. Physicists, however, have done a great deal of research on a similar
+problem: teaching introductory physics students the basic concepts of force,
+energy, and kinematics. An instructive example is a large-scale survey of
+fourteen physics courses, including 2,084 students, using the Force Concept
+Inventory to measure student understanding of basic physics concepts before and
+after taking the courses. The students began the courses with holes in their
+knowledge; at the end of the semester, they had only filled 23% of those holes,
+despite the Force Concept Inventory being regarded as too easy by their
+instructors.\ :cite:p:`Hake:1998`
+
+These results are poor because lectures do not suit how students learn. Students
+have an impressive number of preconceptions about basic physics from their
+everyday experience -- for example, everyone "knows" that something pushed will
+eventually come to a stop, because every object in the real world does so. But
+we teach students Newton's First Law, that an object in motion stays in motion
+unless acted upon by an outside force, and expect them to immediately replace
+their preconception with the new understanding that objects only stop because
+of frictional forces.
+
+Students are endlessly creative in devising new misconceptions to
+hold. Interviews of physics students have revealed numerous surprising
+misconceptions, many not anticipated by experienced instructors.\
+:cite:p:`McDermott:1984fr,Clement:1982` Misconceptions are like cockroaches: You
+have no idea where they came from, but they’re everywhere -- often where you
+don’t expect them -- and they’re impervious to nuclear weapons.
+
+The traditional lecture is an ineffective weapon against the hardened
+misconception. Students who watch lectures contradicting their misconceptions
+report greater confidence in their misconceptions afterwards, and do no better
+on simple tests of their knowledge. Often they report not paying much attention,
+because the lectures allegedly cover concepts they already "know."\
+:cite:p:`Muller:2008tk` Similarly, lecture demonstrations of physical concepts
+make little improvement in student understanding, because students who
+misunderstand simply find ways to reinterpret the demonstration in light of their
+misunderstanding.\ :cite:p:`Crouch:2004ia`
+
+Obviously, then, simply assigning students to read a book like this one will not
+be much help if they fundamentally misunderstand statistics. Much of basic
+statistics is not intuitive (or, at least, not commonly taught in an intuitive
+fashion), and the opportunity for misunderstanding and error is massive. How can
+we best teach our students to analyze data and make reasonable statistical
+inferences?
+
+Again, methods from physics education research provide the answer. If lectures
+do not force students to confront their misconceptions and correct them, we will
+have to use a method that does. A leading example is called Peer
+Instruction. Students are assigned readings or videos before class, and class
+time is spent reviewing the basic concepts and then answering conceptual
+questions. Forced to choose an answer and discuss why they believe it is true
+*before* the instructor reveals the correct answer, students immediately see
+when their misconceptions do not match reality, and instructors can spot
+problems before they grow.
+
+Peer Instruction has been successfully implemented in many physics
+courses. Surveys using the Force Concept Inventory found that students typically
+double or triple their learning gains in a Peer Instruction course, filling in
+50-75% of the gaps in their knowledge revealed at the beginning of the
+semester.\ :cite:p:`Hake:1998,Crouch:2001bp,Lasry:2008bb` And despite the strong
+focus on conceptual understanding, students in Peer Instruction courses perform
+just as well or better on quantitative and mathematical questions as their
+lectured peers.
+
+So far there is relatively little data on the impact of Peer Instruction in
+statistics courses.  Some universities have experimented with statistics courses
+integrated with science classes, with students immediately applying their
+statistical knowledge to problems in their field, potentially revealing their
+misconceptions. Preliminary results suggests these methods work: students learn
+and retain more statistics, and they spend less time whining about being forced
+to take a statistics course.\ :cite:p:`Metz:2008hs` More universities should
+adopt these techniques and experiment with Peer Instruction, using conceptual
+tests and trial courses to see what methods work best. Students will leave with
+better preparation for the statistical demands of everyday research simply by
+changing existing courses, not introducing massive new education programs.
+
+But not every student learns statistics in a classroom. I was introduced to
+statistics when I needed to analyze data in a laboratory and didn't know how;
+until strong statistics education is more widespread, many students and
+researchers will find themselves in the same position, and they need
+resources. We need more freely available educational material developed with
+common errors and applications in mind.  Projects like `OpenIntro Stats
+<http://www.openintro.org/stat/textbook.php>`__ are promising but incomplete,
+and I hope to see more in the near future.
 
 Scientific publishing
 ---------------------

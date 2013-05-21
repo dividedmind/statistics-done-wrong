@@ -27,8 +27,8 @@ perfectly fair coin, you don't always get fifty heads:
 
 .. figure:: /plots/binomial.*
 
-  This shows the likelihood of getting different numbers of heads, if you flip a
-  coin a hundred times.
+  The likelihood of getting different numbers of heads, if you flip a coin a
+  hundred times.
 
 You can see that 50 heads is the most likely option, but it's also reasonably
 likely to get 45 or 57. So if you get 57 heads, the coin might be rigged, but
@@ -47,6 +47,8 @@ So, what happens if I flip a coin ten times and apply these criteria?
 
 .. figure:: /plots/power-curve-10.*
 
+   The power curve for ten coin flips.
+
 This is called a *power curve.* Along the horizontal axis, we have the different
 possibilities for the coin's true probability of getting heads, corresponding to
 different levels of unfairness. On the vertical axis is the probability that I
@@ -62,9 +64,13 @@ But what if I flip the coin 100 times?
 
 .. figure:: plots/power-curve-100.*
 
+   The power curve for one hundred coin flips.
+
 Or 1,000 times?
 
 .. figure:: plots/power-curve-1000.*
+
+   The power curve for one thousand coin flips.
 
 With one thousand flips, I can easily tell if the coin is rigged to give heads
 60% of the time. It's just overwhelmingly unlikely that I could flip a fair coin
@@ -75,7 +81,7 @@ With one thousand flips, I can easily tell if the coin is rigged to give heads
 The power of being underpowered
 -------------------------------
 
-After hearing all this, you might think calculations of statistical power are
+After reading all this, you might think calculations of statistical power are
 essential to medical trials. A scientist might want to know how many patients
 are needed to test if a new medication improves survival by more than 10%, and a
 quick calculation of statistical power would provide the answer. Scientists are
@@ -88,11 +94,9 @@ ever mention the statistical power of their tests.
 Consider a trial testing two different treatments for the same condition. You
 might want to know which medicine is safer, but unfortunately, side effects are
 rare. You can test each medicine on a hundred patients, but only a few in each
-group suffer serious side effects.
-
-Obviously, you won't have terribly much data to compare side effect rates. If
-four people have serious side effects in one group and three in the other, you
-can't tell if that's the medication's fault.
+group suffer serious side effects. Obviously, you won't have terribly much data
+to compare side effect rates. If four people have serious side effects in one
+group and three in the other, you can't tell if that's the medication's fault.
 
 Unfortunately, many trials conclude with "There was no statistically significant
 difference in adverse effects between groups" without noting that there was
@@ -111,28 +115,28 @@ difference.\ :cite:p:`Moher:1994,Bedard:2007dy,Brown:1987uu,Chung:1998ku`
 
 In neuroscience the problem is even worse. Suppose we aggregate the data
 collected by numerous neuroscience papers investigating one particular effect
-and arrive at a strong estimate of the effect's size. The median study has only
-a 20% chance of being able to detect that effect; only after many studies were
-aggregated could the effect be discerned. Similar problems arise in neuroscience
-studies using animal models -- which raises a significant ethical concern. If
-each individual study is underpowered, the true effect will only likely be
-discovered after many studies using many animals have been completed and
-analyzed, using far more animal subjects than if the study had been done
-properly the first time.\ :cite:p:`Button:2013dz`
+and arrive at a strong estimate of the effect's size. Because each individual
+study involved so little data, the median study has only a 20% chance of being
+able to detect the effect; only after many studies were aggregated could the
+effect be discerned. Similar problems arise in neuroscience studies using animal
+models, which raises a significant ethical concern: If each study is
+underpowered, the true effect will only likely be discovered after many studies
+using many animals have been completed and analyzed, using far more animal
+subjects than if the study had been done properly the first time.\
+:cite:p:`Button:2013dz`
 
 That's not to say scientists are lying when they state they detected no
 significant difference between groups. You're just misleading yourself when you
 assume this means there is no *real* difference. There may be a difference, but
-the study was too small to notice it.
-
-Let's consider an example we see every day.
+the study was too small to notice it. Let's consider an example we see every
+day.
 
 .. index:: right turn on red, power; right turn on red
 
 .. _rtor:
 
-The wrong turn on red
----------------------
+Wrong turns on red
+------------------
 
 In the 1970s, many parts of the United States began to allow drivers to turn
 right at a red light. For many years prior, road designers and civil engineers
@@ -164,7 +168,9 @@ nobody collected enough data to show this conclusively until several years
 later, when studies arrived clearly showing the results: significant increases
 in collisions and pedestrian accidents (sometimes up to 100% increases).\
 :cite:p:`Hauer:2004fz,Preusser:1982gp` The misinterpretation of underpowered
-studies cost lives.
+studies cost lives. Right turn on red is now a firmly established traffic
+rule allowed in most states and only occasionally banned at specific
+intersections. The underpowered studies won.
 
 .. admonition:: What should you do?
 

@@ -48,7 +48,7 @@ the results for a different drug.
 In short, the research was a mess.\ :cite:p:`Baggerly:2009gk` The errors only
 attracted attention later, some time after Baggerly and Coombes published their
 discoveries, when a trade magazine reported that the lead Duke researcher, Anil
-Potti, had falsified his résumé. Four of his papers were retracted, and Potti
+Potti, had falsified his résumé. Four of his papers were retracted and Potti
 eventually resigned from Duke. Several trials using the results were stopped,
 and a company set up to sell the technology closed.\ :cite:p:`Kolata:2011`
 

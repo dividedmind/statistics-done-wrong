@@ -12,7 +12,7 @@ Hiding the data
 
     -- Eric S. Raymond
 
-We've talked about the :ref:`common mistakes <mistakes>` made by scientists, and
+We've talked about the :ref:`common mistakes <mistakes>` made by scientists and
 how the best way to spot them is a bit of outside scrutiny. Peer review provides
 some of this scrutiny, but a peer reviewer doesn't have the time to extensively
 re-analyze data and read code for typos -- reviewers can only check that the
@@ -49,7 +49,7 @@ tests, and ordinary typos. At least half of the papers had an error, usually
 minor, but 15% reported at least one statistically significant result which was
 only significant because of an error.
 
-Next, they looked for a correlation between these errors and an unwillingness to
+Next they looked for a correlation between these errors and an unwillingness to
 share data. There was a clear relationship. Authors who refused to share their
 data were more likely to have committed an error in their paper, and their
 statistical evidence tended to be weaker.\ :cite:p:`Wicherts:2011fp` Because
@@ -88,8 +88,8 @@ reported.
 
 Roughly half of the outcomes never appeared in the scientific journal papers at
 all. Many of these were statistically insignificant results which were swept
-under the rug. [#rug]_ Another large chunk of results were not reported in
-sufficient detail for scientists to use the results for further meta-analysis.\
+under the rug. Another large chunk of results were not reported in sufficient
+detail for scientists to use the results for further meta-analysis.\
 :cite:p:`Chan:2004gm`
 
 .. index:: stopping rules; omitted
@@ -105,7 +105,7 @@ specialist journals faring worse than those in large general medicine journals.\
 Medical journals have begun to combat this problem with standards for reporting
 of results, such as the `CONSORT checklist
 <http://www.consort-statement.org/>`_. Authors are required to follow the
-checklist's requirements before submitting their studies, and editors check to
+checklist's requirements before submitting their studies and editors check to
 make sure all relevant details are included. The checklist seems to work;
 studies published in journals which follow the guidelines tend to report more
 essential detail, although not all of it.\ :cite:p:`Plint:2006uj` Unfortunately
@@ -146,14 +146,14 @@ After all, few authors bothered to publish data showing no correlation, so the
 meta-analysis could only use a biased sample.
 
 A similar study looked at :index:`reboxetine`, an antidepressant sold by
-Pfizer. Several published studies have suggested that it is effective compared
-to placebo, leading several European countries to approve it for prescription to
-depressed patients. The German Institute for Quality and Efficiency in Health
-Care, responsible for assessing medical treatments, managed to get unpublished
-trial data from Pfizer -- three times more data than had ever been published --
-and carefully analyzed it. The result: reboxetine is not effective. Pfizer had
-only convinced the public that it's effective by neglecting to mention the
-studies proving it isn't.\ :cite:p:`Eyding:2010bx`
+:index:`Pfizer`. Several published studies suggested that it is effective
+compared to placebo, leading several European countries to approve it for
+prescription to depressed patients. The German :index:`Institute for Quality and
+Efficiency in Health Care`, responsible for assessing medical treatments,
+managed to get unpublished trial data from Pfizer -- three times more data than
+had ever been published -- and carefully analyzed it. The result: reboxetine is
+not effective. Pfizer had only convinced the public that it's effective by
+neglecting to mention the studies proving it isn't.\ :cite:p:`Eyding:2010bx`
 
 This problem is commonly known as publication bias or the file-drawer problem:
 many studies sit in a file drawer for years, never published, despite the
@@ -214,7 +214,3 @@ enforced the requirement to register trials. Most studies simply vanish.
 
 .. [#xkcd]
    Joke shamelessly stolen from the alternate text of http://xkcd.com/552/.
-
-.. [#rug]
-   Why do we always say "swept under the rug"? Whose rug is it? And why don't
-   they use a vacuum cleaner instead of a broom?

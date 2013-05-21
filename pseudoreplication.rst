@@ -51,8 +51,8 @@ analysis:
 #. Average the dependent data points. For example, average all the blood
    pressure measurements taken from a single person. This isn't perfect, though;
    if you measured some patients more frequently than others, this won't be
-   reflected in the averaged number. You want a method that somehow counts
-   measurements as more reliable as more are taken.
+   reflected in the averaged number. You want a method that is somehow more
+   certain as more measurements are taken.
 #. Analyze each dependent data point separately. You could perform an analysis
    of every patient's blood pressure on day 5, giving you only one data point per
    person. But be careful, because if you do this for every day, you'll have
@@ -106,17 +106,17 @@ These problems can be mitigated by careful experimental design. If two different
 biological groups are being tested, split each group evenly between batches so
 the systematic differences do not affect each group in different ways. Carefully
 record how each batch was processed, how each sample was stored, and what
-chemical reagents were used during processing. And make this information
-available to the statisticians analyzing the data, as they can make use of it to
-detect problems.
+chemical reagents were used during processing, and make this information
+available to the statisticians analyzing the data so they use it to detect
+problems.
 
 For example, a statistician could perform :index:`principal components analysis`
 on the data to determine whether different batches gave wildly different
-results. Principal components analysis is a technique to determine which
-combination of variables in the data accounts for the most variation in the
-results; if it indicates that different batches are wildly different, the data
-can be analyzed using a hierarchical model or taking batch number into account
-as a confounding variable.
+results. Principal components analysis determines which combinations of
+variables in the data account for the most variation in the results; if it
+indicates that different batches are wildly different, the data can be analyzed
+using a hierarchical model or taking batch number into account as a confounding
+variable.
 
 .. _periods:
 
@@ -129,8 +129,8 @@ literature.\ :cite:p:`Heffner:1996vq` Suppose you want to see if chemicals found
 in the growing shoots of grasses are responsible for the start of the
 reproductive season in cute furry mammals which eat those grasses. You propose
 an experiment: place some animals in the lab, feeding half ordinary food and the
-other half food mixed with the grasses. Wait to see if their reproductive cycle
-starts early.
+other half food mixed with the grasses, then wait to see if their reproductive
+cycle starts early.
 
 But some research suggests that the reproductive cycles of mammals can
 synchronize if they live in groups. Your control group isn't independent of the

@@ -9,7 +9,7 @@ Researcher freedom: good vibrations?
 There's a common misconception that statistics is boring and monotonous. Collect
 lots of data, plug the numbers into Excel or SPSS or R, and beat the software
 with a stick until it produces some colorful charts and graphs. Done! All the
-statistician must do is read off the results.
+statistician must do is enter some commands and read off the results.
 
 But one must choose *which* commands to use. Two researchers attempting to
 answer the same question may perform different statistical analyses entirely.
@@ -27,7 +27,8 @@ There are many decisions to make:
 
 3. Which cases do I exclude? If I'm testing diet plans, maybe I want to exclude
    test subjects who came down with uncontrollable diarrhea during the trial,
-   since their results will be abnormal.
+   since their results will be abnormal. Or perhaps diarrhea is a side effect of
+   the diet and I must include it.
 
 4. What do I do with outliers? There will always be some results which are out
    of the ordinary, for reasons known or unknown, and I may want to exclude them
@@ -77,10 +78,10 @@ results that make sense.
 A group of researchers demonstrated this phenomenon in psychology with a simple
 experiment. A group of twenty undergraduates listened to either "When I'm
 Sixty-Four", by the Beatles, or "Kalimba", a song which comes with the Windows 7
-operating system for free. Afterwards, they were asked their age and their
-father's age. The two groups were compared, and it was found that "When I'm
-Sixty-Four" made undergraduates a year and a half younger on average,
-controlling for their father's age, with :math:`p < 0.05`.
+operating system. Afterwards, they were asked their age and their father's
+age. The two groups were compared, and it was found that "When I'm Sixty-Four"
+made undergraduates a year and a half younger on average, controlling for their
+father's age, with :math:`p < 0.05`.
 
 Rather than publishing *The Musical Guide to Staying Young*, the researchers
 explained the tricks they used to obtain this result. They didn't decide in

@@ -17,12 +17,12 @@ rather than gathering more data to reinforce the conclusion.
 
 When poorly done, however, this can lead to numerous false positives.
 
-For example, suppose we're comparing two groups of patients, one with a
-medication and one with a placebo. We measure the level of some protein in their
-bloodstreams as a way of seeing if the medication is working.  In this case,
-though, the medication causes no difference whatsoever: patients in both groups
-have the same average protein levels, although of course individuals have levels
-which vary slightly.
+For example, suppose we're comparing two groups of patients, one taking a
+medication and one taking a placebo. We measure the level of some protein in
+their bloodstreams as a way of seeing if the medication is working.  In this
+case, though, the medication causes no difference whatsoever: patients in both
+groups have the same average protein levels, although of course individuals have
+levels which vary slightly.
 
 We start with ten patients in each group, and gradually collect more data from
 more patients. As we go along, we do a *t* test to compare the two groups and
@@ -47,7 +47,7 @@ that the groups start out with no significant difference and stay that way as we
 collect more data, or start with a huge difference and quickly regress to having
 none. But if we wait long enough and test after every data point, we will
 eventually cross *any* arbitrary line of statistical significance; after all, we
-use the same *p* value threshold for each sample, so we will see false positives
+use the same *p* value threshold for each sample, so we can see false positives
 at any sample size. [#pdist]_ We can't usually collect infinite samples, so in
 practice this doesn't always happen, but poorly implemented stopping rules still
 increase false positive rates significantly.\ :cite:p:`Simmons:2011iw`
@@ -64,7 +64,7 @@ false positive rate.
 .. index:: clinical trial protocol; false positive rate
 
 Modern clinical trials are often required to register their statistical
-protocols in advance, and generally pre-select only a few evaluation points at
+protocols in advance and generally pre-select only a few evaluation points at
 which they test their evidence, rather than testing after every
 observation. This causes only a small increase in the false positive rate, which
 can be adjusted for by carefully choosing the required significance levels and

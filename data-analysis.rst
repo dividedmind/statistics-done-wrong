@@ -108,8 +108,8 @@ There's no mathematical tool to tell you if your hypothesis is true; you can
 only see whether it is consistent with the data, and if the data is sparse or
 unclear, your conclusions are uncertain.
 
-The psychic statistic
----------------------
+Psychic statistics
+------------------
 
 Hidden beneath these obvious interpretational difficulties are more subtle
 issues with *p* values. Their definition as the probability of obtaining a
@@ -212,4 +212,3 @@ about the strength of evidence in your experiment without guaranteeing a false
 positive rate. We cannot mix the two and simultaneously say something about one
 individual experiment and the long-run behavior of many experiments using the
 same number. The *p* value can only do one thing at a time.
-

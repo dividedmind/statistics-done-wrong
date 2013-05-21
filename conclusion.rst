@@ -2,6 +2,8 @@
 Conclusion
 **********
 
+.. index:: R. A. Fisher
+
 .. epigraph::
 
     "To consult the statistician after an experiment is finished is often merely

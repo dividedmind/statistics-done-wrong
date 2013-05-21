@@ -52,6 +52,15 @@ at any sample size. [#pdist]_ We can't usually collect infinite samples, so in
 practice this doesn't always happen, but poorly implemented stopping rules still
 increase false positive rates significantly.\ :cite:p:`Simmons:2011iw`
 
+In other words, this is another case where the *p* value is psychic. Our intent
+in running the experiment is important: had we chosen a fixed sample size in
+advance, the *p* value would be the probability of obtaining more extreme
+results with that particular sample size. But when we allow the sample size to
+vary depending on the results, the *p* value has to be calculated taking this
+into account -- with a different sample of data I would have stopped at a
+different point. Failing to account for this gives a misleading estimate of the
+false positive rate.
+
 .. index:: clinical trial protocol; false positive rate
 
 Modern clinical trials are often required to register their statistical

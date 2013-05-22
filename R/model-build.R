@@ -12,20 +12,21 @@ library(MASS)
 # maxIter - maximum number of tests
 stepF <- function(response, data, includeP, excludeP, maxIter=10) {
   model <- lm(response ~ 1, data=data)
-  f <- as.formula(paste0("~ data$", paste(names(data), collapse=" + data$")))
+  # Create formula representing the full model
+  f <- as.formula(paste0("~ ", paste(names(data), collapse=" + ")))
   modelSize <- 0
   updated <- FALSE
   for (i in 1:maxIter) {
     g = addterm(model, f, test="F")
     if (min(g[["Pr(F)"]], na.rm=TRUE) < includeP) {
-      model <- update(model, as.formula(paste0("~ . + ", paste0("data$X", which.min(g[["Pr(F)"]]) - 1))))
+      model <- update(model, as.formula(paste0("~ . + ", row.names(g)[which.min(g[["Pr(F)"]])])))
       modelSize <- modelSize + 1
       updated <- TRUE
     }
     if (modelSize > 0) {
       g = dropterm(model, formula(model), test="F")
       if (max(g[["Pr(F)"]], na.rm=TRUE) > excludeP) {
-        model <- update(model, as.formula(paste0("~ . - ", paste0("data$X", which.max(g[["Pr(F)"]]) - 1))))
+        model <- update(model, as.formula(paste0("~ . - ", row.names(g)[which.max(g[["Pr(F)"]])])))
         modelSize <- modelSize - 1
         updated <- TRUE
       }
@@ -35,7 +36,7 @@ stepF <- function(response, data, includeP, excludeP, maxIter=10) {
     }
     updated <- FALSE
   }
-  print(i)
+  print(modelSize)
   model
 }
 
@@ -47,7 +48,18 @@ makeFakeData <- function(observations, variables) {
   data.frame(data)
 }
 
-data = makeFakeData(43, 600)
-response = runif(43, min=1, max=5)
-system.time(thingy <- stepF(response, data, 0.05, 0.1, maxIter=20))
-summary(thingy)
+data <- makeFakeData(43, 600)
+response <- runif(43, min=1, max=5)
+
+system.time(thingy <- stepF(response, data, 0.05, 0.1, maxIter=40))
+summary(thingy)$r.squared
+
+# Now do R^2 tests when we leave out one item at a time
+rs <- matrix(nrow=length(response), ncol=1)
+for (i in 1:length(response)) {
+  responseToFit <- response[-i]
+  dataToFit <- data[-i,]
+  rs[i] <- summary(update(thingy, responseToFit~., data=dataToFit))$r.squared
+}
+
+mean(rs)

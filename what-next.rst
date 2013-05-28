@@ -34,12 +34,12 @@ Unfortunately, most of this research is not specifically aimed at statistics
 education. Physicists, however, have done a great deal of research on a similar
 problem: teaching introductory physics students the basic concepts of force,
 energy, and kinematics. An instructive example is a large-scale survey of
-fourteen physics courses, including 2,084 students, using the Force Concept
-Inventory to measure student understanding of basic physics concepts before and
-after taking the courses. The students began the courses with holes in their
-knowledge; at the end of the semester, they had only filled 23% of those holes,
-despite the Force Concept Inventory being regarded as too easy by their
-instructors.\ :cite:p:`Hake:1998`
+fourteen physics courses, including 2,084 students, using the :index:`Force
+Concept Inventory` to measure student understanding of basic physics concepts
+before and after taking the courses. The students began the courses with holes
+in their knowledge; at the end of the semester, they had only filled 23% of
+those holes, despite the Force Concept Inventory being regarded as too easy by
+their instructors.\ :cite:p:`Hake:1998`
 
 These results are poor because lectures do not suit how students learn. Students
 have an impressive number of preconceptions about basic physics from their
@@ -76,8 +76,8 @@ inferences?
 
 Again, methods from physics education research provide the answer. If lectures
 do not force students to confront their misconceptions and correct them, we will
-have to use a method that does. A leading example is called Peer
-Instruction. Students are assigned readings or videos before class, and class
+have to use a method that does. A leading example is called :index:`Peer
+Instruction`. Students are assigned readings or videos before class, and class
 time is spent reviewing the basic concepts and then answering conceptual
 questions. Forced to choose an answer and discuss why they believe it is true
 *before* the instructor reveals the correct answer, students immediately see
@@ -104,6 +104,8 @@ adopt these techniques and experiment with Peer Instruction, using conceptual
 tests and trial courses to see what methods work best. Students will leave with
 better preparation for the statistical demands of everyday research simply by
 changing existing courses, not introducing massive new education programs.
+
+.. index:: OpenIntro Stats
 
 But not every student learns statistics in a classroom. I was introduced to
 statistics when I needed to analyze data in a laboratory and didn't know how;
@@ -166,6 +168,8 @@ statistics. A strong course in applied statistics would be expected to cover:
   models
 * Sampling distributions and the bias and variance of estimators
 * The use of a statistical programming language such as R
+
+.. index:: OpenIntro Stats
 
 Sadly, whenever I have read the syllabus for an applied statistics course, it
 has failed to cover all of these topics. (Even the open-source statistics

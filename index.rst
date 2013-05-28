@@ -46,6 +46,7 @@ Contents
    p-value
    significant-differences
    regression
+   modeling
    freedom
    mistakes
    hiding

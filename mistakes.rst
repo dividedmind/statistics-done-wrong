@@ -52,29 +52,18 @@ Potti, had falsified his résumé. Four of his papers were retracted and Potti
 eventually resigned from Duke. Several trials using the results were stopped,
 and a company set up to sell the technology closed.\ :cite:p:`Kolata:2011`
 
-Sunshine is the best disinfectant, and many scientists have called for
-experimental data to be made available through the Internet. In some fields,
-this is now commonplace: there exist gene sequencing databases, protein
-structure databanks, astronomical observation databases, and earth observation
-collections containing the contributions of thousands of scientists. Many other
-fields, however, can't share their data due to impracticality (particle physics
-data can include many terabytes of information), privacy issues (in medical
-trials), a lack of funding or technological support, or just a desire to keep
-proprietary control of the data and all the discoveries which result from
-it. And even if the data were all available, would anyone analyze it all to spot
-errors?
-
 .. index:: reproducible research, Sweave
 
-Similarly, scientists in some fields have pushed towards making their
-statistical analyses available through clever technological tools. A tool called
-Sweave, for instance, makes it easy to embed statistical analyses performed
-using the popular R programming language inside papers written in LaTeX, the
-standard for scientific and mathematical publications. The result looks just
-like any scientific paper, but another scientist reading the paper and curious
-about its methods can download the source code, which shows exactly how all the
-numbers were calculated. But would scientists avail themselves of the
-opportunity?  Nobody gets scientific glory by checking code for typos.
+Transparency would make these errors easier to detect, so scientists in some
+fields have pushed towards making their statistical analyses available through
+clever technological tools. A tool called Sweave, for instance, makes it easy to
+embed statistical analyses performed using the popular R programming language
+inside papers written in LaTeX, the standard for scientific and mathematical
+publications. The result looks just like any scientific paper, but another
+scientist reading the paper and curious about its methods can download the
+source code, which shows exactly how all the numbers and plots were
+calculated. But would scientists avail themselves of the opportunity?  Nobody
+gets scientific glory by checking code for typos.
 
 Another solution might be :index:`replication`. If scientists carefully recreate
 the experiments of other scientists and validate their results, it is much

@@ -142,16 +142,20 @@ In the 1970s, many parts of the United States began to allow drivers to turn
 right at a red light. For many years prior, road designers and civil engineers
 argued that allowing right turns on a red light would be a safety hazard,
 causing many additional crashes and pedestrian deaths. But the 1973 oil crisis
-and its fallout spurred politicians to consider allowing right turn on red to
-save fuel wasted by commuters waiting at red lights.
+and its fallout spurred traffic agencies to consider allowing right turn on red
+to save fuel wasted by commuters waiting at red lights.
 
 Several studies were conducted to consider the safety impact of the change. For
 example, a consultant for the Virginia Department of Highways and Transportation
 conducted a before-and-after study of twenty intersections which began to allow
 right turns on red. Before the change there were 308 accidents at the
 intersections; after, there were 337 in a similar length of time. However, this
-difference was not statistically significant, and so the consultant concluded
-there was no safety impact.
+difference was not statistically significant, and the consultant indicated this
+in his report. When the report was forwarded to the Governor, the Commissioner
+of the Virginia Department of Highways and Transportation wrote that "we can
+discern no significant hazard to motorists or pedestrians from implementation"
+of right turns on red. In other words, he turned statistical insignificance into
+practical insignificance.\ :cite:p:`Hauer:2004fz`
 
 Several subsequent studies had similar findings: small increases in the number
 of crashes, but not enough data to conclude these increases were significant. As
@@ -161,16 +165,23 @@ one report concluded,
    operations (right turns) have increased after the adoption of [right turn on
    red]...
 
-Based on this data, more cities and states began to allow right turns at red
-lights. The problem, of course, is that these studies were underpowered. More
-pedestrians were being run over and more cars were involved in collisions, but
-nobody collected enough data to show this conclusively until several years
-later, when studies arrived clearly showing the results: significant increases
-in collisions and pedestrian accidents (sometimes up to 100% increases).\
-:cite:p:`Hauer:2004fz,Preusser:1982gp` The misinterpretation of underpowered
-studies cost lives. Right turn on red is now a firmly established traffic
-rule allowed in most states and only occasionally banned at specific
-intersections. The underpowered studies won.
+It does not appear that anyone attempted to aggregate these many small studies
+together to produce a more useful dataset. Instead more cities and states began
+to allow right turns at red lights, until the practice became widespread across
+the entire United States. The problem, of course, is that these studies were
+underpowered. More pedestrians were being run over and more cars were involved
+in collisions, but nobody collected enough data to show this conclusively until
+several years later, when studies arrived clearly showing the results:
+significant increases in collisions and pedestrian accidents.\
+:cite:p:`Preusser:1982gp,Zador:1984jr` Collisions involving right turns occurred
+roughly 20% more frequency, 60% more pedestrians were run over, and twice as
+many bicyclists were struck.
+
+Unfortunately, the underpowered studies won; once right turns were allowed, it
+became difficult to ban them again. Right turns are now banned at certain
+intersections where there is heightened risk for pedestrians (for example, near
+university campuses where there are many distracted pedestrians with iPhones),
+but distracted drivers often ignore the signs. The underpowered studies won.
 
 .. admonition:: What should you do?
 

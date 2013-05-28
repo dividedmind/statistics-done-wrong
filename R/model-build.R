@@ -51,15 +51,18 @@ makeFakeData <- function(observations, variables) {
 data <- makeFakeData(43, 600)
 response <- runif(43, min=1, max=5)
 
-system.time(thingy <- stepF(response, data, 0.05, 0.1, maxIter=40))
+thingy <- stepF(response, data, 0.05, 0.1, maxIter=40)
 summary(thingy)$r.squared
 
 # Now do R^2 tests when we leave out one item at a time
 rs <- matrix(nrow=length(response), ncol=1)
+sstot <- sum((response - mean(response))^2)
 for (i in 1:length(response)) {
   responseToFit <- response[-i]
   dataToFit <- data[-i,]
-  rs[i] <- summary(update(thingy, responseToFit~., data=dataToFit))$r.squared
+  nm <- stepF(responseToFit, dataToFit, 0.05, 0.1, maxIter=40)
+  ssres <- sum((predict(nm, data) - response)^2)
+  rs[i] <- 1 - ssres / sstot
 }
 
 mean(rs)

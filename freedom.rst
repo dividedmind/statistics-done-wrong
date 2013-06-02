@@ -117,7 +117,7 @@ required to draft a :index:`clinical trial protocol` explaining how the data
 will be collected and analyzed. Since the protocol is drafted before data is
 collected, they can't possibly craft their analysis to be most favorable to
 them. Unfortunately, many studies depart from their protocols and perform
-different analysis, allowing for researcher bias to creep in.\
+different analyses, allowing for researcher bias to creep in.\
 :cite:p:`Chan:2008bb,Chan:2004gm` Many other scientific fields have no protocol
 publication requirement at all.
 

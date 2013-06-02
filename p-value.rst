@@ -201,9 +201,9 @@ themselves with firearms. Now, 34% of these cases were in burglaries, giving us
 845,000 burglaries stymied by gun owners. But in 1992, there were only 1.3
 million burglaries committed while someone was at home. Two thirds of these
 occurred while the homeowners were asleep and were discovered only after the
-burglar had been left. That leaves 430,000 burglaries involving homeowners who
-were at home and awake to confront the burglar -- 845,000 of which, we are led
-to believe, were stymied by gun-toting residents.\ :cite:p:`Hemenway:1997up`
+burglar had left. That leaves 430,000 burglaries involving homeowners who were
+at home and awake to confront the burglar -- 845,000 of which, we are led to
+believe, were stymied by gun-toting residents.\ :cite:p:`Hemenway:1997up`
 
 Whoops.
 
@@ -267,7 +267,7 @@ As you can see, making multiple comparisons means multiple chances for a false
 positive. For example, if I test 20 jelly bean flavors which do not cause acne
 at all, and look for a correlation at :math:`p < 0.05` significance, I have a
 64% chance of a false positive result.\ :cite:p:`Smith:1987uz` If I test 45
-materials, the chance of false positive is as high as 90%.
+flavors, the chance of false positive is as high as 90%.
 
 It's easy to make multiple comparisons, and it doesn't have to be as obvious as
 testing twenty potential medicines. Track the symptoms of a dozen patients for a
@@ -406,10 +406,10 @@ results, no more than *q* percent will be false positives.\
 
 The Benjamini-Hochberg procedure is fast and effective, and it has been widely
 adopted by statisticians and scientists in certain fields. It usually provides
-better statistical power than the Bonferroni correction and friends while giving
-more intuitive results. It can be applied in many different situations, and
-variations on the procedure provide better statistical power when testing
-certain kinds of data.
+better statistical power than the Bonferroni correction and similar methods
+while giving more intuitive results. It can be applied in many different
+situations, and variations on the procedure provide better statistical power
+when testing certain kinds of data.
 
 Of course, it's not perfect. In certain strange situations, the
 Benjamini-Hochberg procedure gives silly results, and it has been mathematically

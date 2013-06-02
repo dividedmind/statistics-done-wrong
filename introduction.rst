@@ -34,9 +34,9 @@ published research findings are probably false.\ :cite:p:`Ioannidis:2005bw`
 *Statistics Done Wrong* is a guide to the more egregious statistical fallacies
 regularly committed in the name of science. Because many scientists receive no
 formal statistical training -- and because I do not want to limit my audience to
-the statistically initiated -- it assumes no formal statistical training. Some
-readers may be able to easily skip through the first chapter, although I
-recommend you skim it to become familiar with my explanatory style.
+the statistically initiated -- this book assumes no formal statistical
+training. Some readers may be able to easily skip through the first chapter,
+although I recommend you skim it to become familiar with my explanatory style.
 
 For those who perform statistical analyses for their day jobs, there are "What
 should you do?" boxes throughout the text to explain what statistical techniques
@@ -66,12 +66,12 @@ the study regurgitated from some overenthusiastic university press release to
 criticize the research's statistical design. [#conspiracy]_
 
 This is stupid. A little knowledge of statistics is not an excuse to reject all
-of modern science offhand. A research paper's statistical methods can only be
-judged in detail and in context with the rest of its methods: the study design,
-measurement techniques, cost constraints, and goals. Use your statistical
-knowledge to better understand the strengths, limitations, and potential biases
-of research, rather than shooting down any paper which seems to misuse a *p*
-value.
+of modern science out of hand. A research paper's statistical methods can only
+be judged in detail and in context with the rest of its methods: the study
+design, measurement techniques, cost constraints, and goals. Use your
+statistical knowledge to better understand the strengths, limitations, and
+potential biases of research, rather than shooting down any paper which seems to
+misuse a *p* value.
 
 In short, please practice statistics responsibly. I hope you'll join me in a
 quest to improve the science we all rely on.

@@ -78,12 +78,12 @@ really works, so we will call the difference between medication and placebo
 
 The *p* value can be extended to more complex analyses than the comparison of
 two groups. If it's possible to construct a model which states the likelihood of
-each possible outcome when we assume a particular model is true, it's possible
-to compute a *p* value for each outcome. When scientists fit lines to data they
-get a *p* value for the hypothesis that the relationship between the variables
-is zero; when they test if data follows a certain distribution, or if certain
-variables are independent of each other, or use one of many dozens of other
-assorted statistical tests, they use *p* values.
+each possible outcome under some assumption, it's possible to compute a *p*
+value for each outcome. When scientists fit lines to data they get a *p* value
+for the hypothesis that the relationship between the variables is zero; when
+they test if data follows a certain distribution, or if certain variables are
+independent of each other, or use one of many dozens of other assorted
+statistical tests, they use *p* values.
 
 .. index:: effect size
 

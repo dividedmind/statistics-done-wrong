@@ -20,7 +20,8 @@ simple example.
 Suppose a gambler is convinced that an opponent has an unfair coin: rather than
 getting heads half the time and tails half the time, the proportion is
 different, and the opponent is using this to cheat at incredibly boring
-coin-flipping games. How to prove it?
+coin-flipping games. Maybe his coin gives heads 54% of the time, and so he can
+bet on heads and win money on average. How to prove it?
 
 You can't just flip the coin a hundred times and count the heads. Even with a
 perfectly fair coin, you don't always get fifty heads:
@@ -30,9 +31,15 @@ perfectly fair coin, you don't always get fifty heads:
   The likelihood of getting different numbers of heads, if you flip a coin a
   hundred times.
 
-You can see that 50 heads is the most likely option, but it's also reasonably
-likely to get 45 or 57. So if you get 57 heads, the coin might be rigged, but
-you might just be lucky.
+You can see that 50 heads is the most likely option, but it still happens less
+than 10% of the time, because of the plethora of options. It's also reasonably
+likely to get 45 or 57, and 95% of the time, you will get between 40 and 60
+heads. So if you get 57 heads, the coin might be rigged, but you might just be
+lucky. On the other hand, if you get more than 60 or fewer than 40 heads, you
+have obtained a comparatively unlikely result, and you have reason to be
+suspicious. More extreme results become yet more unlikely: there is only a 1%
+chance of obtaining more than 63 or fewer than 37 heads, and reaching 90 or 100
+heads is almost impossible.
 
 Let's work out the math. Let's say we look for a *p* value of 0.05 or less, as
 scientists typically do. That is, if I count up the number of heads after 10 or
@@ -41,32 +48,46 @@ scientists typically do. That is, if I count up the number of heads after 10 or
 that size or larger with a fair coin. Otherwise, I can conclude nothing: the
 coin may be fair, or it may be only a little unfair. I can't tell.
 
-So, what happens if I flip a coin ten times and apply these criteria?
-
-.. index:: power curve, power; coin flip
-
-.. figure:: /plots/power-curve-10.*
-
-   The power curve for ten coin flips.
-
-This is called a *power curve.* Along the horizontal axis, we have the different
-possibilities for the coin's true probability of getting heads, corresponding to
-different levels of unfairness. On the vertical axis is the probability that I
-will conclude the coin is rigged after ten tosses, based on the *p* value of the
-result.
-
-You can see that if the coin is rigged to give heads 60% of the time, and I flip
-the coin 10 times, I only have a 20% chance of concluding that it's
-rigged. There's just too little data to separate rigging from random
-variation. The coin would have to be incredibly biased for me to always notice.
-
-But what if I flip the coin 100 times?
+So, what happens if I flip a coin a hundred times and apply these criteria?
 
 .. figure:: plots/power-curve-100.*
 
    The power curve for one hundred coin flips.
 
-Or 1,000 times?
+.. index:: power curve, power; coin flip
+
+This is called a *power curve.* Along the horizontal axis, we have the different
+possibilities for the coin's true probability of getting heads, corresponding to
+different levels of unfairness. On the vertical axis is the probability that I
+will conclude the coin is rigged after 100 tosses, based on the *p* value of the
+result.
+
+We can derive the power curve by calculating the probabilities of various
+coin-flipping outcomes. The power for any given true probability of heads is the
+probability that this coin will give more than 60 or fewer than 40 heads after
+100 tosses, because this range includes 95% of outcomes for a fair coin --
+anything outside the range is a :math:`p < 0.05` anomaly. (In this case I
+included both more than 60 and fewer than 40 heads, because I only care about
+the size of the anomaly, not whether it favors heads or tails. This is known as
+a two-sided test. I could also only count the probability of getting more than
+60 heads, making a one-sided test.)
+
+You can see that if the coin is rigged to give heads 60% of the time and I flip
+the coin 100 times, I only have a 50% chance of concluding that it's
+rigged. There's just too little data to always separate rigging from random
+variation. The coin would have to be incredibly biased for me to always
+notice. Alternately, if the coin is perfectly fair, I will falsely conclude it
+is biased 5% of the time, because I will get sufficiently large deviations by
+chance that often.
+
+But what if I flip the coin 10 times?
+
+.. figure:: /plots/power-curve-10.*
+
+   The power curve for ten coin flips.
+
+Clearly ten flips are wholly inadequate to detect a rigged coin unless it has
+heads printed on both sides. What about 1,000 flips?
 
 .. figure:: plots/power-curve-1000.*
 
@@ -74,19 +95,27 @@ Or 1,000 times?
 
 With one thousand flips, I can easily tell if the coin is rigged to give heads
 60% of the time. It's just overwhelmingly unlikely that I could flip a fair coin
-1,000 times and get more than 600 heads.
+1,000 times and get more than 600 heads; 95% of the time, I will get between 469
+and 531.
+
+Unfortunately, our hypothetical gambler may not have the time to flip his
+opponent's coin 1,000 times to test its fairness, so performing a sufficiently
+powerful test may be out of the question for purely practical reasons. It turns
+out that similar problems affect scientific research: many scientists do not
+have the resources to conduct studies with adequate statistical power to detect
+what they are looking for.
 
 .. _power-underpowered:
 
 The power of being underpowered
 -------------------------------
 
-After reading all this, you might think calculations of statistical power are
-essential to medical trials. A scientist might want to know how many patients
-are needed to test if a new medication improves survival by more than 10%, and a
-quick calculation of statistical power would provide the answer. Scientists are
-usually satisfied when the statistical power is 0.8 or higher, corresponding to
-an 80% chance of detecting a real effect.
+You might think calculations of statistical power are essential to medical
+trials: A scientist might want to know how many patients are needed to test if a
+new medication improves survival by more than 10%, and a quick calculation of
+statistical power would provide the answer. Scientists are usually satisfied
+when the statistical power is 0.8 or higher, corresponding to an 80% chance of
+detecting a real effect.
 
 However, few scientists ever perform this calculation, and few journal articles
 ever mention the statistical power of their tests.
@@ -105,13 +134,13 @@ differences.\ :cite:p:`Tsang:2009iw` And so doctors erroneously think the
 medications are equally safe, when one could well be much more dangerous than
 the other.
 
-You might think this is only a problem when the medication only has a weak
-effect. But no: in one sample, 64% of randomized controlled medical trials
-didn't collect enough data to detect a 50% difference between treatment
-groups. Fifty percent! Even if one medication decreases symptoms by 50% more
-than the other medication, there's insufficient data to conclude it's more
-effective. And 84% of trials didn't have the power to detect a 25%
-difference.\ :cite:p:`Moher:1994,Bedard:2007dy,Brown:1987uu,Chung:1998ku`
+Perhaps this is only a problem when the medication only has a weak effect. But
+no: in one sample, 64% of randomized controlled medical trials didn't collect
+enough data to detect a 50% difference between treatment groups. Fifty percent!
+Even if one medication decreases symptoms by 50% more than the other medication,
+there's insufficient data to conclude it's more effective. And 84% of trials
+didn't have the power to detect a 25% difference.\
+:cite:p:`Moher:1994,Bedard:2007dy,Brown:1987uu,Chung:1998ku`
 
 In neuroscience the problem is even worse. Suppose we aggregate the data
 collected by numerous neuroscience papers investigating one particular effect

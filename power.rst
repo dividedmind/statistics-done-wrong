@@ -203,7 +203,7 @@ in collisions, but nobody collected enough data to show this conclusively until
 several years later, when studies arrived clearly showing the results:
 significant increases in collisions and pedestrian accidents.\
 :cite:p:`Preusser:1982gp,Zador:1984jr` Collisions involving right turns occurred
-roughly 20% more frequency, 60% more pedestrians were run over, and twice as
+roughly 20% more frequently, 60% more pedestrians were run over, and twice as
 many bicyclists were struck.
 
 Unfortunately, the underpowered studies won; once right turns were allowed, it

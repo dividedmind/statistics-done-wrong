@@ -31,120 +31,77 @@ find a correlation where none exists. The problem isn't fraud but poor
 statistical education -- poor enough that some scientists conclude that most
 published research findings are probably false.\ :cite:p:`Ioannidis:2005bw`
 
-*Statistics Done Wrong* is a guide to the more egregious statistical fallacies
-regularly committed in the name of science. Because many scientists receive no
-formal statistical training -- and because I do not want to limit my audience to
-the statistically initiated -- this book assumes no formal statistical
-training. Some readers may be able to easily skip through the first chapter,
-although I recommend you skim it to become familiar with my explanatory style.
+The misuse of statistics ranges from the trivial to the complex. Consider a
+semi-truck manufacturer trying to meet government noise regulations; modern
+trucks are required to have certain noise-mitigating features and meet maximum
+noise requirements to be sold. After performing noise tests on a truck in the
+spring, the truck was subjected to durability tests all summer and ended up
+almost entirely rebuilt with new parts. With a new muffler, however, the truck
+was half a decibel quieter -- a great benefit when regulations require decibels
+to be shaved off, since it freed the manufacturer from finding noise savings
+elsewhere. The new muffler was made by a different supplier, and it was soon
+ordered that all new trucks would be built with this muffler.
 
-For those who perform statistical analyses for their day jobs, there are "What
-should you do?" boxes throughout the text to explain what statistical techniques
-you might use to avoid common pitfalls. This is not a statistics textbook, and I
-do not teach you how to use these techniques in any technical detail. There are
-hundreds of other textbooks (or consulting statisticians) you could use for that
-information. I hope only to make you aware of the most common problems so you
-are able to pick the statistical technique best suited to your problem.
+But the truck had been entirely rebuilt. Most of the engine parts were new. The
+noise tests were performed at different times of year, and later investigation
+found that engines can be louder or quieter just because of outside air
+temperature -- and truck manufacturers will often deliberately certify their
+trucks in hot climates so they seem quieter. Was that half-decibel change a
+result of a new muffler, the engine being entirely rebuilt after durability
+testing, or temperature and testing variations? Obviously, we can't tell after
+testing the engine only once, and hundreds of thousands of dollars of contracts
+were changed on the basis of no good evidence.
 
-If I do pique your curiosity about a statistical topic, a comprehensive
-bibliography is included, and every statistical misconception is accompanied by
-several references. I have omitted a great deal of mathematics in this guide in
-favor of conceptual understanding, but if you prefer a rigorous treatment, I
-encourage you to read the original papers. There is also a reasonably
-comprehensive index which contains each example I have used, so if you remember
-a story involving walruses but don't know where to look for it, start there
-first.
+This is, obviously, an extreme example. Most statistical errors committed by
+scientists don't fit neatly into two paragraphs, but they do have massive
+impacts on the real world. Medical clinical trials direct our healthcare and
+determine the safety of powerful new prescription drugs; criminologists evaluate
+different strategies to mitigate crime and unrest; epidemiologists try to slow
+down new diseases; marketers and business managers try to find the best way to
+sell their products; and it all comes down to statistics. Statistics done
+wrong.
 
-I must caution you before you read this guide. Whenever we understand something
-that few other people do, it is tempting to find every available opportunity to
-prove it. Should *Statistics Done Wrong* miraculously become a New York Times
-bestseller, I expect to see what Paul Graham calls "middlebrow dismissals" as a
-response to any science news in the popular press: Rather than taking the time
-to understand the interesting parts of scientific research, armchair
-statisticians will snipe at the news articles, using the vague description of
-the study regurgitated from some overenthusiastic university press release to
-criticize the research's statistical design. [#conspiracy]_
+Anyone who's ever complained about doctors not making up their minds about what
+is good or bad for you understands the scope of the problem. We now have a
+dismissive attitude toward news articles claiming some food or diet or exercise
+might harm us -- we just wait for the inevitable second study some months later,
+giving exactly the opposite result. As it turns out, our instincts are right: in
+many scientific fields, initial results tend to be contradicted by later
+results. It seems the pressure to publish exciting results early and often has
+surpassed the pressure to publish carefully-checked results supported by a
+surplus of evidence.
 
-This is stupid. A little knowledge of statistics is not an excuse to reject all
-of modern science out of hand. A research paper's statistical methods can only
-be judged in detail and in context with the rest of its methods: the study
-design, measurement techniques, cost constraints, and goals. Use your
-statistical knowledge to better understand the strengths, limitations, and
-potential biases of research, rather than shooting down any paper which seems to
-misuse a *p* value.
+Let's not judge so quickly, though. Some statistical errors result from a simple
+lack of funding or resources. Consider the mid-1970s movement to allow American
+drivers to turn right at red lights, saving gas and time; the evidence
+suggesting this would cause no more crashes than before was statistically
+flawed, as we will see soon, and the change cost many lives. The only factor
+holding back traffic safety researchers was a lack of data. Had they the money
+to collect more data and perform more studies -- and the time to collate results
+from independent researchers in many different states -- the truth would have
+been obvious.
 
-In short, please practice statistics responsibly. I hope you'll join me in a
-quest to improve the science we all rely on.
+While Hanlon's razor directs us to "never attribute to malice that which is
+adequately explained by incompetence," there are some published results of the
+"lies, damned lies and statistics" sort. The pharmaceutical industry seems
+particularly tempted to bias the evidence by neglecting to publish studies which
+show their drugs do not work; subsequent reviews may be pleased to find that
+twelve studies indicate a drug works, without knowing that eight other
+unpublished studies suggest it does not. Of course, it's likely that such
+results would not be published by peer-reviewed journals even if they were
+submitted -- a strong bias against unexciting results means that studies saying
+"it didn't work" will never appear, and other researchers will never see
+them. Missing data and publication bias plague science
 
-.. _changelog:
+Even properly-done statistics can't be trusted. The plethora of available
+statistical techniques and analyses grants researchers an enormous amount of
+freedom when analyzing their data, and it is trivially easy to "torture the data
+until it confesses." Just try several different analyses offered by your
+statistical software until one of them turns up an interesting result, then
+pretend this is the analysis you intended to do all along. Without psychic
+powers it's almost impossible to tell when a published result has been obtained
+through data torture.
 
-Changes
--------
-
-Updated January 2013 with a relevant example of the base-rate fallacy:
-:ref:`survey estimates of gun usage <base-rate-gun>`.
-
-Updated April and May 2013 for the Second Edition with more details on :ref:`the
-interaction of truth inflation and early stopping rules <truth-inflation>`,
-:ref:`researcher freedom in neuroscience <red-herrings>`, :ref:`poor statistical
-power in neuroscience <power-underpowered>`, :ref:`how to control the false
-discovery rate <false-discovery>`, :ref:`publication bias and poor reporting
-<hiding-data>`, :ref:`underpowered studies and right turn on red <rtor>`,
-:ref:`the misuses of confidence intervals <confidence-intervals>`,
-:ref:`pseudoreplication and the synchronization of menstrual cycles <periods>`,
-:ref:`what can be done to save statistics <what-next>`, and additional
-references, examples and details in many other places. I have also added "What
-should you do?" boxes to each chapter explaining the correct approach to avoid
-the statistical problems discussed.
-
-.. _contact:
-
-Contact
--------
-
-I've tried my best, but inevitably this guide will contain errors and
-omissions. If you spot an error, have a question, or know a common fallacy I've
-missed, email me at stats at refsmmat dot com.
-
-Acknowledgments
----------------
-
-Thanks to Dr. James Scott, whose statistics course gave me the background
-necessary to write this; to Matthew Watson and CharonY, who gave invaluable
-feedback and suggestions as I wrote my drafts; to my parents, who gave
-suggestions and feedback; to Dr. Brent Iverson, whose seminar first motivated me
-to learn about statistical abuse; and to all the scientists and statisticians
-who have broken the rules and given me a reason to write.
-
-Any errors in explanations are my own.
-
-Copyright note
---------------
-
-The xkcd cartoon used inside is available under the `Creative Commons
-Attribution-NonCommercial 2.5 License
-<http://creativecommons.org/licenses/by-nc/2.5/>`_, and may not be used
-commercially without permission from the author. `More
-details. <http://xkcd.com/license.html>`_
-
-Disclaimer
-----------
-
-The advice in this guide cannot substitute for the advice of a trained
-statistical professional. If you think you're suffering from any serious
-statistical error, please consult a statistician immediately. I shall not have
-any liability from any injury to your dignity, statistical error or
-misconception suffered as a result of your use of this website.
-
-Use of this guide to justify rejecting the results of a scientific study without
-reviewing the evidence in any detail whatsoever is grounds for being slapped
-upside the head with a very large statistics textbook.  This guide should help
-you find statistical errors, not allow you to selectively ignore science you
-don't like.
-
-.. [#conspiracy] Incidentally, I think this is why conspiracy theories are so
-   popular. Once you believe you know something that nobody else does (the
-   government is out to get us!), you take every available opportunity to use
-   that knowledge, and you end up reacting to every news article with reasons
-   why it was falsified by the government. Please don't do the same with
-   statistical errors.
+In the coming pages I hope to introduce you to these common errors and many
+others. Many of the errors are prevalent in vast swathes of the published
+literature, casting doubt on the findings of thousands of papers.

@@ -39,6 +39,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   preface
    introduction
    data-analysis
    power

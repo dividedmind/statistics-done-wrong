@@ -111,10 +111,12 @@ But not every student learns statistics in a classroom. I was introduced to
 statistics when I needed to analyze data in a laboratory and didn't know how;
 until strong statistics education is more widespread, many students and
 researchers will find themselves in the same position, and they need
-resources. We need more freely available educational material developed with
-common errors and applications in mind.  Projects like `OpenIntro Stats
-<http://www.openintro.org/stat/textbook.php>`__ are promising but incomplete,
-and I hope to see more in the near future.
+resources. The masses of aspiring scientists who type "how to do a t test" into
+Google need freely available educational material developed with common errors
+and applications in mind. Projects like `OpenIntro Stats
+<http://www.openintro.org/stat/textbook.php>`__, an open-source and
+freely-redistributable introductory statistics textbook, are promising but
+incomplete, and I hope to see more progress in the near future.
 
 Scientific publishing
 ---------------------

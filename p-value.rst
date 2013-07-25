@@ -194,12 +194,12 @@ from being mugged. You could compare these numbers to law enforcement statistics
 of gun use in homicides and make an informed decision about whether the benefits
 outweigh the downsides.
 
-Such surveys have been done, with interesting results. One 1992 telephone survey
-estimated that American civilians use guns in self-defense up to 2.5 million
-times every year -- that is, about 1% of American adults have defended
-themselves with firearms. Now, 34% of these cases were in burglaries, giving us
-845,000 burglaries stymied by gun owners. But in 1992, there were only 1.3
-million burglaries committed while someone was at home. Two thirds of these
+Such surveys have been done, with interesting results. One rigorous 1992
+telephone survey estimated that American civilians use guns in self-defense up
+to 2.5 million times every year -- that is, about 1% of American adults defend
+themselves with firearms yearly. Now, 34% of these cases were in burglaries,
+giving us 845,000 burglaries stymied by gun owners. But in 1992, there were only
+1.3 million burglaries committed while someone was at home. Two thirds of these
 occurred while the homeowners were asleep and were discovered only after the
 burglar had left. That leaves 430,000 burglaries involving homeowners who were
 at home and awake to confront the burglar -- 845,000 of which, we are led to
@@ -207,13 +207,23 @@ believe, were stymied by gun-toting residents.\ :cite:p:`Hemenway:1997up`
 
 Whoops.
 
-What happened? Why did the survey overestimate the use of guns in self-defense?
-Well, for the same reason that mammograms overestimate the incidence of breast
-cancer: there are far more opportunities for false positives than false
-negatives. If 99.9% of people have never used a gun in self-defense, but 1% of
-those people will answer "yes" to any question for fun, and 1% want to look
-manlier, and 1% misunderstand the question, then you'll end up *vastly*
-overestimating the use of guns in self-defense.
+One explanation is that burglaries are dramatically underreported. Perhaps
+Americans who fend off a burglar with their firearms don't bother calling
+police, because they've solved the problem themselves. But it would require
+*massive* underreporting of burglaries to explain the problem, and the
+burglaries figure isn't based on police reports anyway -- it's derived from the
+National Crime Victimization Survey, which asks tens of thousands of Americans
+in detailed interviews about their experiences with crime. Thousands of survey
+respondents would have to lie to explain this disparity.
+
+So what happened? Why did the survey overestimate the use of guns in
+self-defense?  Well, for the same reason that mammograms overestimate the
+incidence of breast cancer: there are far more opportunities for false positives
+than false negatives. If 99.9% of people have never used a gun in self-defense,
+but 1% of those people will answer "yes" to any question for fun, and 1% want to
+look manlier, and 1% misunderstand the question, then you'll end up *vastly*
+overestimating the use of guns in self-defense. The true rate of 0.1% will be
+inflated by a factor of 31.
 
 What about false negatives? Could this effect be balanced by people who say "no"
 even though they gunned down a mugger last week? No. If very few people
@@ -225,13 +235,23 @@ probability that someone will falsely claim they've used a gun in
 self-defense. Even if *p* is small, your final answer will be wildly wrong.
 
 To lower *p*, criminologists make use of more detailed surveys. The National
-Crime Victimization surveys, for instance, use detailed sit-down interviews with
+Crime Victimization Survey, for instance, uses detailed sit-down interviews with
 researchers where respondents are asked for details about crimes and their use
-of guns in self-defense. With far greater detail in the survey, researchers can
-better judge whether the incident meets their criteria for self-defense. The
-results are far smaller -- something like 65,000 incidents per year, not
-millions.  There's a chance that survey respondents underreport such incidents,
-but a much smaller chance of massive overestimation.
+of guns in self-defense. Only respondents who report being burgled are asked
+about how they defended themselves, lowering the false-positive rates
+significantly. With far greater detail in the survey, and many times more survey
+respondents than the offending telephone survey, researchers can better judge
+whether the incident meets their criteria for self-defense. The results are far
+smaller -- something like 65,000 incidents per year, not millions.  There's a
+chance that survey respondents underreport such incidents, but a much smaller
+chance of massive overestimation.
+
+Unfortunately, the massively inflated figure is still trumpeted by gun rights
+organizations such as the National Rifle Association, misinforming the public
+debate on gun safety, while National Crime Victimization Survey results hold
+steady at far lower numbers. The gun control debate is far more complicated than
+a single factoid, of course, but it's best to start without egregious
+exaggeration.
 
 .. index:: multiple comparisons
 

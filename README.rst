@@ -12,7 +12,7 @@ guide, and the scripts in the ``R/`` directory can be used to generate the plots
 used in the text.
 
 I use some extensions to Sphinx (in the ``extensions/`` directory) borrowed from
-`Sphinxtr <https://github.com/jterrace/sphinxtr>`__, which provides modified
+`Sphinxtr <https://github.com/jterrace/sphinxtr>`__, which provides a modified
 `sphinx-natbib <https://bitbucket.org/wnielson/sphinx-natbib>`__ which provides
 LaTeX output. This means that you will need to run BibTeX in the
 ``_build/latex/`` directory after running ``make latexpdf``, then re-run

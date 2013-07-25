@@ -14,7 +14,7 @@ http://xkcd.com/882/
 http://xkcd.com/license.html
 
 The Sphinx extensions contained in the "extensions/" directory are copyrighted
-by their respective authors
+by their respective authors.
 
 The R and Mathematica code contained in the "R/" directory, used to generate the
 plots and diagrams used in the document, is available under the MIT License,

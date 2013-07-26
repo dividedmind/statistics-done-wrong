@@ -76,7 +76,8 @@ the truck.
 You often hear people quoting *p* values as a sign that error is
 unlikely. "There's only a 1 in 10,000 chance this result arose as a statistical
 fluke," they say, because they got :math:`p = 0.0001`. No! This ignores the base
-rate, and is called the *base rate fallacy*. Remember how *p* values are defined:
+rate, and is called the *base rate fallacy*. Remember how *p* values are
+defined:
 
   The P value is defined as the probability, under the assumption of no effect
   or no difference (the null hypothesis), of obtaining a result equal to or more
@@ -84,7 +85,8 @@ rate, and is called the *base rate fallacy*. Remember how *p* values are defined
 
 A *p* value is calculated under the assumption that the medication *does not
 work* and tells us the probability of obtaining the data we did, or data more
-extreme than it. It does *not* tell us the chance the medication is effective.
+extreme than it. It does *not* tell us the chance the medication is effective.\
+[#cern]_
 
 When someone uses their *p* values to say they're probably right, remember
 this. Their study's probability of error is almost certainly much higher. In
@@ -451,6 +453,14 @@ rate. But it's a start, and it's much better than nothing.
    * Learn to use prior estimates of the base rate to calculate the probability
      that a given result is a false positive (as in the mammogram example). One
      good method is Bayes' Rule.
+
+.. [#cern] When news came from the Large Hadron Collider that physicists had
+   discovered evidence for the Higgs boson, a long-theorized fundamental
+   particle, every article tried to quote a probability: "There's only a 1 in
+   1.74 million chance that this result is a fluke," they'd say, or something
+   along those lines -- but every news source quoted a different number. Not
+   only did they not understand the number they were calculating, they couldn't
+   calculate it correctly, either.
 
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.

@@ -67,12 +67,16 @@ make little improvement in student understanding, because students who
 misunderstand simply find ways to reinterpret the demonstration in light of their
 misunderstanding.\ :cite:p:`Crouch:2004ia`
 
-Obviously, then, simply assigning students to read a book like this one will not
-be much help if they fundamentally misunderstand statistics. Much of basic
-statistics is not intuitive (or, at least, not commonly taught in an intuitive
-fashion), and the opportunity for misunderstanding and error is massive. How can
-we best teach our students to analyze data and make reasonable statistical
-inferences?
+At least one study has confirmed this effect in the teaching of statistical
+hypothesis testing. Even after reading an article explicitly warning against
+misinterpreting *p* values and hypothesis test results in general, only 13% of
+students correctly answered a questionnaire on hypothesis testing.\
+:cite:p:`Haller:2002vo` Obviously, then, simply assigning students to read a
+book like this one will not be much help if they fundamentally misunderstand
+statistics. Much of basic statistics is not intuitive (or, at least, not
+commonly taught in an intuitive fashion), and the opportunity for
+misunderstanding and error is massive. How can we best teach our students to
+analyze data and make reasonable statistical inferences?
 
 Again, methods from physics education research provide the answer. If lectures
 do not force students to confront their misconceptions and correct them, we will

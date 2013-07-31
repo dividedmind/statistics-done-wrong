@@ -130,22 +130,23 @@ with equal probability. A simple way to calculate this is to use the
 :index:`binomial distribution`, the probability distribution of obtaining a
 certain number of successes after a number of trials where there is a fixed
 probability of success. After some arithmetic, I determine that :math:`p =
-0.073`. Because :math:`p > 0.05` it is possible, but unlikely, that you guessed
-your way to success.\ :cite:p:`Wagenmakers:2007bg`
+0.073`. Because :math:`p > 0.05` I conclude it is possible, but unlikely, that
+you guessed your way to success.\ :cite:p:`Wagenmakers:2007bg`
 
 .. index:: negative binomial distribution
 
 But perhaps it was not my original plan to ask you only twelve questions. I
 might have had a book of thousands of questions and simply asked questions until
-you got three wrong. Now the number of questions is not fixed, and I must
-compute the probability of various ways of getting three questions wrong after
-ten or fifteen or forty-seven questions. Also, I can only consider cases where
-you got the last question wrong and reached three total wrong answers. Now I
-can't use the binomial distribution to calculate my result, and instead I use
-the *negative* binomial distribution (which is not simply the negative of the
-binomial distribution, but a different distribution entirely). I find that
-:math:`p = 0.033`, and since :math:`p < 0.05` I reject the hypothesis that you
-randomly guessed.
+you got three wrong. Now I can't use the binomial distribution, because the *p*
+value includes the probability of results equal to *or more extreme* than what I
+obtained. So I must also compute the probability of various ways of getting
+three questions wrong after fifteen or twenty or forty-seven questions. Also, I
+can only consider cases where you got the last question wrong and reached three
+total wrong answers. Now I can't use the binomial distribution to calculate my
+result, and instead I use the *negative* binomial distribution (which is not
+simply the negative of the binomial distribution, but a different distribution
+entirely). I find that :math:`p = 0.033`, and since :math:`p < 0.05` I reject
+the hypothesis that you randomly guessed.
 
 This is immensely dissatisfying, since it implies that two experiments can
 collect exactly identical data which nevertheless represents different amounts

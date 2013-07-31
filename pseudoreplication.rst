@@ -133,9 +133,9 @@ other half food mixed with the grasses, then wait to see if their reproductive
 cycle starts early.
 
 But some research suggests that the reproductive cycles of mammals can
-synchronize if they live in groups. Your control group isn't independent of the
-group eating the grasses, because they're in the same lab and exposed to the
-same pheromones.
+synchronize if they live in groups, due to pheromones emitted by animals in
+estrous. Your control group isn't independent of the group eating the grasses,
+because they're in the same lab and exposed to the same pheromones.
 
 You've probably heard about the research suggesting that reproductive cycles
 synchronize -- a famous paper in the early 1970s suggested that women's
@@ -167,9 +167,12 @@ whether this deviation decreased.
 
 Unfortunately, the statistical test used requires the five points to be
 independent, whereas for most women, the date one period starts is related
-strongly to the date the next starts. The five samples weren't independent, and
-so we only thought our experiment could have pseudoreplication because we
-believed a pseudoreplicated study.\ :cite:p:`Yang:2006wf,Schank:2009fo`
+strongly to the date the next starts. If the women started the study
+synchronized by luck, they will remain roughly synchronized for the rest of the
+study, and five samples are no better than one. The five samples weren't
+independent, and so we only thought our experiment could have pseudoreplication
+because we believed a pseudoreplicated study.\
+:cite:p:`Yang:2006wf,Schank:2009fo`
 
 Similar problems exist with other studies claiming that small furry mammals
 synchronize their estrous cycles, and subsequent research using corrected

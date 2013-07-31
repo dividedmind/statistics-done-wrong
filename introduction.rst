@@ -91,7 +91,8 @@ unpublished studies suggest it does not. Of course, it's likely that such
 results would not be published by peer-reviewed journals even if they were
 submitted -- a strong bias against unexciting results means that studies saying
 "it didn't work" will never appear, and other researchers will never see
-them. Missing data and publication bias plague science
+them. Missing data and publication bias plague science, skewing our perceptions
+of important issues.
 
 Even properly-done statistics can't be trusted. The plethora of available
 statistical techniques and analyses grants researchers an enormous amount of

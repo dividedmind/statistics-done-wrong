@@ -96,6 +96,36 @@ early drugs don't make it through trials), it's likely that *most*
 
 One good example is medical diagnostic tests.
 
+.. admonition:: Take a *p* value quiz
+
+   A study by Heiko Haller and Stefan Krauss found that an overwhelming majority
+   of statistics students -- and instructors -- failed a simple quiz about *p*
+   values.\ :cite:p:`Haller:2002vo` Try their quiz (slightly adapted for this
+   guide) for yourself and see if you've learned what *p* really means.
+
+   Suppose you are testing some medical procedure. You have two treatment
+   groups, one which undergoes the procedure and one which does not, and you
+   measure their performance on some standard task (a fitness test, for
+   instance) afterward. You compare the mean score of each group using a simple
+   *t* test, and you obtain :math:`p = 0.01`, indicating there is a
+   statistically significant difference between means.
+
+   True or false:
+
+   1. You have absolutely disproved the null hypothesis that there is no
+      difference between means.
+   2. You have found the probability that the null hypothesis is true.
+   3. You have absolutely proved the hypothesis that there *is* a difference
+      between means.
+   4. You can deduce the probability that there *is* a difference between means.
+   5. You know, if you decide to reject the null hypothesis, the probability
+      that you are making the wrong decision.
+   6. You have a reliable experimental finding in the sense that if,
+      hypothetically, the experiment were repeated a great number of times, you
+      would obtain a significant result on 99% of occasions.
+
+   Answers in the footnote. [#quiz]_
+
 .. index:: base rate fallacy; mammograms, mammograms
 
 The base rate fallacy in medical testing
@@ -461,6 +491,8 @@ rate. But it's a start, and it's much better than nothing.
    along those lines -- but every news source quoted a different number. Not
    only did they not understand the number they were calculating, they couldn't
    calculate it correctly, either.
+
+.. [#quiz] Hopefully, you've concluded that *every* statement is false.
 
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.

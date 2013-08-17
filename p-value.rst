@@ -269,14 +269,14 @@ self-defense. Even if *p* is small, your final answer will be wildly wrong.
 To lower *p*, criminologists make use of more detailed surveys. The National
 Crime Victimization Survey, for instance, uses detailed sit-down interviews with
 researchers where respondents are asked for details about crimes and their use
-of guns in self-defense. Only respondents who report being burgled are asked
-about how they defended themselves, lowering the false-positive rates
-significantly. With far greater detail in the survey, and many times more survey
-respondents than the offending telephone survey, researchers can better judge
-whether the incident meets their criteria for self-defense. The results are far
-smaller -- something like 65,000 incidents per year, not millions.  There's a
-chance that survey respondents underreport such incidents, but a much smaller
-chance of massive overestimation.
+of guns in self-defense. Only respondents who report being victimized are asked
+about how they defended themselves, and so people who may be inclined to lie
+about self-defense only get the opportunity if they also lie about being a
+victim. The results are far smaller -- something like 65,000 incidents per year
+at the time of the phone survey, not millions.\ :cite:p:`McDowall:1994vf` This
+figure includes defense against burglaries and also robberies, rapes, assaults,
+and car thefts, and is nearly 40 times smaller than the estimate provided by the
+telephone survey.
 
 Unfortunately, the massively inflated figure is still trumpeted by gun rights
 organizations such as the National Rifle Association, misinforming the public

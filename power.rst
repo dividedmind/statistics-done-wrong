@@ -179,7 +179,10 @@ right at a red light. For many years prior, road designers and civil engineers
 argued that allowing right turns on a red light would be a safety hazard,
 causing many additional crashes and pedestrian deaths. But the 1973 oil crisis
 and its fallout spurred traffic agencies to consider allowing right turn on red
-to save fuel wasted by commuters waiting at red lights.
+to save fuel wasted by commuters waiting at red lights, and eventually Congress
+required states to allow right turns on red, treating it as an energy
+conservation measure just like building insulation standards and more efficient
+lighting.
 
 Several studies were conducted to consider the safety impact of the change. For
 example, a consultant for the Virginia Department of Highways and Transportation
@@ -211,13 +214,25 @@ several years later, when studies arrived clearly showing the results:
 significant increases in collisions and pedestrian accidents.\
 :cite:p:`Preusser:1982gp,Zador:1984jr` Collisions involving right turns occurred
 roughly 20% more frequently, 60% more pedestrians were run over, and twice as
-many bicyclists were struck.
+many bicyclists were struck. [#rare]_
 
 Unfortunately, the underpowered studies won; once right turns were allowed, it
 became difficult to ban them again. Right turns are now banned at certain
 intersections where there is heightened risk for pedestrians (for example, near
 university campuses where there are many distracted pedestrians with iPhones),
-but distracted drivers often ignore the signs. The underpowered studies won.
+but distracted drivers rarely notice the signs. The underpowered studies won.
+
+In the world of traffic safety, little has been learned from this example: a
+2002 study, for example, considered the impact of paved shoulders on the
+accident rates of traffic on rural roads. Unsurprisingly, a paved shoulder
+reduced the risk of accident -- but there was insufficient data to declare this
+reduction statistically significant, and so the authors acted as though they had
+found no difference at all. But they *had* collected data, and they *had* found
+that shoulders improved safety. The evidence was simply not strong enough to
+meet their desired *p* value threshold.
+
+Do not confuse a lack of statistical significance with a lack of evidence -- and
+always perform studies capable of gathering the level of evidence you need.
 
 .. admonition:: What should you do?
 
@@ -226,3 +241,11 @@ but distracted drivers often ignore the signs. The underpowered studies won.
    * If you find no statistically significant effect, remember that the effect
      could simply be smaller than you can reliably detect. "Not significant"
      does not mean "nonexistent."
+   * Remember that "statistically insignificant" does not mean "zero"; even if
+     your result is insignificant, it represents the best available estimate
+     given the data you have collected.
+
+.. [#rare] It is important to note that accidents involving right turns are
+   rare, so these changes amount to less than 100 deaths per year in the United
+   States.\ :cite:p:`nhtsa` A 60% increase in a small number is still small --
+   but nonetheless, a statistical error kills dozens of people each year!

@@ -134,13 +134,20 @@ differences.\ :cite:p:`Tsang:2009iw` And so doctors erroneously think the
 medications are equally safe, when one could well be much more dangerous than
 the other.
 
-Perhaps this is only a problem when the medication only has a weak effect. But
-no: in one sample, 64% of randomized controlled medical trials didn't collect
-enough data to detect a 50% difference between treatment groups. Fifty percent!
-Even if one medication decreases symptoms by 50% more than the other medication,
-there's insufficient data to conclude it's more effective. And 84% of trials
-didn't have the power to detect a 25% difference.\
-:cite:p:`Moher:1994,Bedard:2007dy,Brown:1987uu,Chung:1998ku`
+Perhaps this is only a problem for rare side effects, or cases where the
+medication only has a weak effect. Nope: in one sample, 64% of randomized
+controlled medical trials didn't collect enough data to detect a 50% difference
+between treatment groups. Fifty percent!  Even if one medication decreases
+symptoms by 50% more than the other medication, there's insufficient data to
+conclude it's more effective. And 84% of trials didn't have the power to detect
+a 25% difference.\ :cite:p:`Moher:1994`
+
+A more recent study of trials in cancer research found similar results: only
+about half of published studies had enough statistical power to detect a large
+difference in their primary outcome variable.\ :cite:p:`Bedard:2007dy` Less than
+ten percent of studies explained why their sample sizes were so poor. The same
+problems have been consistently seen in other fields of medicine, including
+emergency medicine.\ :cite:p:`Brown:1987uu,Chung:1998ku`
 
 In neuroscience the problem is even worse. Suppose we aggregate the data
 collected by numerous neuroscience papers investigating one particular effect

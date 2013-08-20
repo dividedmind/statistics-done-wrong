@@ -42,17 +42,18 @@ tested treatment.\ :cite:p:`Hurlbert:1984uv`
 
 In statistical terms, pseudoreplication occurs when individual observations are
 heavily dependent on each other but the statistical analysis fails to take this
-into account. In some cases this dependence can be broken by carefully designing
-the experiment; if I believe that two aquariums are systematically different, I
-can trade fish between aquariums to see what happens. Alternately, there are
+into account. Careful experimental design can eliminate this problem, by
+segregating the fish or producing larger samples of rats. Alternately, there are
 several ways to account for dependence while performing the statistical
 analysis:
 
 #. Average the dependent data points. For example, average all the blood
    pressure measurements taken from a single person. This isn't perfect, though;
    if you measured some patients more frequently than others, this won't be
-   reflected in the averaged number. You want a method that is somehow more
-   certain as more measurements are taken.
+   reflected in the averaged number. Taking two measurements is no different
+   from taking one measurement which is their average. You want your results to
+   reflect the level of certainty you have in your measurements, which increases
+   as you take more.
 #. Analyze each dependent data point separately. You could perform an analysis
    of every patient's blood pressure on day 5, giving you only one data point per
    person. But be careful, because if you do this for every day, you'll have

@@ -58,6 +58,10 @@ a.headerlink {
     visibility: hidden;
 }
 
+h1 {
+    text-align: left;
+}
+
 sup {
     line-height: 90%;
 }

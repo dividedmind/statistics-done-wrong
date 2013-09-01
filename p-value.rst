@@ -390,7 +390,7 @@ a :math:`p = 0.001` difference in a :math:`81 \text{mm}^3` cluster in the brain.
 
 The study participants? Not college undergraduates paid $10 for their time, as
 is usual. No, the test subject was one 3.8-pound Atlantic salmon, which "was not
-alive at the time of scanning.\ :cite:p:`Bennett:2010uh`
+alive at the time of scanning."\ :cite:p:`Bennett:2010uh`
 
 Of course, most neuroscience studies are more sophisticated than this; there are
 methods of looking for clusters of voxels which all change together, along with

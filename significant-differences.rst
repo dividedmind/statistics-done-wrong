@@ -130,6 +130,49 @@ would the :ref:`p value <p-values>` be?
 In this case, :math:`p< 0.05`. There is a statistically significant difference
 between the groups, even though the confidence intervals overlap. [#ttest]_
 
+.. admonition:: Mathematical basis
+
+   When we eyeball confidence intervals to detect a significant difference,
+   we're effectively requiring that
+
+   .. math:: 
+      \bar x_1 - \bar x_2 > 2\left(\frac{\sigma_1}{\sqrt{n_1}}
+      + \frac{\sigma_2}{\sqrt{n_2}}\right),
+
+   where :math:`\bar x_1` and :math:`\bar x_2` are the means observed in each
+   group, :math:`\sigma_1` and :math:`\sigma_2` the group standard deviations,
+   and :math:`n_1` and :math:`n_2` the sample sizes. Since :math:`\sigma /
+   \sqrt{n}` is the standard error of the mean, we're requiring that confidence
+   intervals (of two standard errors) do not overlap.
+
+   But standard errors and standard deviations do not add linearly. *Variance*
+   adds linearly: :math:`\text{var}(X + Y) = \text{var}(X) + \text{var}(Y)`
+   (when *X* and *Y* are independent), and the standard deviation is the square
+   root of the variance, so you add standard deviations by taking the square
+   root of the sum of the squares.
+
+   A more reasonable test, then, would test that the difference :math:`\bar
+   x_1 - \bar x_2` is greater than two standard errors from zero, but it would
+   do so by correctly adding the standard errors:
+
+   .. math::
+      \bar x_1 - \bar x_2 > 2 \sqrt{\frac{\sigma_1^2}{n_1} +
+      \frac{\sigma_2^2}{n_2}}
+
+   This is, in fact, a *z* test. If we know the standard deviations
+   :math:`\sigma_1` and :math:`\sigma_2` exactly, then this is a hypothesis test
+   requiring :math:`p < 0.05`. If we have to estimate the standard deviations
+   from the data, it's not quite accurate -- we have to do a *t* test, which
+   accounts for the fact that we had to estimate the standard deviations.
+
+   Because our visual comparisons add the standard errors incorrectly, they
+   require the difference :math:`\bar x_1 - \bar x_2` to be larger before
+   considering it statistically significant. This effect is worst when the two
+   standard errors are roughly equal; if one is a great deal larger than the
+   other, then the two methods are approximately equal (try it), and a visual
+   comparison can give reasonable results.
+
+
 Unfortunately, many scientists skip hypothesis tests and simply glance at plots
 to see if confidence intervals overlap. This is actually a much more
 conservative test -- requiring confidence intervals to not overlap is akin to
@@ -146,8 +189,8 @@ the majority made this simple error, with many scientists confusing standard
 errors, standard deviations, and confidence intervals.\ :cite:p:`Belia:2005dg`
 Another survey of climate science papers found that a majority of papers which
 compared two groups with error bars made the error.\ :cite:p:`Lanzante:2005hi`
-Even introductory textbooks for experimental scientists, such as *An
-Introduction to Error Analysis*, teach students to judge by eye, hardly
+Even introductory textbooks for experimental scientists, such as John Taylor's
+*An Introduction to Error Analysis*, teach students to judge by eye, hardly
 mentioning formal hypothesis tests at all.
 
 There are, of course, formal statistical procedures which generate confidence

@@ -130,6 +130,17 @@ would the :ref:`p value <p-values>` be?
 In this case, :math:`p< 0.05`. There is a statistically significant difference
 between the groups, even though the confidence intervals overlap. [#ttest]_
 
+Unfortunately, many scientists skip hypothesis tests and simply glance at plots
+to see if confidence intervals overlap. This is actually a much more
+conservative test -- requiring confidence intervals to not overlap is akin to
+requiring :math:`p < 0.01` in some cases.\ :cite:p:`Schenker:2001cr` It is easy
+to claim two measurements are not significantly different even when they are.
+
+Conversely, comparing measurements with standard errors or standard deviations
+will also be misleading, as standard error bars are shorter than confidence
+interval bars. Two observations might have standard errors which do not overlap,
+and yet the difference between the two is not statistically significant.
+
 .. admonition:: Mathematical basis
 
    When we eyeball confidence intervals to detect a significant difference,
@@ -171,18 +182,6 @@ between the groups, even though the confidence intervals overlap. [#ttest]_
    standard errors are roughly equal; if one is a great deal larger than the
    other, then the two methods are approximately equal (try it), and a visual
    comparison can give reasonable results.
-
-
-Unfortunately, many scientists skip hypothesis tests and simply glance at plots
-to see if confidence intervals overlap. This is actually a much more
-conservative test -- requiring confidence intervals to not overlap is akin to
-requiring :math:`p < 0.01` in some cases.\ :cite:p:`Schenker:2001cr` It is easy
-to claim two measurements are not significantly different even when they are.
-
-Conversely, comparing measurements with standard errors or standard deviations
-will also be misleading, as standard error bars are shorter than confidence
-interval bars. Two observations might have standard errors which do not overlap,
-and yet the difference between the two is not statistically significant.
 
 A survey of psychologists, neuroscientists and medical researchers found that
 the majority made this simple error, with many scientists confusing standard

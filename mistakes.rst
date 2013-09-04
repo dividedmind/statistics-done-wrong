@@ -32,38 +32,66 @@ excited at the prospects, and other researchers began their own studies. But
 first they asked two biostatisticians, Keith Baggerly and Kevin Coombes, to
 check the data.
 
-Baggerly and Coombes found problems almost immediately. Some of the data was
-mislabeled -- groups of cells which were resistant to a drug were marked as
-sensitive instead, and vice-versa. Some samples were duplicated in the data,
-sometimes marked as both sensitive and resistant. A correction issued by the
-Duke researchers corrected some of these issues, but introduced more duplicated
-data at the same time. Some data was accidentally shifted by one, so that
-measurements from one set of cells were used when analyzing a different cell
-line instead. Genetic microarrays, which we discussed earlier in the context of
-pseudoreplication, varied significantly between batches, and the effect of the
-microarray equipment could not be separated from the true biological
-differences. Figures allegedly showing results for one drug actually contained
-the results for a different drug.
+This was more difficult than they expected. The original papers did not give
+sufficient detail to replicate the analysis, and so Baggerly and Coombes
+corresponded the Duke researchers to get raw data and more details. Soon they
+began to discover problems: Some of the data was mislabeled -- groups of cells
+which were resistant to a drug were marked as sensitive instead, and
+vice-versa. Some samples were duplicated in the data, sometimes marked as both
+sensitive and resistant. A correction issued by the Duke researchers fixed some
+of these issues, but introduced more duplicated data at the same time. Some data
+was accidentally shifted by one, so that measurements from one set of cells were
+used when analyzing a different cell line instead. Genetic microarrays, which we
+discussed earlier in the context of pseudoreplication, varied significantly
+between batches, and the effect of the microarray equipment could not be
+separated from the true biological differences. Figures allegedly showing
+results for one drug actually contained the results for a different drug.
 
-In short, the research was a mess.\ :cite:p:`Baggerly:2009gk` The errors only
-attracted attention later, some time after Baggerly and Coombes published their
-discoveries, when a trade magazine reported that the lead Duke researcher, Anil
-Potti, had falsified his résumé. Four of his papers were retracted and Potti
-eventually resigned from Duke. Several trials using the results were stopped,
-and a company set up to sell the technology closed.\ :cite:p:`Kolata:2011`
+In short, the research was a mess.\ :cite:p:`Baggerly:2009gk` Despite many of
+the errors being brought to the attention of the Duke researchers, several
+clinical trials using the genetic results began, funded by the National Cancer
+Institute. Baggerly and Coombes attempted to publish their responses to the
+research in the same academic journals which published the original research,
+but in several cases they were rejected -- groundbreaking research is more
+interesting than tedious statistical detail. Nonetheless, the Institute caught
+wind of the problems and asked Duke administrators to review the work -- and the
+university responded by creating an external review committee which had no
+access to Baggerly and Coombes' results. Unsurprisingly, they found no errors,
+and the trials continued.\ :cite:p:`Economist:2011`
 
-.. index:: reproducible research, Sweave
+The errors only attracted serious attention later, some time after Baggerly and
+Coombes published their discoveries, when a trade magazine reported that the
+lead Duke researcher, Anil Potti, had falsified his résumé. Four of his papers
+were retracted and Potti eventually resigned from Duke. Several trials using the
+results were stopped, and a company set up to sell the technology closed.\
+:cite:p:`Kolata:2011`
 
-Transparency would make these errors easier to detect, so scientists in some
-fields have pushed towards making their statistical analyses available through
-clever technological tools. A tool called Sweave, for instance, makes it easy to
-embed statistical analyses performed using the popular R programming language
-inside papers written in LaTeX, the standard for scientific and mathematical
-publications. The result looks just like any scientific paper, but another
-scientist reading the paper and curious about its methods can download the
-source code, which shows exactly how all the numbers and plots were
-calculated. But would scientists avail themselves of the opportunity?  Nobody
-gets scientific glory by checking code for typos.
+.. index:: reproducible research
+
+The Potti case illustrates two problems: the lack of reproducibility in much of
+modern science, and the difficulty of publishing negative and contradictory
+results in academic journals. I'll save the latter issue for the next
+chapter. Reproducibility has become a popular buzzword, and we can see why:
+Baggerly and Coombes estimate they spent 2,000 hours figuring out what Potti had
+done and what went wrong. Few academics have that kind of spare time. If Potti's
+analysis software were openly available for inspection, skeptical colleagues
+would not be forced to painstakingly reconstruct every step of his work -- they
+could simply read through the code and see where every chart and graph came
+from.
+
+Statistical software has been advancing to make this goal possible. A tool
+called :index:`Sweave`, for instance, makes it easy to embed statistical
+analyses performed using the popular R programming language inside papers
+written in LaTeX, the standard for scientific and mathematical publications. The
+result looks just like any scientific paper, but another scientist reading the
+paper and curious about its methods can download the source code, which shows
+exactly how all the numbers and plots were calculated. This is immensely
+valuable: frequently, researchers do not even record the specific software
+commands they used to process and analyze their data, and so a modicum of
+automation could bring huge improvements.
+
+But would scientists avail themselves of the opportunity to inspect code and
+find bugs?  Nobody gets scientific glory by checking code for typos.
 
 Another solution might be :index:`replication`. If scientists carefully recreate
 the experiments of other scientists and validate their results, it is much

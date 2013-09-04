@@ -354,8 +354,10 @@ trial, your criterion for significance should be :math:`p < 0.05/n`. This lowers
 the chances of a false positive to what you'd see from making only one
 comparison at :math:`p < 0.05`. However, as you can imagine, this reduces
 statistical power, since you're demanding much stronger correlations before you
-conclude they're statistically significant. It's a difficult tradeoff, and
-tragically few papers even consider it.
+conclude they're statistically significant; as we discussed in the chapter on
+power, in some fields power has decreased systematically in recent decades due
+to increased awareness of the multiple comparisons problem. It's a difficult
+tradeoff, and tragically few papers even consider it.
 
 .. index:: multiple comparisons; Atlantic salmon
 

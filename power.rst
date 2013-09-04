@@ -135,7 +135,8 @@ medications are equally safe, when one could well be much more dangerous than
 the other.
 
 Perhaps this is only a problem for rare side effects, or cases where the
-medication only has a weak effect. Nope: in one sample, 64% of randomized
+medication only has a weak effect. Nope: in one sample of studies published
+between 1975 and 1990 in prestigious medical journals, 64% of randomized
 controlled medical trials didn't collect enough data to detect a 50% difference
 between treatment groups. Fifty percent!  Even if one medication decreases
 symptoms by 50% more than the other medication, there's insufficient data to
@@ -155,17 +156,33 @@ and arrive at a strong estimate of the effect's size. Because each individual
 study involved so little data, the median study has only a 20% chance of being
 able to detect the effect; only after many studies were aggregated could the
 effect be discerned. Similar problems arise in neuroscience studies using animal
-models, which raises a significant ethical concern: If each study is
+subjects, which raises a significant ethical concern: If each study is
 underpowered, the true effect will only likely be discovered after many studies
 using many animals have been completed and analyzed, using far more animal
 subjects than if the study had been done properly the first time.\
-:cite:p:`Button:2013dz`
+:cite:p:`Button:2013dz` An ethical review board may not approve a trial if they
+know that it is unable to detect the effect it is looking for.
 
-That's not to say scientists are lying when they state they detected no
-significant difference between groups. You're just misleading yourself when you
-assume this means there is no *real* difference. There may be a difference, but
-the study was too small to notice it. Let's consider an example we see every
-day.
+Curiously, this problem has been known about for decades, and yet it is as
+prevalent now as it was when first pointed out. Jacob Cohen famously
+investigated the statistical power of studies published in the *Journal of
+Abnormal and Social Psychology* in 1960, discovering that the average study had
+only a power of 0.48 for detecting medium-sized effects -- essentially
+equivalent to flipping a coin. His research was cited hundreds of times and many
+similar reviews followed, exhorting the need for power calculations and greater
+sample sizes, until a 1989 review determined that in the decades since Cohen's
+research, the average study's power had *decreased*.\ :cite:p:`Sedlmeier:1989it`
+This decrease was due to researchers becoming aware of another problem, the
+issue of multiple comparisons, and compensating for it in a way that reduces
+their power. We will discuss multiple comparisons in the coming chapter on the
+base rate fallacy, and find that there is an unfortunate tradeoff between power
+and multiple comparison correction.
+
+The perils of insufficient power do not mean that scientists are lying when they
+state they detected no significant difference between groups. You're just
+misleading yourself when you assume this means there is no *real*
+difference. There may be a difference, but the study was too small to notice
+it. Let's consider an example we see every day.
 
 .. index:: right turn on red, power; right turn on red
 
@@ -234,6 +251,60 @@ meet their desired *p* value threshold.
 Do not confuse a lack of statistical significance with a lack of evidence -- and
 always perform studies capable of gathering the level of evidence you need.
 
+.. index:: observed power, power; observed
+
+Doing power backwards
+---------------------
+
+Many scientists have noticed these issues with statistical power and made
+recommendations for better analysis techniques to avoid misleading
+conclusions. For example, many researchers -- and some journal editors -- now
+recommend that authors who fail to detect a statistically significant effect
+should compute the "observed power" of their study. If the observed power is
+high, the study was large enough but failed to detect a statistically
+significant effect, and it is plausible to conclude there is no effect at all.
+
+Or so goes the theory. Observed power is meant to correct several difficulties
+in normal power calculations, which require prior knowledge of the expected
+effect size and the typical variation in each observation (for example, the
+typical random fluctuations in symptoms of a disease). Prior to completing the
+study, however, we may not know any of these numbers, and so a power calculation
+and resulting sample size requirement may only be a guess. Instead of guessing,
+we can compute power after the fact, using the effect size and variability we
+observed in our sample. For small samples these may not be accurate, but they
+are the best estimates we have.
+
+Once we've computed the observed power, we can ask whether our power was high
+enough to make the result conclusive. If the result was statistically
+insignificant, low power would indicate that we didn't collect enough data; high
+power would indicate that we collected plenty of data but there simply was no
+effect to detect.
+
+This is a beautifully convenient and easily-used method, which is why it is so
+tragic that it doesn't work.
+
+The *p* value for a study is computed based on the observed data: the mean
+effects observed for each group and the variability in each group. The observed
+power is computed based on *exactly the same data*, and the *p* value and the
+observed power have a one-to-one correspondence. For any given *p* value, there
+is only one possible observed power you will ever obtain. If you see :math:`p =
+0.06`, there is only one possible observed power. [#opower]_
+
+Even worse, the relationship between observed power and evidence is exactly the
+opposite of what we assumed.\ :cite:p:`Hoenig:2001cg` As the *p* value
+decreases, indicating stronger evidence that there is a true effect, the
+observed power *increases*. If we have two similar studies which both produced
+statistically insignificant results, the study with the smaller *p* value offers
+stronger evidence that there is a true effect -- but it has a greater observed
+power and hence offers stronger evidence that there is *no* effect, according to
+our earlier reasoning.
+
+This paradox (the ":index:`power approach paradox`") makes observed power
+calculations essentially useless. The observed power does not reveal any
+information about the data that the *p* value does not, and it is easy to
+misinterpret. Hypothesis testing cannot prove that there is no effect; it can
+only prove that you haven't found one yet.
+
 .. admonition:: What should you do?
 
    * Calculate the statistical power of your study in advance to determine the
@@ -249,3 +320,6 @@ always perform studies capable of gathering the level of evidence you need.
    rare, so these changes amount to less than 100 deaths per year in the United
    States.\ :cite:p:`nhtsa` A 60% increase in a small number is still small --
    but nonetheless, a statistical error kills dozens of people each year!
+
+.. [#opower] I won't quote a specific observed power because it depends on the
+   type of statistical test you are performing to get your *p* value.

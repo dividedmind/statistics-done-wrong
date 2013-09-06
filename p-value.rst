@@ -187,23 +187,23 @@ error. *P* values are counterintuitive, and the base rate fallacy is everywhere.
 
    .. math:: P(A|B) = \frac{P(B|A) \, P(A)}{P(B)}
 
-   where *P(A|B)* is read as "the probability of *A* given *B*." In the
-   mammogram example, *P(A|B)* is the probability that a woman has cancer given
-   that she has had a positive mammogram, *P(B)* is the probability that any
-   woman would get a positive mammogram, *P(B|A)* the probability that a woman
-   with cancer would have a positive mammogram, and *P(A)* the base rate: the
-   probability that any given woman has cancer.
+   where :math:`P(A|B)` is read as "the probability of *A* given *B*." In the
+   mammogram example, :math:`P(A|B)` is the probability that a woman has cancer
+   given that she has had a positive mammogram, :math:`P(B)` is the probability
+   that any woman would get a positive mammogram, :math:`(B|A)` the probability
+   that a woman with cancer would have a positive mammogram, and :math:`P(A)`
+   the base rate: the probability that any given woman has cancer.
 
-   It's clear that *P(A|B)* is directly related to *P(A)*, so as the base rate
-   decreases, the probability that a positive test result correctly indicates
-   cancer decreases with it.
+   It's clear that :math:`P(A|B)` is directly related to :math:`P(A)`, so as the
+   base rate decreases, the probability that a positive test result correctly
+   indicates cancer decreases with it.
 
    If you want to know the probability that a hypothesis is true given
    experimental data, you can only arrive at an answer through Bayes' rule;
    conventional *p* values answer a different question. Of course, Bayes' rule
    requires an estimate of the base rate, which you may not know, but you can
-   make a graph of *P(A|B)* as a function of *P(A)* to see what base rate would
-   be necessary for your result to be believable.
+   make a graph of :math:`P(A|B)` as a function of :math:`P(A)` to see what base
+   rate would be necessary for your result to be believable.
 
 .. index:: base rate fallacy; gun use
 

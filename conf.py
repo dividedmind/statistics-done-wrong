@@ -191,17 +191,19 @@ latex_elements = {
 'pointsize': '11pt',
 
 # Additional stuff for the LaTeX preamble.
+# newtxmath has to go here, rather than in fontpkg, because it must be loaded
+# after amsmath. It redefines some symbols in terms of the right font
 'preamble': """\\fixsphinxstyles
 \\noindexintoc
+\\usepackage[libertine]{newtxmath}
 """,
 
 # for the end of the file
 'footer': '\\bibliographystyle{plainnat} \\bibliography{refs}',
 
 'fncychap': '',
-'fontpkg': """\\usepackage{libertine}
-\usepackage[italic]{mathastext}
-\\usepackage{inconsolata}"""
+'fontpkg': """\usepackage{libertine}
+\usepackage{inconsolata}"""
 }
 
 latex_additional_files = ['refs.bib', 'sphinxbook.cls']

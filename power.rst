@@ -302,8 +302,26 @@ our earlier reasoning.
 This paradox (the ":index:`power approach paradox`") makes observed power
 calculations essentially useless. The observed power does not reveal any
 information about the data that the *p* value does not, and it is easy to
-misinterpret. Hypothesis testing cannot prove that there is no effect; it can
-only prove that you haven't found one yet.
+misinterpret.
+
+Another approach differs in the details but suffers from the same
+paradox. Instead of computing the power of our study for detect the effect we
+estimated, we calculate the effect size necessary to achieve a target power
+level (such as 0.8) and call it the "detectable effect size". If the detectable
+effect size is very small, we could interpret this as evidence that no effect
+exists -- if one did, surely we would have noticed it. If the detectable effect
+is very large, our study was underpowered.
+
+This approach leads to the same paradox. If we have two studies with the same
+sample size and estimated effect sizes, but one has a lower *p* value, this
+implies the variation was less in that study -- smaller random variation means
+the true effect can be more easily discerned. It also means the detectable
+effect size will be smaller, for the same reason, and so the *p* value offers
+stronger evidence that there is a true effect while the detectable effect size
+suggests stronger evidence that no effect exists.
+
+Hypothesis testing cannot prove that there is no effect; it can only prove that
+you haven't found one yet.
 
 .. admonition:: What should you do?
 

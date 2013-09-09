@@ -93,8 +93,17 @@ effect -- "this medicine makes people live four times longer" -- or by measuring
 a tiny effect with great certainty. Given that there is almost never *exactly*
 zero difference between groups, you can always get a statistically significant
 result by collecting so much data that you detect the tiniest unimportant
-differences. Statistical significance does not mean your result has any
-*practical* significance.
+differences. As Bruce Thompson wrote,
+
+  Statistical significance testing can involve a tautological logic in which
+  tired researchers, having collected data on hundreds of subjects, then
+  conduct a statistical test to evaluate whether there were a lot of subjects,
+  which the researchers already know, because they collected the data and know
+  they are tired. This tautology has created considerable damage as regards the
+  cumulation of knowledge.\ :cite:p:`Thompson:1992`
+
+In short, statistical significance does not mean your result has any *practical*
+significance.
 
 Similarly, statistical *in*\ significance is hard to interpret. I could have a
 perfectly good medicine, but if I test it on ten people, I'd be hard-pressed to

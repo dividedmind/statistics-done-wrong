@@ -192,10 +192,15 @@ Even introductory textbooks for experimental scientists, such as John Taylor's
 *An Introduction to Error Analysis*, teach students to judge by eye, hardly
 mentioning formal hypothesis tests at all.
 
-There are, of course, formal statistical procedures which generate confidence
-intervals which *can* be compared by eye, and even correct for :ref:`multiple
-comparisons <multiple-comparisons>` automatically. For example, Gabriel
-comparison intervals are easily interpreted by eye.\ :cite:p:`Gabriel:1978fp`
+There is exactly one situation when visually checking confidence intervals
+works: when comparing the confidence interval against a fixed value, rather than
+another confidence interval. If you want to know if a number is plausibly zero
+or not, you may check to see if its confidence interval overlaps with
+zero. There are, of course, formal statistical procedures which generate
+confidence intervals which *can* be checked for overlap by eye, and even correct
+for :ref:`multiple comparisons <multiple-comparisons>` automatically. For
+example, Gabriel comparison intervals are easily interpreted by eye.\
+:cite:p:`Gabriel:1978fp`
 
 Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*

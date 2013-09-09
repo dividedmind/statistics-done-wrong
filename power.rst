@@ -307,10 +307,10 @@ misinterpret.
 Another approach differs in the details but suffers from the same
 paradox. Instead of computing the power of our study for detect the effect we
 estimated, we calculate the effect size necessary to achieve a target power
-level (such as 0.8) and call it the "detectable effect size". If the detectable
-effect size is very small, we could interpret this as evidence that no effect
-exists -- if one did, surely we would have noticed it. If the detectable effect
-is very large, our study was underpowered.
+level (such as 0.8) and call it the ":index:`detectable effect size`". If the
+detectable effect size is very small, we could interpret this as evidence that
+no effect exists -- if one did, surely we would have noticed it. If the
+detectable effect is very large, our study was underpowered.
 
 This approach leads to the same paradox. If we have two studies with the same
 sample size and estimated effect sizes, but one has a lower *p* value, this

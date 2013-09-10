@@ -125,8 +125,8 @@ h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
     font-weight: bold;
 }
 
-/* Have bibliography entries show up highlighted when linked to */
-tr.footnote:target {
+/* Have bibliography entries and footnotes show up highlighted when linked to */
+.footnote:target {
     background-color: #FBE54E;
 }
 

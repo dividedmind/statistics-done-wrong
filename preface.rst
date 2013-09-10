@@ -139,7 +139,7 @@ don't like.
 
 .. [#conspiracy] Incidentally, I think this is why conspiracy theories are so
    popular. Once you believe you know something that nobody else does (the
-   government is out to get us!), you take every available opportunity to use
-   that knowledge, and you end up reacting to every news article with reasons
-   why it was falsified by the government. Please don't do the same with
+   government is out to get us!), you take every available opportunity to show
+   off that knowledge, and you end up reacting to every news article with
+   reasons why it was falsified by the government. Please don't do the same with
    statistical errors.

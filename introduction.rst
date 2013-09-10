@@ -58,10 +58,11 @@ score less than 75%.
 
 The situation is so bad that even the authors of surveys of statistical
 knowledge lack the necessary statistical knowledge to formulate survey questions
--- the last survey I cited included a multiple choice question asking medical
-residents to define a *p* value and gave four incorrect definitions as the only
-options.\ :cite:p:`Goodman:2008gz` We can give the authors some leeway, because
-many introductory statistics textbooks poorly or incorrectly define this basic
+-- the numbers I just quoted are misleading, because the survey of medical
+residents included a multiple choice question asking residents to define a *p*
+value and gave four incorrect definitions as the only options.\
+:cite:p:`Goodman:2008gz` We can give the authors some leeway, because many
+introductory statistics textbooks poorly or incorrectly define this basic
 statistical concept as well.
 
 The misuse of statistics ranges from the trivial to the complex. Consider a

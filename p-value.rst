@@ -331,6 +331,19 @@ cousins, favorite pizza topping, current sock color, and a few dozen other
 factors for good measure, and you'll find that *something* causes cancer. Ask
 enough questions and it's inevitable.
 
+Even particle physicists fall into the trap, known to them as the
+":index:`look-elsewhere effect`." An experiment (such as the :index:`Large
+Hadron Collider`'s search for the :index:`Higgs boson`) may involve searching
+data from particle collisions across a large range of energies and looking for a
+small anomaly indicating the existence of a new particle at a specific
+energy. The statistical significance of an anomaly at an energy of five
+gigaelectronvolts [#ev]_, for example, would be computed by asking "How likely
+are we to see an anomaly of this size at 5 gigaelectronvolts by chance?" But the
+experiment searched for anomalies across a large swath of energies, and any one
+of them could have produced a false positive. Physicists have developed
+complicated procedures to account for this and correctly limit the false
+positive rate.\ :cite:p:`Gross:2010dw`
+
 Think about this problem in terms of the original definition of the *p* value:
 When we make many comparisons at once, the *p* value should be calculated under
 the assumption that *none* of the differences are real. If we test thirty
@@ -349,15 +362,16 @@ have found a statistically significant effect, but it could just have easily
 been a false positive.\ :cite:p:`Smith:1987uz`
 
 There exist techniques to correct for multiple comparisons. For example, the
-Bonferroni correction method says that if you make :math:`n` comparisons in the
-trial, your criterion for significance should be :math:`p < 0.05/n`. This lowers
-the chances of a false positive to what you'd see from making only one
-comparison at :math:`p < 0.05`. However, as you can imagine, this reduces
-statistical power, since you're demanding much stronger correlations before you
-conclude they're statistically significant; as we discussed in the chapter on
-power, in some fields power has decreased systematically in recent decades due
-to increased awareness of the multiple comparisons problem. It's a difficult
-tradeoff, and tragically few papers even consider it.
+:index:`Bonferroni correction` method says that if you make :math:`n`
+comparisons in the trial, your criterion for significance should be :math:`p <
+0.05/n`. This lowers the chances of a false positive to what you'd see from
+making only one comparison at :math:`p < 0.05`. However, as you can imagine,
+this reduces statistical power, since you're demanding much stronger
+correlations before you conclude they're statistically significant; as we
+discussed in the chapter on power, in some fields power has decreased
+systematically in recent decades due to increased awareness of the multiple
+comparisons problem. It's a difficult tradeoff, and tragically few papers even
+consider it.
 
 .. index:: multiple comparisons; Atlantic salmon
 
@@ -498,3 +512,8 @@ rate. But it's a start, and it's much better than nothing.
 
 .. [#male] Interestingly, being male doesn't exclude you from getting breast
   cancer; it just makes it exceedingly unlikely.
+
+.. [#ev] Physicists have the coolest unit names. Gigaelectronvolts, jiffies,
+   inverse femtobarns -- my only regret as a physicist who switched to
+   statistics is that I will no longer have excuses to use these terms.
+

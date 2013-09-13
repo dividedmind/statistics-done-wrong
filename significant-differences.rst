@@ -183,6 +183,12 @@ and yet the difference between the two is not statistically significant.
    other, then the two methods are approximately equal (try it), and a visual
    comparison can give reasonable results.
 
+   Note that if you want to compare :math:`x_1` to a fixed value, rather than
+   something you've estimated from the data -- perhaps you want to see if it is
+   zero -- then :math:`x_2` has no variance and :math:`\sigma_2 = 0`, so both
+   methods are equivalent. In this case, you can compare visually with
+   confidence intervals to do a simple *z* test.
+
 A survey of psychologists, neuroscientists and medical researchers found that
 the majority made this simple error, with many scientists confusing standard
 errors, standard deviations, and confidence intervals.\ :cite:p:`Belia:2005dg`
@@ -196,11 +202,15 @@ There is exactly one situation when visually checking confidence intervals
 works: when comparing the confidence interval against a fixed value, rather than
 another confidence interval. If you want to know if a number is plausibly zero
 or not, you may check to see if its confidence interval overlaps with
-zero. There are, of course, formal statistical procedures which generate
-confidence intervals which *can* be checked for overlap by eye, and even correct
-for :ref:`multiple comparisons <multiple-comparisons>` automatically. For
-example, Gabriel comparison intervals are easily interpreted by eye.\
-:cite:p:`Gabriel:1978fp`
+zero. There is, of course, a formal statistical procedure which generates
+confidence intervals which *can* be checked for overlap by eye, and even
+corrects for :ref:`multiple comparisons <multiple-comparisons>`
+automatically. Unfortunately, these procedures only work in certain
+circumstances; Gabriel comparison intervals are easily interpreted by eye but
+require each group being compared to have the same standard deviation.\
+:cite:p:`Gabriel:1978fp` Other procedures handle more general cases, but only
+approximately, and not in ways that can easily be plotted.\
+:cite:p:`Stoline:1981vk`
 
 Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*
@@ -212,7 +222,7 @@ instead. Your eyeball is not a well-defined statistical procedure.
    * Compare groups directly using appropriate statistical tests, such as *t*
      tests, instead of saying "this one was significant and this one wasn't."
    * Do not judge the significance of a difference by eye. Use a statistical
-     test (*t* test, *z* test, Gabriel comparison intervals, etc.).
+     test (*t* test, *z* test, Gabriel comparison intervals, Kramer's method, etc.).
    * Remember that if you compare many groups, you need to adjust for making
      multiple comparisons!
 

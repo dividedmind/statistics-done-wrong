@@ -71,15 +71,17 @@
   \setlength{\parskip}{0pt}%
   \par\rule[0.5ex]{\linewidth}{0.5pt}%
   \par\vspace{-0.5ex}%
-}}
+  }}
+  
 % set to trade paperback sizes and margins
-\setstocksize{8in}{5.25in}
-\settrimmedsize{8in}{5.25in}{*}
-\setlrmarginsandblock{0.6in}{0.5in}{*}
-\setulmarginsandblock{0.75in}{0.75in}{*}
+\setstocksize{8.5in}{5.5in}
+\settrimmedsize{8.5in}{5.5in}{*}
+\setlrmarginsandblock{0.7in}{0.6in}{*}
+\setulmarginsandblock{0.75in}{0.9in}{*}
 \settrims{0pt}{0pt}
 \setheadfoot{20pt}{20pt}
 \checkandfixthelayout
+
 % switch to edition, not release, naming
 \renewcommand{\release}[1]{%
   \renewcommand{\py@release}{\version\space Edition}%

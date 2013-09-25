@@ -7,8 +7,8 @@ plot(x, y, type = 'h', xlab = "Number of heads",
      ylab = "Probability", las = 1)
 dev.off()
 
-pdf('../plots/binomial.pdf', 
-    width=4, height=3, pointsize = 10)
+cairo_pdf('../plots/binomial.pdf',
+          width=4, height=3, family="Linux Biolinum O", pointsize = 10)
 plot(x, y, type = 'h', xlab = "Number of heads", 
      ylab = "Probability", las = 1)
 dev.off()

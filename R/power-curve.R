@@ -14,8 +14,8 @@ for (m in ms) {
 	              sum(dbinom(0:((m/2)-r), m, p)))
 	}
 	
-	pdf(paste('../plots/power-curve-', m, '.pdf', sep=''), 
-		width=4, height=3, pointsize=10)
+	cairo_pdf(paste('../plots/power-curve-', m, '.pdf', sep=''), 
+              width=4, height=3, family="Linux Biolinum O", pointsize=10)
 	plot(ps, powers, xlab = "True probability of heads", 
 		 ylab = "Power", type='l', las = 1)
 	dev.off()

@@ -7,9 +7,12 @@ hist(samples, breaks=40, freq=FALSE, col=c(rep(0,30), rep("gray73", 10)),
 abline(v=3, lty=2)
 dev.off()
 
-pdf('../plots/inflation.pdf', 
-    width=4, height=3, pointsize = 10)
+library(extrafont)
+
+cairo_pdf('../plots/inflation.pdf', 
+          width=4, height=3, family="Linux Biolinum O", pointsize = 10)
 hist(samples, breaks=40, freq=FALSE, col=c(rep(0,30), rep("gray73", 10)),
      main="", xlab="Observed effect size", ylab="Probability", las=1)
 abline(v=3, lty=2)
 dev.off()
+

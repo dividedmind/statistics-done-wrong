@@ -15,8 +15,9 @@ plot(sizes, scores, pch = 20, xlab = "Number of students",
      ylab = "Average test score", las = 1)
 dev.off()
 
-pdf('../plots/school-size.pdf', 
-    width=4, height=3, pointsize=10)
+cairo_pdf('../plots/school-size.pdf', 
+          width=4, height=3, family="Linux Biolinum O", pointsize=10)
 plot(sizes, scores, pch = 20, xlab = "Number of students", 
      ylab = "Average test score", las = 1)
 dev.off()
+

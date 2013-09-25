@@ -1,8 +1,11 @@
-# Procedures for sequential F testing to build a linear model
+# Procedures for sequential F testing to build a linear model.
 # Based on the procedure described to me by Rouzbeh Abbaszadeh, used in his
 # paper on using acoustic methods to test watermelon ripeness.
+# Note: this simulation is very slow, taking several hours to complete when
+# there are 600 variables.
 
 library(MASS)
+library(mvtnorm)
 
 # response - response vector
 # data - data frame of variables
@@ -17,6 +20,12 @@ stepF <- function(response, data, includeP, excludeP, maxIter=10) {
   modelSize <- 0
   updated <- FALSE
   for (i in 1:maxIter) {
+    mss <- sum(model$fitted.values^2)
+    rss <- sum(model$residuals^2)
+    if(rss < 1e-10*mss) {
+      break; # the model is already perfect
+    }
+    
     g = addterm(model, f, test="F")
     if (min(g[["Pr(F)"]], na.rm=TRUE) < includeP) {
       model <- update(model, as.formula(paste0("~ . + ", row.names(g)[which.min(g[["Pr(F)"]])])))
@@ -40,29 +49,38 @@ stepF <- function(response, data, includeP, excludeP, maxIter=10) {
   model
 }
 
+# Generate deliberately correlated data with common means, using an AR(1)
+# covariance matrix.
 makeFakeData <- function(observations, variables) {
-  data <- matrix(nrow=observations, ncol=variables)
-  for (i in 1:variables) {
-    data[,i] <- rnorm(observations)
-  }
+  variance = 1
+  mean = 0
+  correlation <- 0.95
+  
+  sigma <- diag(variables)
+  sigma <- variance * correlation^abs(row(sigma)-col(sigma))
+
+  data <- rmvnorm(observations, mean=rep(mean, variables), sigma=sigma)
+  
   data.frame(data)
 }
 
 data <- makeFakeData(43, 600)
+print("Generated fake data")
+
 response <- runif(43, min=1, max=5)
 
+print("Performing stepwise regression")
 thingy <- stepF(response, data, 0.05, 0.1, maxIter=40)
-summary(thingy)$r.squared
+
+print("Stepwise regression result:")
+print(summary(thingy)$r.squared)
 
 # Now do R^2 tests when we leave out one item at a time
-rs <- matrix(nrow=length(response), ncol=1)
-sstot <- sum((response - mean(response))^2)
+predresponse <- c()
 for (i in 1:length(response)) {
   responseToFit <- response[-i]
   dataToFit <- data[-i,]
   nm <- stepF(responseToFit, dataToFit, 0.05, 0.1, maxIter=40)
-  ssres <- sum((predict(nm, data) - response)^2)
-  rs[i] <- 1 - ssres / sstot
+  predresponse <- c(predresponse, predict(nm, data[i,]))
+  print(cor(response[1:i], predresponse)^2)
 }
-
-mean(rs)

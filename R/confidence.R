@@ -13,4 +13,3 @@ cairo_pdf('../plots/confidence.pdf',
 errbar(c(1,2), c(20, 30), c(15, 23), c(25, 37), las=1,
        ylab="Time to recovery", xlab="Group", xlim=c(0.5,2.5), xaxp=c(1,2,1))
 dev.off()
-

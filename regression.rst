@@ -13,7 +13,9 @@ rules," which allow investigators to end a study early if it's clear the
 experimental drug has a substantial effect. For example, if the trial is only
 half complete but there's already a statistically significant difference in
 symptoms with the new medication, the researchers may terminate the study,
-rather than gathering more data to reinforce the conclusion.
+rather than gathering more data to reinforce the conclusion. It is often
+considered unethical to continue treating the control group with a medication
+you already know to be inferior.
 
 When poorly done, however, this can lead to numerous false positives.
 
@@ -133,19 +135,19 @@ the time, particularly due to the large effect size claimed: the most beautiful
 parents have daughters 52% of the time, but the least attractive parents have
 daughters only 44% of the time.
 
-For sociologists and biologists, a small effect -- perhaps one or two percentage
-points -- would be plausible. The Trivers-Willard Hypothesis suggests that if a
-parent has a trait which benefits offspring of one gender more than the other,
-then they will have more children of that gender; perhaps girls benefit more
-from beauty than boys, and hence beautiful parents produce more girls. [#girls]_
-Kanazawa's data would seem to support this hypothesis, though much more strongly
-than expected.
+To sociologists and biologists, a very small effect -- perhaps one or two
+percentage points -- would be plausible; the effect Kanazawa claimed is
+extraordinary. The Trivers-Willard Hypothesis suggests that if a parent has a
+trait which benefits offspring of one gender more than the other, then they will
+have more children of that gender; perhaps girls benefit more from beauty than
+boys, and hence beautiful parents produce more girls. [#girls]_ Kanazawa's data
+would seem to support this hypothesis, though much more strongly than expected.
 
 Unfortunately, Kanazawa committed several errors in his analysis: one analysis
 achieved statistical significance through multiple comparisons. A corrected
 analysis suggests a much smaller effect which is no longer statistically
 significant. However, we can imagine running this study hundreds of times with
-new datasets. Even if the true effect is small, we will never claim significance
+new datasets. If the true effect is small, we will never claim significance
 unless our dataset is lucky. For example, if the true effect is only a 0.3%
 difference, the only statistically significant results will overestimate this by
 at least a factor of ten. 40% of these results will produce a wild overestimate

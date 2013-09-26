@@ -206,11 +206,14 @@ zero. There is, of course, a formal statistical procedure which generates
 confidence intervals which *can* be checked for overlap by eye, and even
 corrects for :ref:`multiple comparisons <multiple-comparisons>`
 automatically. Unfortunately, these procedures only work in certain
-circumstances; Gabriel comparison intervals are easily interpreted by eye but
-require each group being compared to have the same standard deviation.\
+circumstances; :index:`Gabriel comparison intervals` are easily interpreted by
+eye but require each group being compared to have the same standard deviation.\
 :cite:p:`Gabriel:1978fp` Other procedures handle more general cases, but only
 approximately, and not in ways that can easily be plotted.\
-:cite:p:`Stoline:1981vk`
+:cite:p:`Stoline:1981vk` (The alternative, doing a separate test for each
+possible pair of variables and then using the Bonferroni correction for multiple
+comparisons, is very tedious and conservative, lowering the statistical
+power more than alternative procedures.)
 
 Overlapping confidence intervals do not mean two values are not significantly
 different. Similarly, separated standard error bars do not mean two values *are*

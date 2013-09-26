@@ -149,6 +149,18 @@ of the studies recruited different numbers of patients than they intended to,
 and sometimes the researchers did not explain why this happened or what impact
 it may have on the results.
 
+Worse, many of the scientists omitted results. The review board filings listed
+outcomes that would be measured by each study: side effect rates,
+patient-reported symptoms, and so on. Statistically significant changes in these
+outcomes were usually reported in published papers, but statistically
+insignificant results were omitted, as though the researchers had never measured
+them. (Obviously, this leads to hidden multiple comparisons: a study may monitor
+many outcomes but only report the few that are statistically significant.) A
+casual reader would never know that the study had monitored these outcomes. When
+surveyed, most of the researchers denied omitting outcomes, but the review board
+filings belied their claims. Every single one of their papers had left outcomes
+unreported.
+
 .. index:: stopping rules; omitted, multiple imputation
 
 Other reviews have found similar problems. Many studies suffer from missing

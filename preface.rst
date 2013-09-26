@@ -71,27 +71,6 @@ misuse a *p* value.
 In short, please practice statistics responsibly. I hope you'll join me in a
 quest to improve the science we all rely on.
 
-.. _changelog:
-
-Changes
--------
-
-Updated January 2013 with a relevant example of the base-rate fallacy:
-:ref:`survey estimates of gun usage <base-rate-gun>`.
-
-Updated April and May 2013 for the Second Edition with more details on :ref:`the
-interaction of truth inflation and early stopping rules <truth-inflation>`,
-:ref:`researcher freedom in neuroscience <red-herrings>`, :ref:`poor statistical
-power in neuroscience <power-underpowered>`, :ref:`how to control the false
-discovery rate <false-discovery>`, :ref:`publication bias and poor reporting
-<hiding-data>`, :ref:`underpowered studies and right turn on red <rtor>`,
-:ref:`the misuses of confidence intervals <confidence-intervals>`,
-:ref:`pseudoreplication and the synchronization of menstrual cycles <periods>`,
-:ref:`what can be done to save statistics <what-next>`, and additional
-references, examples and details in many other places. I have also added "What
-should you do?" boxes to each chapter explaining the correct approach to avoid
-the statistical problems discussed.
-
 .. _contact:
 
 Contact

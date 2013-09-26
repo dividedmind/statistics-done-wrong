@@ -28,10 +28,10 @@ your first statistics course or after thirty years of scientific practice.
 Dive in. Read the whole guide online, or get the `PDF copy
 <StatisticsDoneWrong.pdf>`__ for your tablet or dead tree printing device.
 
-**New!** The Second Edition of *Statistics Done Wrong* includes :ref:`many changes
-<changelog>`, including new examples, more misconceptions, and a PDF
-edition. If you find any errors or typos, or want to suggest other popular
-misconceptions, :ref:`contact me <contact>`.
+**New!** The Second Edition of *Statistics Done Wrong* includes many changes,
+including new examples, more misconceptions, and a PDF edition. If you find any
+errors or typos, or want to suggest other popular misconceptions, :ref:`contact
+me <contact>`.
 
 Contents
 --------
@@ -46,6 +46,7 @@ Contents
    pseudoreplication
    p-value
    significant-differences
+   dichotomy
    regression
    modeling
    freedom

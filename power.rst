@@ -178,6 +178,19 @@ their power. We will discuss multiple comparisons in the coming chapter on the
 base rate fallacy, and find that there is an unfortunate tradeoff between power
 and multiple comparison correction.
 
+So why are power calculations so often forgotten? Mathematical trouble may be
+one explanation: calculating power analytically for more complicated statistical
+models can be difficult or impossible, and some commercially-available
+statistical software does not come with power calculation functions. It is
+possible to avoid the hairy mathematics by simply simulating thousands of
+artificial datasets with the effect size you expect and running your statistical
+tests on the simulated data; the power is simply the fraction of datasets for
+which you obtain a statistically significant result. Unfortunately, this can
+require programming experience, and simulating realistic data requires many
+assumptions. For simpler statistical tests, power calculation can be
+straightforward, but it is frequently not taught in introductory statistics
+courses
+
 The perils of insufficient power do not mean that scientists are lying when they
 state they detected no significant difference between groups. You're just
 misleading yourself when you assume this means there is no *real*
@@ -222,7 +235,7 @@ one report concluded,
    red]...
 
 It does not appear that anyone attempted to aggregate these many small studies
-together to produce a more useful dataset. Instead more cities and states began
+together to produce a more useful dataset. Instead, more cities and states began
 to allow right turns at red lights, until the practice became widespread across
 the entire United States. The problem, of course, is that these studies were
 underpowered. More pedestrians were being run over and more cars were involved

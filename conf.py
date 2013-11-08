@@ -25,9 +25,17 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extens
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
+if tags.has('epub'):
+  # Since many e-readers don't grok mathjax, let's render it for their benefit
+  mathext = 'sphinx.ext.pngmath'
+  pngmath_use_preview = True
+  pngmath_dvipng_args = ['-bg Transparent']
+else:
+  mathext = 'sphinx.ext.mathjax'
+
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.mathjax', 'natbib']
+extensions = [mathext, 'natbib']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
